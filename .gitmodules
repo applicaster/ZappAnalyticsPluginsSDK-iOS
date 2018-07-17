@@ -1,0 +1,3 @@
+[submodule "Submodules/ZappPlugins"]
+	path = Submodules/ZappPlugins
+	url = https://github.com/applicaster/ZappPlugins-iOS.git
