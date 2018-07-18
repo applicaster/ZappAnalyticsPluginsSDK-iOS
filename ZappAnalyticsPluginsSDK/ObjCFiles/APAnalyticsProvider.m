@@ -8,10 +8,10 @@
 
 @import ZappPlugins;
 
-#import "APAnalyticsProvider.h"
 #import <ZappAnalyticsPluginsSDK/ZappAnalyticsPluginsSDK-Swift.h>
+#import "APAnalyticsProvider.h"
 
-@interface APAnalyticsProvider ()
+@interface APAnalyticsProvider () <ZPAnalyticsProviderProtocol>
 
 @property (nonatomic, assign) dispatch_once_t onceToken;
 @property (nonatomic, retain) NSArray *blacklistedEvents;

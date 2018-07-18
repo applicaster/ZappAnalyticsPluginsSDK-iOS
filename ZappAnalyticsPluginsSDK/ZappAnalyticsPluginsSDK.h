@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char ZappAnalyticsPluginsSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <ZappAnalyticsPluginsSDK/PublicHeader.h>
 
 #import <ZappAnalyticsPluginsSDK/APAnalyticsProvider.h>
+#import <ZappAnalyticsPluginsSDK/ZPPlayerControllsNotifications.h>

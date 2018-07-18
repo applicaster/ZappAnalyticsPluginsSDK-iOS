@@ -6,8 +6,7 @@
 //  Copyright © 2016 Applicaster. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-@import ZappPlugins;
+@import Foundation;
 
 extern NSString *const kUserPropertiesCreatedKey;
 extern NSString *const kUserPropertiesEmailKey;
@@ -23,7 +22,8 @@ extern NSString *const kUserPropertiesIPAddressKey;
 
 extern NSString *const kBroadcasterExtensionsInternalParam;
 
-@interface APAnalyticsProvider : NSObject<ZPAnalyticsProviderProtocol>
+
+@interface APAnalyticsProvider : NSObject
 
 @property (nonatomic, assign) NSString *providerKey;
 @property (nonatomic, strong) NSDictionary *defaultEventProperties;
