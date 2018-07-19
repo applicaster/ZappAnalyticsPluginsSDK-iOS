@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
 
-  s.frameworks = 'Foundation', 'UIKit'
   s.source_files  = 'ZappAnalyticsPluginsSDK/**/*.{h,m,swift}'
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                 'ENABLE_BITCODE' => 'YES',
