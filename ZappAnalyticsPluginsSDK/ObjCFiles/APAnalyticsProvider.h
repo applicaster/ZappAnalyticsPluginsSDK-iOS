@@ -37,4 +37,6 @@ extern NSString *const kBroadcasterExtensionsInternalParam;
 - (void)trackEvent:(NSString *)eventName parameters:(NSDictionary *)parameters;
 - (BOOL)shouldTrackEvent:(NSString *)eventName;
 - (NSDictionary *)getFirebaseRemoteConfigurationParametersWithPrefix:(NSString *)prefix forEventParameters:(NSDictionary *)parameters;
+- (NSDictionary *)sortPropertiesAlphabeticallyAndCutThemByLimitation:(NSDictionary *)properties;
+
 @end
