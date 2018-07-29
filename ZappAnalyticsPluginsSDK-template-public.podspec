@@ -7,10 +7,12 @@ Pod::Spec.new do |s|
   s.homepage  = "https://github.com/applicaster/__framework_name__-iOS"
   s.license = 'CMPS'
   s.author = { "cmps" => "Applicaster LTD." }
-  s.source  = { :git => "git@github.com:applicaster/__framework_name__-iOS.git", :tag => s.version.to_s }
+  s.source = {
+      "http" => "__source_url__"
+  }
+
   s.requires_arc = true
   s.static_framework = true
-
   s.vendored_frameworks = '__framework_name__.framework'
 
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
