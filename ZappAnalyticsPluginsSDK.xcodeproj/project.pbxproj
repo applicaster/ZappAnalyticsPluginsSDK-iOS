@@ -20,7 +20,6 @@
 		FA7474E620FE5E4B006DF6BB /* ZPPlayerControllsNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7474DF20FE5E4B006DF6BB /* ZPPlayerControllsNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA7474E720FE5E4B006DF6BB /* APAnalyticsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7474E020FE5E4B006DF6BB /* APAnalyticsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA74752620FF8279006DF6BB /* ZPAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74751F20FF8279006DF6BB /* ZPAnalyticsManager.swift */; };
-		FA74752720FF8279006DF6BB /* Dictionary+ZPAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74752120FF8279006DF6BB /* Dictionary+ZPAdditions.swift */; };
 		FA74752820FF8279006DF6BB /* ZPPlayerAnalyticsProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74752320FF8279006DF6BB /* ZPPlayerAnalyticsProviderProtocol.swift */; };
 		FA74752920FF8279006DF6BB /* ZPAnalyticsProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74752420FF8279006DF6BB /* ZPAnalyticsProviderProtocol.swift */; };
 		FA74752A20FF8279006DF6BB /* ZPAnalyticsScreenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74752520FF8279006DF6BB /* ZPAnalyticsScreenProtocol.swift */; };
@@ -57,7 +56,6 @@
 		FA7474DF20FE5E4B006DF6BB /* ZPPlayerControllsNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPPlayerControllsNotifications.h; sourceTree = "<group>"; };
 		FA7474E020FE5E4B006DF6BB /* APAnalyticsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAnalyticsProvider.h; sourceTree = "<group>"; };
 		FA74751F20FF8279006DF6BB /* ZPAnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPAnalyticsManager.swift; sourceTree = "<group>"; };
-		FA74752120FF8279006DF6BB /* Dictionary+ZPAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+ZPAdditions.swift"; sourceTree = "<group>"; };
 		FA74752320FF8279006DF6BB /* ZPPlayerAnalyticsProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPPlayerAnalyticsProviderProtocol.swift; sourceTree = "<group>"; };
 		FA74752420FF8279006DF6BB /* ZPAnalyticsProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPAnalyticsProviderProtocol.swift; sourceTree = "<group>"; };
 		FA74752520FF8279006DF6BB /* ZPAnalyticsScreenProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPAnalyticsScreenProtocol.swift; sourceTree = "<group>"; };
@@ -170,18 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				FA74751F20FF8279006DF6BB /* ZPAnalyticsManager.swift */,
-				FA74752020FF8279006DF6BB /* Extensions */,
 				FA74752220FF8279006DF6BB /* Protocols */,
 			);
 			path = AnalyticsManager;
-			sourceTree = "<group>";
-		};
-		FA74752020FF8279006DF6BB /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FA74752120FF8279006DF6BB /* Dictionary+ZPAdditions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FA74752220FF8279006DF6BB /* Protocols */ = {
@@ -373,7 +362,6 @@
 				FA7474E320FE5E4B006DF6BB /* ZPAnalyticsProviderTimedEventsSupportProtocol.swift in Sources */,
 				FA7474E120FE5E4B006DF6BB /* ZPAnalyticsProvider.swift in Sources */,
 				FA74752620FF8279006DF6BB /* ZPAnalyticsManager.swift in Sources */,
-				FA74752720FF8279006DF6BB /* Dictionary+ZPAdditions.swift in Sources */,
 				FA74752920FF8279006DF6BB /* ZPAnalyticsProviderProtocol.swift in Sources */,
 				FA74752820FF8279006DF6BB /* ZPPlayerAnalyticsProviderProtocol.swift in Sources */,
 				FA7474E520FE5E4B006DF6BB /* APAnalyticsProvider.m in Sources */,
