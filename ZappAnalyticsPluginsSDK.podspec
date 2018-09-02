@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author = { "cmps" => "Applicaster LTD." }
   s.source  = { :git => "git@github.com:applicaster/ZappAnalyticsPluginsSDK-iOS.git", :tag => s.version.to_s }
   s.requires_arc = true
-  s.static_framework = true
+  s.static_framework = false
 
   s.public_header_files = 'ZappAnalyticsPluginsSDK/**/*.h'
   s.source_files  = 'ZappAnalyticsPluginsSDK/**/*.{h,m,swift}'

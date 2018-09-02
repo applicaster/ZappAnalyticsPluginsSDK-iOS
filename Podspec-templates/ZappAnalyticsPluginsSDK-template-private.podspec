@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author = { "cmps" => "Applicaster LTD." }
   s.source  = { :git => "git@github.com:applicaster/__framework_name__-iOS.git", :tag => s.version.to_s }
   s.requires_arc = true
-  s.static_framework = true
+  s.static_framework = false
 
   s.source_files  = '__framework_name__/**/*.{h,m,swift}'
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
