@@ -1,6 +1,6 @@
 PODS:
-  - Toaster (2.2.0)
-  - ZappPlugins (6.1.18)
+  - Toaster (2.2.0.0)
+  - ZappPlugins (7.0.0)
 
 DEPENDENCIES:
   - Toaster
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: Submodules/ZappPlugins/ZappPlugins-Dev.podspec
 
 SPEC CHECKSUMS:
-  Toaster: 0dfaef81895421e5a7d37d86381b4f775f4fc725
-  ZappPlugins: 53418c859c10b593612999483bec42ce73677516
+  Toaster: c06c2bb68c93d6017780220d5d76dc6ffdd14688
+  ZappPlugins: ce643419de3235032e1bd1bc27b6a7eb2dcf44fb
 
-PODFILE CHECKSUM: 148a8e31da23cd3303abad38b71773c628e2d078
+PODFILE CHECKSUM: d878d0f99e5f42f5432e3ad4ed5b3b8f0fbdd950
 
 COCOAPODS: 1.5.3

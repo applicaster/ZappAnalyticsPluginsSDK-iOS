@@ -139,7 +139,7 @@ let kNotApplicableKey  =  "N/A"
         //implement in child classes
     }
 
-    @objc static open func defaultProperties(_ defaultProperties: [String:NSObject]?, combinedWithEventParams  eventParams: [String:NSObject], shouldIncludeExtraParams: Bool = true) -> [String:NSObject] {
+    @objc static public func defaultProperties(_ defaultProperties: [String:NSObject]?, combinedWithEventParams  eventParams: [String:NSObject], shouldIncludeExtraParams: Bool = true) -> [String:NSObject] {
         var properties:[String:NSObject] = [:].merge(eventParams)
 
         if shouldIncludeExtraParams {
@@ -191,7 +191,7 @@ let kNotApplicableKey  =  "N/A"
                                                        eventsToastsTextColor: self.eventsToastsTextColor)
     }
 
-    @objc static open func presentToastForLoggedEvent(_ eventDescription: String?,
+    @objc static public func presentToastForLoggedEvent(_ eventDescription: String?,
                                                       eventsToastsDuration:TimeInterval,
                                                       eventsToastsBackgroundColor:UIColor,
                                                       eventsToastsTextColor:UIColor) {
@@ -207,7 +207,7 @@ let kNotApplicableKey  =  "N/A"
         toast.show()
     }
 
-    @objc static open func parseParameters(fromEventName evenName:String?) -> [String:String] {
+    @objc static public func parseParameters(fromEventName evenName:String?) -> [String:String] {
         var params:[String:String] = [:]
 
         guard let evenName = evenName else {
@@ -324,7 +324,7 @@ let kNotApplicableKey  =  "N/A"
         return retVal
     }
 
-    @objc static open func getFirebaseRemoteConfigurationParameters(prefix: String, baseProperties: [String:NSObject]) -> [String:NSObject] {
+    @objc static public func getFirebaseRemoteConfigurationParameters(prefix: String, baseProperties: [String:NSObject]) -> [String:NSObject] {
 
         var dictRetValue:[String:NSObject] = [String:NSObject]()
         let dictParametersSources = self.getParametersForMatchingWithFirebaseRemoteConfigurationKeys(baseProperties)
@@ -346,7 +346,7 @@ let kNotApplicableKey  =  "N/A"
         return dictRetValue
     }
 
-    @objc static open func getParametersForMatchingWithFirebaseRemoteConfigurationKeys(_ baseProperties: [String:NSObject]) -> [String:NSObject] {
+    @objc static public func getParametersForMatchingWithFirebaseRemoteConfigurationKeys(_ baseProperties: [String:NSObject]) -> [String:NSObject] {
         var dictRetValue:[String:NSObject] = [String:NSObject]()
 
         if let dictBroadcasterExtensions = baseProperties[kBroadcasterExtensionsInternalParam] as? [String:NSObject] {
