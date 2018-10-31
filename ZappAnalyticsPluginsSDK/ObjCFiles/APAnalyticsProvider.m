@@ -269,7 +269,9 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
 }
 
 - (NSDictionary *)getFirebaseRemoteConfigurationParametersWithPrefix:(NSString *)prefix forEventParameters:(NSDictionary *)parameters {
-    return [ZPAnalyticsProvider getFirebaseRemoteConfigurationParametersWithPrefix:prefix baseProperties:[self baseProperties]];
+    return [ZPAnalyticsProvider getFirebaseRemoteConfigurationParametersWithPrefix:prefix
+                                                                    baseProperties:[self baseProperties]
+                                                                   eventProperties: parameters];
 }
 
 #pragma mark - User Profile and Properties

@@ -324,10 +324,12 @@ let kNotApplicableKey  =  "N/A"
         return retVal
     }
 
-    @objc static public func getFirebaseRemoteConfigurationParameters(prefix: String, baseProperties: [String:NSObject]) -> [String:NSObject] {
+    @objc static public func getFirebaseRemoteConfigurationParameters(prefix: String,
+                                                                      baseProperties: [String:NSObject],
+                                                                      eventProperties: [String:NSObject]) -> [String:NSObject] {
 
         var dictRetValue:[String:NSObject] = [String:NSObject]()
-        let dictParametersSources = self.getParametersForMatchingWithFirebaseRemoteConfigurationKeys(baseProperties)
+        let dictParametersSources = self.getParametersForMatchingWithFirebaseRemoteConfigurationKeys(baseProperties, eventProperties: eventProperties)
 
         if let firebaseDelegate = ZAAppConnector.sharedInstance().firebaseRemoteConfigurationDelegate,
             let firebaseRemoteKeys = firebaseDelegate.keys(withPrefix: prefix) {
@@ -346,8 +348,8 @@ let kNotApplicableKey  =  "N/A"
         return dictRetValue
     }
 
-    @objc static public func getParametersForMatchingWithFirebaseRemoteConfigurationKeys(_ baseProperties: [String:NSObject]) -> [String:NSObject] {
-        var dictRetValue:[String:NSObject] = [String:NSObject]()
+    @objc static public func getParametersForMatchingWithFirebaseRemoteConfigurationKeys(_ baseProperties: [String:NSObject], eventProperties: [String:NSObject]) -> [String:NSObject] {
+        var dictRetValue:[String:NSObject] = eventProperties
 
         if let dictBroadcasterExtensions = baseProperties[kBroadcasterExtensionsInternalParam] as? [String:NSObject] {
             for (key, value) in dictBroadcasterExtensions {
