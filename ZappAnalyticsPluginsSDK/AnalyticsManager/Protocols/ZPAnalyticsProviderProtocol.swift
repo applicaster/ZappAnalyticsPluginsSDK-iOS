@@ -59,6 +59,7 @@ import ZappPlugins
      */
     @objc optional func trackEvent(_ eventName:String)
     @objc optional func trackEvent(_ eventName:String, parameters:[String:NSObject])
+    @objc optional func trackEvent(_ eventName:String, parameters:[String:NSObject], model: Any?)
     @objc optional func trackEvent(_ eventName:String, message:String, exception:NSException)
     @objc optional func trackEvent(_ eventName:String, message:String, error:NSError)
     @objc optional func trackEvent(_ eventName:String, timed:Bool)

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name  = "ZappAnalyticsPluginsSDK"
-  s.version = '5.0.0'
+  s.version = '5.0.6'
   s.platform  = :ios, '9.0'
   s.summary = "ZappAnalyticsPluginsSDK"
   s.description = "ZappAnalyticsPluginsSDK container."
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
-  s.dependency 'ZappPlugins', '6.0.0'
+  s.dependency 'ZappPlugins', '~> 6.0.0'
   s.dependency 'Toaster'
 end
