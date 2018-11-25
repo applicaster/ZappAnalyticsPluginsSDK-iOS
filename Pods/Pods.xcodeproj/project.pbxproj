@@ -1,0 +1,2349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AFD5E655D4C8B24C9A35D384516667 /* APAtomMediaGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 92826F30612EBE490F1AA731C613BF02 /* APAtomMediaGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F2561A55C88C50B8AF5767BEDB4A7A /* UIImage+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC182D1FD9B729A949B356AA5D2648C /* UIImage+APAdditions.m */; };
+		014738F8102EDC6ED5966256AF9F9216 /* ZPPurchasableItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3017F910D7B3081664E7CD456C700DA /* ZPPurchasableItemProtocol.swift */; };
+		02CC3EE845408428A5BDFCB21E866BDE /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD9D34282BDABC656EB17BA908D7F0B /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02D860C00359BA9DBDC79478B0DACAC3 /* DateFormatter+APAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0537CDB32C724139F1B9BCCC69F790 /* DateFormatter+APAdditions.swift */; };
+		0401AB2BAC5D3D3FC0DB4F3DF3A2C2B8 /* UINavigationController+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA18F4260E94E76055D366DE04B8563 /* UINavigationController+APAdditions.m */; };
+		043DEA52D66EE1DDA29D5451C3CB4246 /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5311C6F9B5523D055EB7DF47963165 /* Toaster-dummy.m */; };
+		04B5557062E41264D12BC40799E1112C /* ZPPlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137E4B93EB29C60E138712156335FB6 /* ZPPlayerProtocol.swift */; };
+		0500ED70975E71537C296A6E3CD67716 /* ZAAppDelegateQuickBrickProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B0B28C044BB3449954D272228D62A /* ZAAppDelegateQuickBrickProtocol.swift */; };
+		0E2BE9061777AF22E30BC90FBAF9AF13 /* UINavigationController+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE438A3A20D8FE451F3F4A33CD0D3C15 /* UINavigationController+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE33623328D8624200413725FB56156 /* ZPPluginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0614ADF1A164924FB4A4196541E53D65 /* ZPPluginPresenterProtocol.swift */; };
+		139BA986358E47354319E8B5CA16BFE5 /* AVPlayerItem+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 115E1B5205384E005726344C19B07900 /* AVPlayerItem+APAdditions.m */; };
+		1649FC873A8582D45857CF8AC03838C6 /* ZPPlayerChromecastProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88706F3685713ACCFBECE5D1D6C43EF9 /* ZPPlayerChromecastProtocol.swift */; };
+		18AF7CC7A8EEEC56E1B7BE0B3CD30EFA /* ZAAppDelegateConnectorComponentsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C092504F64A8056EC2EB1ACB6F3E20EB /* ZAAppDelegateConnectorComponentsProtocol.swift */; };
+		1AB8526A27590EE024A9A2865ACE41D1 /* ZPDefaultStoreFrontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796014D664A4E5CE98146053A2A33B71 /* ZPDefaultStoreFrontProtocol.swift */; };
+		1C42EB9326A71F2F06E8A4C7F5CD7109 /* ZLComponentStyleSupplementaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47989E38F87BB5B4B14502751DE1EB74 /* ZLComponentStyleSupplementaryModel.swift */; };
+		1C70B504657EFE29F84629D31249CE9C /* ZAAppDelegateConnectorImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EE30B5BA7143FACA60C0FEC4CF0E0C /* ZAAppDelegateConnectorImageProtocol.swift */; };
+		1CF030FB37E807944B4259E64484C0CE /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDC858ACB8E47645D63C177CB72F5E /* Toast.swift */; };
+		1F1ABC34379796DA9669BB125FBC4912 /* ZAAppDelegateConnectorStoreFrontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E36B529D080876D88B547D8725CC69 /* ZAAppDelegateConnectorStoreFrontProtocol.swift */; };
+		1F79CADFC13654C72141ECD3A84CCB19 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A8FF80FF7CCF6AC1615C1D5AC507C /* Dictionary+Extension.swift */; };
+		20AA7EE4E1CEB7B16223F6E3AD3ADCFB /* ZAAppDelegateConnectorLocalizationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AC0D8930E1A1725167CAB9D9AA71A2 /* ZAAppDelegateConnectorLocalizationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2108E2A54466F55DB04E82AC433EEEB8 /* ZLStyleBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E604708BE36812844A82DD899750CF7 /* ZLStyleBaseModel.swift */; };
+		21633ED49A83B1047BEB8AE5613C99D6 /* NSData+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C70B5132630A0F4F088638B14C38560 /* NSData+APAdditions.m */; };
+		23AD67208F36EF8412CB7908378FE2BB /* ZPDefaultStoreFrontHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B62F9AD1A005826AC4CD385A9AB17 /* ZPDefaultStoreFrontHandlerProtocol.swift */; };
+		23E23EB8E43AEEF5B631E37A718C2A44 /* NSURL+APAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E56933DE0C838DF6AFCBB68B45FA427 /* NSURL+APAddition.m */; };
+		255C33069BD7E926666478D7FBC6A3DF /* NSObject+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315F829BD16E80264C3CB9FAF285DCD /* NSObject+APAdditions.m */; };
+		279CEF27B58E67AC5E17804DD7767581 /* ZLNavigationsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BB7BAAFEF2C55F6E3C358113C3CB1 /* ZLNavigationsKeys.swift */; };
+		290B82B5C7BA60A7910D85CEA35067C1 /* Pods-ZappAnalyticsPluginsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E43703C2184694FA18F27523046CF7 /* Pods-ZappAnalyticsPluginsSDK-dummy.m */; };
+		29267A8F3B017408384070ACF77CCB47 /* ZPContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF9357139630D0DD30D4E257DA7DC5 /* ZPContent.swift */; };
+		2991C589822BFFB78D2FC9E64821B3DF /* ZLComponentBuilderStructureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925DF61798799E364578CCCFE03C3AC /* ZLComponentBuilderStructureProtocol.swift */; };
+		29DA1EE371B6665CBB0335F475CD0C8B /* ZLBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602569EAC1FCF25D14F6C8851E670FF /* ZLBaseModel.swift */; };
+		2A797E16553F2CEB355328C06633316B /* NSDictionary+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD18E52E7B07C59E332627C5C901A0 /* NSDictionary+APAdditions.m */; };
+		2A812409FBF3E65D0535CC79CA362C91 /* ZAAccountKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD683F809A7E9C32DB902CB55D5B61 /* ZAAccountKitUser.swift */; };
+		2B2BB167B5D871B27C0E13C3C02C4922 /* NSArray+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B279AA140CD93D40B17ABF05525A5 /* NSArray+APAdditions.m */; };
+		2C631A96BE08C95D2A1BFF02933608C2 /* UIDevice+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DFF4749CCBDE6A5D9A034434DC9069 /* UIDevice+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF6A92B6103D61E89D5DD6250DE32CD /* UIDevice+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBFD2D41827B9FB6442AF359A53E483 /* UIDevice+APAdditions.m */; };
+		35BE0ABB001137A791D25F7ECA9803BD /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0A8DE950A8FF9CF44A06C758D0A062 /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B93371D64771FEEDB0E334374CA6AEE /* ZappPlugins-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5660AF5E57E102DB38E87CECF189FA /* ZappPlugins-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCFBD3BD28F1EFB53E4F5191499F6CB /* ZLComponentStyleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76EB5345F4FAA9EDE799BBDD546EDFB /* ZLComponentStyleModel.swift */; };
+		3E26F7912F8DD128234D2550BBDB7F08 /* UIViewController+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F13B245675A056F3EBD30125EB8EDCB8 /* UIViewController+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42EC21B01802732959E6F2AA9D63416A /* NSBundle+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 658ED782141AFF1515C7A15A9944DD57 /* NSBundle+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437234D22827FEAA0E7BAE459DC7DB23 /* ZPBroadcasterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6871E3676D7EBB9F3095C39A59810D1B /* ZPBroadcasterProtocol.swift */; };
+		43768735FB83E3699203BD4B4B71343E /* UIColor+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AFB068728848FD79DCC0F3B43FAB5B /* UIColor+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43895C7E7B69AE2A9909D6B1BA12B4CE /* NSFileManager+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FF51186979258EA294E90939FB3084 /* NSFileManager+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4774917F08EF42D5AA9A33A87574078D /* ZLComponentBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFD6343005F7FBB32992BC5BC86C0 /* ZLComponentBuilderProtocol.swift */; };
+		47CEB110F9A0162AB5835E32E642ACFB /* ZAAppDelegateConnectorChromecastProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9CB7ADBC25B780F839D78AE27F3978 /* ZAAppDelegateConnectorChromecastProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49AFD4BB4B8DB1C599706256D4C7FF37 /* ZLNavigationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A481A14B3050C45B400C8128530455C /* ZLNavigationTypes.swift */; };
+		4ABB36535A12ACD416CC8D861D9BE356 /* ZLNavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27895D067BB9CD95409B2CECAA2F3F /* ZLNavigationModel.swift */; };
+		4AEEFE861D0EF87749C9618230EA0C82 /* ZAAppDelegateConnectorAudioSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D77F749EF07E5DB7C0EFF80F0548D5 /* ZAAppDelegateConnectorAudioSessionProtocol.swift */; };
+		4C76E9383A6B093CF55B8E787A3F5A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		4CCA0C4C2CC8B6B39FA8240A7FF92E4A /* NSString+InflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EB4F5005B69A7F982F400553809EBD /* NSString+InflectionSupport.m */; };
+		4D010EA5BF292D9AC810C2428008A354 /* ZPCollectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B20460BA67CFCA12A33D987D56AE8 /* ZPCollectionProtocol.swift */; };
+		4DB309196446130CB08E669B40AD631E /* ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C39B52DA3C8A687D196AFE25CA7FCF3B /* ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513AE63A196EAA2DE43E8B384B544389 /* APAtomMediaGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FA6E419875A59AFDE06CFD3E5901 /* APAtomMediaGroup.m */; };
+		52166DA35AB469D8C756642B3EC7B57E /* ZPAdPluginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA694D98D230A227D98AC228EB6B918 /* ZPAdPluginProtocol.swift */; };
+		57B901FCF03B42D108F56BF2034F02DE /* ZLComponentTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5897795B01BB1636D8DD64DC12731C16 /* ZLComponentTypeProtocol.swift */; };
+		58F2D025B35B24AEF65E2226F999574C /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A8FE5A61ECA0D7DD6BAF134FD5682 /* DispatchQueue+Extension.swift */; };
+		591D856D0337E9ACDA968BD3C5831C3C /* ZPAtomEntryPlayableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74147F5591E2243308DEE2111A781765 /* ZPAtomEntryPlayableProtocol.swift */; };
+		59FEA28632F1D33DCEDA3B2114B72515 /* NSString+InflectionSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1832AC09560992F06ACB238510E90193 /* NSString+InflectionSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ABD2A3AE5B332EC8012A1DD436F7BBC /* ZPPluginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8683F4B203563C02B86C90C0B6F916 /* ZPPluginModel.swift */; };
+		5C90C66750FE025CD98259CC5B97850B /* ZappPlugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D8B8CE89025651FF2D23922B11EA3E /* ZappPlugins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D69180217675AD9CB393AEEB72940A1 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B48D1D72911A50C291C452CDA13AFD6 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB0A071EB0F2059A36B743814B36BEE /* ZLScreenTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EFE41FFA9869BE01D9DD7C224C450F /* ZLScreenTypes.swift */; };
+		5FD172F88AA31E254F0C86EEEA380B96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */; };
+		5FD22CA87C6C9C976BBA9832C9CA18D7 /* UIScrollView+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C19F22ED1A89CD4C99122A302B975D /* UIScrollView+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622A96D76565A3F509D127805CD958B1 /* CAGenericViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EAF2C32C4FE2DDCA7F74FA91BBA24B /* CAGenericViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64378831AB06B24B97266AAD400F1A9C /* ZLApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750893EEAA0E6ED4D25F7C29E1F7147 /* ZLApiKeys.swift */; };
+		6750A7D2DA8D8DA16A42134B18A9C9B6 /* ZLScreenAdvertisingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE10B33D59E4CEB7FFD966F5FA0170 /* ZLScreenAdvertisingModel.swift */; };
+		67FBE55B16E82A9EC37B7B6D93CC272B /* ZAAppDelegateConnectorAdFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD421E39CF07C6182DE2DEE2341FD3 /* ZAAppDelegateConnectorAdFactoryProtocol.swift */; };
+		6A85B4242583E1866D2D0A37332C6C02 /* ZPFirebaseRemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3E5B7F67D9E237039E2035C2204E7 /* ZPFirebaseRemoteConfigurationManager.swift */; };
+		6B98CED3742165E2EFC21B14E0E38B8D /* ZAAppDelegateConnectorNavigationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D93CF707857BBF52F5492344D01D22 /* ZAAppDelegateConnectorNavigationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC9D2AA8E5B0B36D799F9B0A892A21E /* ZPFirebaseRemoteConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8AF682234D88CDB17309D61066494 /* ZPFirebaseRemoteConfigurationProtocol.swift */; };
+		6E3D5347913617A5B1E0B0F61FA0E079 /* NSFileManager+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9F4B90E3681B1FFA649B3D20809E70 /* NSFileManager+APAdditions.m */; };
+		6E92793FFCE927B2E7191D6FDBFADAFF /* ZPPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342EBD6183615D9777E888BB5E71C60E /* ZPPlayerManager.swift */; };
+		701658924F0E463126744F0443599820 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D8381E9D951ADB27259C283A88ADE /* DateFormatterManager.swift */; };
+		713C64501E672550346D35E95C520C75 /* NSObject+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D67611C0418757F3CDD76B1036975C0 /* NSObject+Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D34C0EAA39EEFD53673A8B6C489F09 /* APContainerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5A55D98E06F7E556D86510222DBFDF /* APContainerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753F59E9A32680393527CBC59E67FE61 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A641F9DEAADAB16E0691C4F07A085B /* ToastWindow.swift */; };
+		76A0A0BCD71764F4B789A11C7B926ECA /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B30F89FACDA5053E16664EF43E481 /* ProcessInfo+Extension.swift */; };
+		77737A60C6AC4B1B8604775362A73127 /* ZLScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D681A8D2723B6FF234B598D9B0D13C4D /* ZLScreenModel.swift */; };
+		78719058DCE556C67AED7643CA43E59B /* NSBundle+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CF5ECDBBC1C2853611D74078EF66B6 /* NSBundle+APAdditions.m */; };
+		788139B9DDC5C5E15441F79EE1E82B3C /* ZPAdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97210F432C515BF52E99DA44BB5EA7F1 /* ZPAdConfig.swift */; };
+		7AA060C2953DF10EDF05FA37D17A00B1 /* UIFont+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0430C6CFF89EFDC3C9CD1F34361A60D2 /* UIFont+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD6A325CD28DFBC13D47C02610F5A3D /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB54BD1EF5CF67D08430D05FA38036 /* NSObject+Swizzle.m */; };
+		7B52DF193F8B3E3F50B21692EA98F2C6 /* ZAAppDelegateConnectorAnalyticsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88158432375EBE244743DDB95B67F30F /* ZAAppDelegateConnectorAnalyticsProtocol.swift */; };
+		7CBC596185DE9E4C7ECE7FA433148B3C /* CAComponentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C3A07C6F7F029A6F6840C4440268F8 /* CAComponentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC3BA46A33BAC687ADA2A1E9BE81136 /* ZAAppConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBF1BF23293C41B451A9ADCAAE97D13 /* ZAAppConnector.swift */; };
+		82E373606A6B6AD90B1A1B17B282D622 /* UIImage+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7524F43105575C897C83809EF945CD87 /* UIImage+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A8AE500CA7908EA36C0F72EE2AE0AC /* ZPPlayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64323B40EC2A809D4CBC711E3AA6B6CE /* ZPPlayable.swift */; };
+		84A856A0CF5FF421B83537421B5F453F /* ZPVideoBackgroundViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5ED5F52F632DC4894765271A92CCC /* ZPVideoBackgroundViewProtocol.swift */; };
+		850EDB6B3AC81776AC5143B01788869E /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF5D630937A33AA824DCE13E80369F0 /* UIApplication+Extension.swift */; };
+		857A391F556AA309A35DC465E7D88CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */; };
+		85F90372BDDA74563526FA8933CE709C /* CABasicGenericViewControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A05706DC034C8CB1882B3983E43CED5A /* CABasicGenericViewControllerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C133AA6234E407AB969C3FE33A4231 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688134426F38DC90F4ABFA9D14EA9757 /* ToastView.swift */; };
+		870A32689EC96006E9DD0630B58E3904 /* UIColor+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A15E9A70DF9C182158E5FAEF222E0 /* UIColor+APAdditions.m */; };
+		87745054E1921C7EE05AA40230B216D8 /* NSURLComponents+APAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA5B7F3455A905FCF28AD96F03E031 /* NSURLComponents+APAddition.m */; };
+		8834859E46FD6497B664C72F926C473F /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E9D9729F6B4B0AEB2D07A4D418E2F /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift */; };
+		88E217AEA2A08488E6A7170F4768ABA6 /* String+APAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F084FF7E84C2B961E2F16807B875436 /* String+APAdditions.swift */; };
+		8C202259970293859E32B326E472376C /* ZAAppDelegateConnectorLayoutsStylesProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D24E844107EA721B4C56A706C3533E96 /* ZAAppDelegateConnectorLayoutsStylesProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C57E835BD405E99722C7297DBAC6218 /* UIView+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BDD9A927537DFB16A5564E24DC1E9 /* UIView+APAdditions.m */; };
+		8FB2A74EFCED85F0667F51FFA571896B /* AVPlayerItem+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B74CC864154AC73AD68AB882F4F412 /* AVPlayerItem+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDE5C27FCC0A205619275DE8083E15D /* ZAAppDelegateConnectorURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FDA2B626758A6ACEE0DA3668389F26 /* ZAAppDelegateConnectorURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9004B53B57F15DD773108D676A75F942 /* ZLScreenModel+Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F098EDB69E2CC5CE7A4E85ED68D5311 /* ZLScreenModel+Refresh.swift */; };
+		95B47EBC940996B387B80D28AA83629C /* ZPImageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72010B86FD900A9EDA519AEFB1E7FB56 /* ZPImageViewProtocol.swift */; };
+		963983ED37696789EE8477888B53BF50 /* CAComponentModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C892419494D483B4A1CE1FDD07600 /* CAComponentModelProtocol.swift */; };
+		9A5FEF745334F2D643C15918B6225E09 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F4F06FB1A62FF431011B0A8C12F9D /* UIAlertController+Extension.swift */; };
+		9A8333AA4098CBD73F7D53C0DB1F2225 /* ZPPluginPresenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD5F304986791040A99A186F3AA9BF /* ZPPluginPresenterManager.swift */; };
+		9AD64498D19D8B54EC85203161CB3EA0 /* ZAAppDelegateConnectorConnectivityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5B8E3ABF810A6B4FCCBADCFBDB489 /* ZAAppDelegateConnectorConnectivityProtocol.swift */; };
+		9E337D1E8CEB676183C9274E5392124B /* ZappPlugins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B425031FB7BFF0729819F54148569B /* ZappPlugins-dummy.m */; };
+		A16BD9ECEA095BFD33CA56461D02BE8F /* UIViewController+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C14B039567694E521A88466FECBDE4C5 /* UIViewController+APAdditions.m */; };
+		A17067E53245710BA5682B408ABF322B /* ZAAppDelegateConnectorGenericProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14EF45610B8C295E429091BC7340F7 /* ZAAppDelegateConnectorGenericProtocol.swift */; };
+		A291C2F711C10D2B05B9B8DBFC828966 /* NSURLComponents+APAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ED585817DBDFD1DD7301D5E5D25F86 /* NSURLComponents+APAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C9CB85BE7726B455707257674E70BD /* ZLGenericViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADC8CE8F9F2B325C516F188E79B567 /* ZLGenericViewControllerProtocol.swift */; };
+		A4B795B614BBB29277A594DF68540B45 /* ZAAppDelegateConnectorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8A0DEB61C406CFDFC1C3C61F3F8722 /* ZAAppDelegateConnectorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AAD5DC536FD32BC815F93FF88E68B0 /* ZLDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2152BFB93B5E2C23E047C80EA3CFA9 /* ZLDataSource.swift */; };
+		A70C5913B7FD85247F0B7FEDDE7C3728 /* UIView+APAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0CE2FAC2917FD04123FE936ACCA45B /* UIView+APAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76F4627FBDB7EDC66E0107CD42148BE /* NSString+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF49752299ABD383A2764F3F8C83038E /* NSString+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8A27B9D46CC0FB7BBD56B8139E65418 /* UIFont+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D39133B546A37B767B493160815B27 /* UIFont+APAdditions.m */; };
+		AA9E337BCB629998A47BEA18A7052BE6 /* ZPAdPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1767A095476D578B6FC153A183765AE3 /* ZPAdPresenterProtocol.swift */; };
+		ADA1AC623C20FADAE0FBA842CAF10422 /* ZLNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6815C39CD1D233E665E8B11BCE3EB /* ZLNavigationItem.swift */; };
+		B3395BE234CA5589CCA5DFD892588E58 /* NSData+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 208FA82574D462A0C2F6BAFD9851D980 /* NSData+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62AE828F5C30428E99E92DCA41D1A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		B7A2B80E09A3D080DA917C40F1CF32A1 /* APAtomEntryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C05844E4B32A90EF42CDC0D7A94D14F /* APAtomEntryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97D85B8FE9DBD395326C04EFFC96F94 /* ZPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3219672BA441E40978688E4BE7EE2D4 /* ZPImageView.swift */; };
+		BAC7D527AF27A1F5DCAAFC2E0318863A /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895C28FA7AC205522FC0C10A0E6B9295 /* Collection+Extension.swift */; };
+		BD4CD97C0DFFA0F988BE5163E17CAFB0 /* ZPAppLoadingHookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0F4549B776DC5E731B6AF5D3A0FC2 /* ZPAppLoadingHookManager.swift */; };
+		C04FA7DAF269BE92EB21A313DE8075DD /* ZAAppDelegateConnectorActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C45F9F8B194329D5D40C89719BC04B /* ZAAppDelegateConnectorActionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C262E3F7B5E79A89A53EACACCDC72045 /* ZPReactNativeProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA36778B0DCE2AECF56CDBE9CA996E90 /* ZPReactNativeProviderProtocol.swift */; };
+		C43081F46BB7881C59CD129F6E5FC962 /* UIColor+ZPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D01A86B6BD8F325AB108AA1D7A7A9A03 /* UIColor+ZPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C53D8D207F2B0165069961E68648A8BB /* ZAAppDelegateConnectorRootProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51054CF6EC0473CEAF88E02FECA3510E /* ZAAppDelegateConnectorRootProtocol.swift */; };
+		C564ED009F3EB599A7DD4B130CE354B4 /* APProgramProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E5CCE6F73F0572C50D79D8FCDB6D2987 /* APProgramProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65258B9C944FC67F9C3CBBCAF726434 /* UIView+APAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9BB0EFFC39EB738426BE9AF7338085 /* UIView+APAnimation.m */; };
+		C99A37125E90A67AB66EAD51BE39FD2E /* AVAudioSession+Patch.m in Sources */ = {isa = PBXBuildFile; fileRef = B517DA691F193C07ADCE88CF1C837281 /* AVAudioSession+Patch.m */; };
+		CAC47643E59741A22CA5718F8583F8B1 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6ABC142C42EBAB6FBB25730C538D1 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */; };
+		CE7007A516995BBCBC818C43C7569CC6 /* ZPReactNativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF26441516DFE8977E076E8B5B0F06C /* ZPReactNativeManager.swift */; };
+		CFAE4C7E1DF3494476F618AB3389E2C4 /* ZLNavigationItemTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E15A8BEB8B3CDE9EC219AA2DEFC627 /* ZLNavigationItemTypes.swift */; };
+		D0268C94DB55523814FEC9B3D3BD3F29 /* AVAudioSession+Patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 812C64A3550F4B0C5457033F123590AF /* AVAudioSession+Patch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0733AC9D5E95A90B54D5B460E5E3D2C /* UIView+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1DDF9D073F466E0EBBCE67E5A3B3F6 /* UIView+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1373C4C34F5E41FCB1BB8442D510BC6 /* ZLSupplementaryModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C2B74E6687D008F925D3FECCDAC5A /* ZLSupplementaryModelTypes.swift */; };
+		D3295439C9784C5BBF7054D8715F78D8 /* ZPCategoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC500D5A9EF37E6091CA69D09282C6F /* ZPCategoryProtocol.swift */; };
+		D3A034FDB9EDA69D8D3663DCB7D59826 /* UIColor+ZPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6427BACFE9027720A264486C8B108B /* UIColor+ZPAdditions.m */; };
+		D642D7C57FEE1309380C02FC6662A93B /* ZAAppDelegateConnectorTimeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D767EC0B2E10F75D1F9B552FCD93253 /* ZAAppDelegateConnectorTimeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65060EACBC1DD28703D5C1A250E308C /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AF126F98257836AB2EB7D4F4AC4C96 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1B5E6F93DA7A6A01C9B1E555D74376 /* ZAAppDelegateConnectorIdentityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97A3EC9FDBE4ECF5FF28178BAB7C00 /* ZAAppDelegateConnectorIdentityProtocol.swift */; };
+		DCD54E11097D725B9839895761D446B2 /* ZPAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB2046087F0E2D35349E5AE5D6E5F6B /* ZPAdapterProtocol.swift */; };
+		DD9277DEF80EEADEB8B9B2BEC7EAA3F4 /* ZPAdvertisementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC582FABADC9FDFC7DF647BD6864D5E7 /* ZPAdvertisementManager.swift */; };
+		DE9E64634AD1A1CA101F85C3C5EE807B /* UIImage+ImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E5185347AFD86FB1CEEED443FDC73E /* UIImage+ImageWithColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5CBE9B9E1AC63ACA72F5484485DF76 /* UIView+APAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F45D14ED7FC891039D922DA22A897 /* UIView+APAdditions.swift */; };
+		DF84C9F730A8F7D5E682F5CA2B87F796 /* NSString+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F22D1F36EC1F28A1DBFC98F7E9E49DE5 /* NSString+APAdditions.m */; };
+		E18A716F298C20731EDBC6F6F3126DD9 /* ZPRootViewContainerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD39A6AAE0E1CA28C43A5421B68A920 /* ZPRootViewContainerControllerDelegate.swift */; };
+		E18CC6CF776DDFB470F3795303D166F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		E29DDF72D0B3847F6F3F29C8E620E4D9 /* SKProduct+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3958FAC218B482168A2295D35AED8A /* SKProduct+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4320151EC15F1B28A444DBE88F29A95 /* ZPAppLoadingHookProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7331C72137D1058E11D8B0FC86D7481D /* ZPAppLoadingHookProtocol.swift */; };
+		E48FDC7E78B9C93A24F3EA4F42A381CA /* CACellViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B54DD2FF4B669AD15A4BED3CB1BB3BF /* CACellViewControllerBase.m */; };
+		E4933C6901264DAFE826CD9BD4F408FF /* ZPPlugableScreenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B76B188F7EA7A87866E4B620A8879 /* ZPPlugableScreenProtocol.swift */; };
+		E51242C17E05562B61E57599A17E760D /* ZLNavigationItemKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE36F3F5B8487CBC1E49C52367BF1C /* ZLNavigationItemKeys.swift */; };
+		E5AB06D665C857061196EECF17EDAC92 /* CACellViewControllerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EED35A97C6B128E7D304B04782B20000 /* CACellViewControllerBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69CC668730697956C8CE4BBC94DE1E6 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6B9E7F32ADD921C62E1125EF48496 /* CGFloat+Extensions.swift */; };
+		E76D5FB6A3C4725A8B7A706A483E6301 /* NSObject+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5256F14E368FFC9FC89A6BB669F2B7E /* NSObject+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DF0A6964E5E83FB788B7E186B34ABA /* ZPPlayerNotificationsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892110D1A1BC156172F3B69F5D0BB522 /* ZPPlayerNotificationsProtocol.swift */; };
+		E9095550E0D8AC97E258B07CD3695B18 /* NSArray+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20860BDB217E7908B8D2839904182A71 /* NSArray+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D6A20E4B4A2BE5887B5C8E4309622F /* ZPPluginUrlSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA106851F08B899C0CC941D687F37576 /* ZPPluginUrlSchemeHandler.swift */; };
+		EC19672C490C7C580C46565E7F1F4B87 /* ZPModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B27CFB538EB01BB0FFE83572DEF8A /* ZPModelProtocol.swift */; };
+		EE1286B6F06924E1194E5812C23B0C4D /* ZAAppDelegateConnectorFacebookAccountKitProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BB33090036853D5B6C918AE61DE965DD /* ZAAppDelegateConnectorFacebookAccountKitProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5B74E64DAE52C65DD0504EA58B9378 /* UIScrollView+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9933831762F6771561953ADAF241C04D /* UIScrollView+APAdditions.m */; };
+		EED52D8702A81A502DFAEC3694259167 /* InfoPlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9859691EACE1C70586F65957259D54DD /* InfoPlistHelper.swift */; };
+		EF72C8B3CA0940E748B8EB0349BB4003 /* NSDictionary+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C01BAA599DA75BE361A0D434EC0BCB8 /* NSDictionary+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18DB9648FA032F3D9C664673A7E28E3 /* APAtomContainerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 596BA39A0BE14523E886235633572B9C /* APAtomContainerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2430FB63CA5525CC7E1ABDAD37DA44A /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7EA5F29A829CF2FDFA22EA43372BD /* UIImage+ImageWithColor.m */; };
+		F306B494CAC893ED27ADFA0EFC4AA28A /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A218884A5D8B9EE76C135EFA2F609D /* ToastCenter.swift */; };
+		F68B004836B5C47AB7D4C906541C80D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */; };
+		F6D4E7CEA140709BB539BC681B3E79AF /* SKProduct+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8D35C67846F4ABA16494E5E21FBA8F /* SKProduct+APAdditions.m */; };
+		F6FE5815E8C5624829FC7C3890C40A31 /* ZLComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE1C088B461EA4A6951A34A8A2E3B4 /* ZLComponentModel.swift */; };
+		F7ECA82A643E7ECB23079640E6CEC96E /* CABasicGenericViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910958A2B626287B3EFA0F2C98257AD0 /* CABasicGenericViewControllerProtocol.swift */; };
+		F8F0472E93722526F8A595302603F295 /* APLoadingTimeMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ABC6716BEC945EFE22F200B1702222 /* APLoadingTimeMeasure.swift */; };
+		FBE33BAB961D6DE87229E9A63ED80548 /* NSURL+APAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = A08959C349AA95D9CE4463D239046DF1 /* NSURL+APAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF030776648042361AA42A3C712AF37 /* Color+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB756EBB9C33D3601F7A56A3C3ACC64 /* Color+Additions.swift */; };
+		FD8834D90F82EDC2D03FCFD09B66479E /* ZPAdViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017345477AA2854C8CEB5C79389FAFB5 /* ZPAdViewProtocol.swift */; };
+		FDD4C6BB0077D879800C34C7309AAAA6 /* CAComponentDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB706B0F086BD0F0A8E75560D0D1D6C /* CAComponentDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF67D132793683BE3F95281343AA06F3 /* ZPPluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8690784D4A8B0355514DD6CC2A1023 /* ZPPluginManager.swift */; };
+		FF6AC0134A747D5310F652F391AE624E /* ZPReactNativeBaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B6FB96E214E3FE3C985E0B84F685F /* ZPReactNativeBaseProvider.swift */; };
+		FFEC94EA5817E1CA6122BAF5591A6321 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AEB20CC0554D4B14D3158FB4006BAF /* UIViewController+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A7741533BD642F63C0CD16880477C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF4A08179E81DE8FF4B68E84E45FAAC;
+			remoteInfo = Toaster;
+		};
+		4EB13013D0A964BB9E2A62B21490B812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65699690D1E8F1D19AB6D09558387C44;
+			remoteInfo = ZappPlugins;
+		};
+		920C6DD4C3A7D6E3E1374BFC201B5617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65699690D1E8F1D19AB6D09558387C44;
+			remoteInfo = ZappPlugins;
+		};
+		CB7905B82D404790FF9CF85FE34F8062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF4A08179E81DE8FF4B68E84E45FAAC;
+			remoteInfo = Toaster;
+		};
+		EA2F6030C04387B9F240EC309CEC6A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F50315328AF6203C37CB6345FFFD08F;
+			remoteInfo = "Pods-ZappAnalyticsPluginsSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017345477AA2854C8CEB5C79389FAFB5 /* ZPAdViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdViewProtocol.swift; sourceTree = "<group>"; };
+		0430C6CFF89EFDC3C9CD1F34361A60D2 /* UIFont+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+APAdditions.h"; sourceTree = "<group>"; };
+		053B729ABA63E67FA3913F9A334DF3DC /* Pods-ZappAnalyticsPluginsSDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZappAnalyticsPluginsSDKTests-resources.sh"; sourceTree = "<group>"; };
+		0614ADF1A164924FB4A4196541E53D65 /* ZPPluginPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPluginPresenterProtocol.swift; sourceTree = "<group>"; };
+		067B27CFB538EB01BB0FFE83572DEF8A /* ZPModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPModelProtocol.swift; sourceTree = "<group>"; };
+		0750893EEAA0E6ED4D25F7C29E1F7147 /* ZLApiKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLApiKeys.swift; sourceTree = "<group>"; };
+		08330C35F33B324E57F4319FEDEE0D64 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CE31ED5876D51274CC123FB9F153E3B /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		0E8A0DEB61C406CFDFC1C3C61F3F8722 /* ZAAppDelegateConnectorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorAnimationProtocol.h; sourceTree = "<group>"; };
+		0FAD5F304986791040A99A186F3AA9BF /* ZPPluginPresenterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPluginPresenterManager.swift; sourceTree = "<group>"; };
+		115E1B5205384E005726344C19B07900 /* AVPlayerItem+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+APAdditions.m"; sourceTree = "<group>"; };
+		119B0B28C044BB3449954D272228D62A /* ZAAppDelegateQuickBrickProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateQuickBrickProtocol.swift; sourceTree = "<group>"; };
+		12EB4F5005B69A7F982F400553809EBD /* NSString+InflectionSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectionSupport.m"; sourceTree = "<group>"; };
+		14EAF2C32C4FE2DDCA7F74FA91BBA24B /* CAGenericViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAGenericViewControllerProtocol.h; sourceTree = "<group>"; };
+		16D93CF707857BBF52F5492344D01D22 /* ZAAppDelegateConnectorNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorNavigationProtocol.h; sourceTree = "<group>"; };
+		1767A095476D578B6FC153A183765AE3 /* ZPAdPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdPresenterProtocol.swift; sourceTree = "<group>"; };
+		17C70168CFC524D6F1E39D08B6012123 /* ZappPlugins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZappPlugins.xcconfig; sourceTree = "<group>"; };
+		1832AC09560992F06ACB238510E90193 /* NSString+InflectionSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectionSupport.h"; sourceTree = "<group>"; };
+		19C45F9F8B194329D5D40C89719BC04B /* ZAAppDelegateConnectorActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorActionProtocol.h; sourceTree = "<group>"; };
+		1B54DD2FF4B669AD15A4BED3CB1BB3BF /* CACellViewControllerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CACellViewControllerBase.m; sourceTree = "<group>"; };
+		1BC500D5A9EF37E6091CA69D09282C6F /* ZPCategoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPCategoryProtocol.swift; sourceTree = "<group>"; };
+		1CB778A786390F96FD02D0E18E4F6F3A /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D21ED2C0ACF4BE9AD5804E3A8F11E52 /* ZappPlugins.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZappPlugins.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D6427BACFE9027720A264486C8B108B /* UIColor+ZPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZPAdditions.m"; sourceTree = "<group>"; };
+		1D9CB7ADBC25B780F839D78AE27F3978 /* ZAAppDelegateConnectorChromecastProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorChromecastProtocol.h; sourceTree = "<group>"; };
+		20860BDB217E7908B8D2839904182A71 /* NSArray+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+APAdditions.h"; sourceTree = "<group>"; };
+		208FA82574D462A0C2F6BAFD9851D980 /* NSData+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+APAdditions.h"; sourceTree = "<group>"; };
+		24DFF4749CCBDE6A5D9A034434DC9069 /* UIDevice+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+APAdditions.h"; sourceTree = "<group>"; };
+		2925DF61798799E364578CCCFE03C3AC /* ZLComponentBuilderStructureProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentBuilderStructureProtocol.swift; sourceTree = "<group>"; };
+		2AA18F4260E94E76055D366DE04B8563 /* UINavigationController+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+APAdditions.m"; sourceTree = "<group>"; };
+		2B8683F4B203563C02B86C90C0B6F916 /* ZPPluginModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPPluginModel.swift; path = ZappPlugins/ZPPluginModel.swift; sourceTree = "<group>"; };
+		2E12D71F25CB0E9563320450E5B9F4C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1DDF9D073F466E0EBBCE67E5A3B3F6 /* UIView+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+APAdditions.h"; sourceTree = "<group>"; };
+		31CE1C088B461EA4A6951A34A8A2E3B4 /* ZLComponentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentModel.swift; sourceTree = "<group>"; };
+		31EE30B5BA7143FACA60C0FEC4CF0E0C /* ZAAppDelegateConnectorImageProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorImageProtocol.swift; sourceTree = "<group>"; };
+		342EBD6183615D9777E888BB5E71C60E /* ZPPlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerManager.swift; sourceTree = "<group>"; };
+		37C3A07C6F7F029A6F6840C4440268F8 /* CAComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAComponentProtocol.h; sourceTree = "<group>"; };
+		37ED585817DBDFD1DD7301D5E5D25F86 /* NSURLComponents+APAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLComponents+APAddition.h"; sourceTree = "<group>"; };
+		38AEB20CC0554D4B14D3158FB4006BAF /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3AC5ED5F52F632DC4894765271A92CCC /* ZPVideoBackgroundViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPVideoBackgroundViewProtocol.swift; sourceTree = "<group>"; };
+		3B48D1D72911A50C291C452CDA13AFD6 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDK-umbrella.h"; sourceTree = "<group>"; };
+		3B9F4B90E3681B1FFA649B3D20809E70 /* NSFileManager+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+APAdditions.m"; sourceTree = "<group>"; };
+		3D14EF45610B8C295E429091BC7340F7 /* ZAAppDelegateConnectorGenericProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorGenericProtocol.swift; sourceTree = "<group>"; };
+		3DE2FFA9566D4CC35658BBCD9F9DA75B /* Pods-ZappAnalyticsPluginsSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZappAnalyticsPluginsSDKTests-frameworks.sh"; sourceTree = "<group>"; };
+		3FA694D98D230A227D98AC228EB6B918 /* ZPAdPluginProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdPluginProtocol.swift; sourceTree = "<group>"; };
+		3FB706B0F086BD0F0A8E75560D0D1D6C /* CAComponentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAComponentDelegate.h; sourceTree = "<group>"; };
+		418AA62FBB23A15D09A06F75100850E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4315F829BD16E80264C3CB9FAF285DCD /* NSObject+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+APAdditions.m"; sourceTree = "<group>"; };
+		4602569EAC1FCF25D14F6C8851E670FF /* ZLBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLBaseModel.swift; sourceTree = "<group>"; };
+		46D27A1B0150B680F1FB6FB34708F389 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		47989E38F87BB5B4B14502751DE1EB74 /* ZLComponentStyleSupplementaryModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentStyleSupplementaryModel.swift; sourceTree = "<group>"; };
+		48ADC8CE8F9F2B325C516F188E79B567 /* ZLGenericViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLGenericViewControllerProtocol.swift; sourceTree = "<group>"; };
+		4CFD18E52E7B07C59E332627C5C901A0 /* NSDictionary+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+APAdditions.m"; sourceTree = "<group>"; };
+		4CFD683F809A7E9C32DB902CB55D5B61 /* ZAAccountKitUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAccountKitUser.swift; sourceTree = "<group>"; };
+		4D9A8FE5A61ECA0D7DD6BAF134FD5682 /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		51054CF6EC0473CEAF88E02FECA3510E /* ZAAppDelegateConnectorRootProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorRootProtocol.swift; sourceTree = "<group>"; };
+		5137E4B93EB29C60E138712156335FB6 /* ZPPlayerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerProtocol.swift; sourceTree = "<group>"; };
+		528FEF1E15DCFFD87809D81F0042C3A4 /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
+		5340E9998BA93C4018C0AE2C78A3287E /* ZappPlugins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZappPlugins.framework; path = ZappPlugins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B62F9AD1A005826AC4CD385A9AB17 /* ZPDefaultStoreFrontHandlerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDefaultStoreFrontHandlerProtocol.swift; sourceTree = "<group>"; };
+		56AC0D8930E1A1725167CAB9D9AA71A2 /* ZAAppDelegateConnectorLocalizationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorLocalizationProtocol.h; sourceTree = "<group>"; };
+		5897795B01BB1636D8DD64DC12731C16 /* ZLComponentTypeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentTypeProtocol.swift; sourceTree = "<group>"; };
+		596BA39A0BE14523E886235633572B9C /* APAtomContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAtomContainerProtocol.h; sourceTree = "<group>"; };
+		5AB2046087F0E2D35349E5AE5D6E5F6B /* ZPAdapterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPAdapterProtocol.swift; path = ZappPlugins/ZPAdapterProtocol.swift; sourceTree = "<group>"; };
+		5EF5D630937A33AA824DCE13E80369F0 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		5FE6815C39CD1D233E665E8B11BCE3EB /* ZLNavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItem.swift; sourceTree = "<group>"; };
+		61B74CC864154AC73AD68AB882F4F412 /* AVPlayerItem+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+APAdditions.h"; sourceTree = "<group>"; };
+		62E15A8BEB8B3CDE9EC219AA2DEFC627 /* ZLNavigationItemTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItemTypes.swift; sourceTree = "<group>"; };
+		63D8AF682234D88CDB17309D61066494 /* ZPFirebaseRemoteConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPFirebaseRemoteConfigurationProtocol.swift; sourceTree = "<group>"; };
+		64323B40EC2A809D4CBC711E3AA6B6CE /* ZPPlayable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayable.swift; sourceTree = "<group>"; };
+		658ED782141AFF1515C7A15A9944DD57 /* NSBundle+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+APAdditions.h"; sourceTree = "<group>"; };
+		664BB7BAAFEF2C55F6E3C358113C3CB1 /* ZLNavigationsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationsKeys.swift; sourceTree = "<group>"; };
+		66B425031FB7BFF0729819F54148569B /* ZappPlugins-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZappPlugins-dummy.m"; sourceTree = "<group>"; };
+		6871E3676D7EBB9F3095C39A59810D1B /* ZPBroadcasterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPBroadcasterProtocol.swift; sourceTree = "<group>"; };
+		688134426F38DC90F4ABFA9D14EA9757 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		699B30F89FACDA5053E16664EF43E481 /* ProcessInfo+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extension.swift"; sourceTree = "<group>"; };
+		6BD39A6AAE0E1CA28C43A5421B68A920 /* ZPRootViewContainerControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPRootViewContainerControllerDelegate.swift; sourceTree = "<group>"; };
+		6E1B76B188F7EA7A87866E4B620A8879 /* ZPPlugableScreenProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPPlugableScreenProtocol.swift; path = ZappPlugins/ZPPlugableScreenProtocol.swift; sourceTree = "<group>"; };
+		6F098EDB69E2CC5CE7A4E85ED68D5311 /* ZLScreenModel+Refresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ZLScreenModel+Refresh.swift"; sourceTree = "<group>"; };
+		70E5185347AFD86FB1CEEED443FDC73E /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		72010B86FD900A9EDA519AEFB1E7FB56 /* ZPImageViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPImageViewProtocol.swift; sourceTree = "<group>"; };
+		7331C72137D1058E11D8B0FC86D7481D /* ZPAppLoadingHookProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAppLoadingHookProtocol.swift; sourceTree = "<group>"; };
+		74147F5591E2243308DEE2111A781765 /* ZPAtomEntryPlayableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAtomEntryPlayableProtocol.swift; sourceTree = "<group>"; };
+		7484A6C47FA5562C1DB69C0E2D1F3887 /* Pods-ZappAnalyticsPluginsSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDKTests.modulemap"; sourceTree = "<group>"; };
+		7524F43105575C897C83809EF945CD87 /* UIImage+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+APAdditions.h"; sourceTree = "<group>"; };
+		779F4F06FB1A62FF431011B0A8C12F9D /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		796014D664A4E5CE98146053A2A33B71 /* ZPDefaultStoreFrontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDefaultStoreFrontProtocol.swift; sourceTree = "<group>"; };
+		79D8B8CE89025651FF2D23922B11EA3E /* ZappPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZappPlugins.h; path = ZappPlugins/ZappPlugins.h; sourceTree = "<group>"; };
+		7C01BAA599DA75BE361A0D434EC0BCB8 /* NSDictionary+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+APAdditions.h"; sourceTree = "<group>"; };
+		7D67611C0418757F3CDD76B1036975C0 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		7D97A3EC9FDBE4ECF5FF28178BAB7C00 /* ZAAppDelegateConnectorIdentityProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorIdentityProtocol.swift; sourceTree = "<group>"; };
+		7E33B5D3B57BC2E7C45EC2B3D08297D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E604708BE36812844A82DD899750CF7 /* ZLStyleBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLStyleBaseModel.swift; sourceTree = "<group>"; };
+		7ECA5B7F3455A905FCF28AD96F03E031 /* NSURLComponents+APAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+APAddition.m"; sourceTree = "<group>"; };
+		7F8690784D4A8B0355514DD6CC2A1023 /* ZPPluginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPPluginManager.swift; path = ZappPlugins/ZPPluginManager.swift; sourceTree = "<group>"; };
+		7FD9D34282BDABC656EB17BA908D7F0B /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDKTests-umbrella.h"; sourceTree = "<group>"; };
+		812C64A3550F4B0C5457033F123590AF /* AVAudioSession+Patch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVAudioSession+Patch.h"; sourceTree = "<group>"; };
+		81CD421E39CF07C6182DE2DEE2341FD3 /* ZAAppDelegateConnectorAdFactoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorAdFactoryProtocol.swift; sourceTree = "<group>"; };
+		833053397AB06BD6ED831108B43AC8A2 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		842CE4B38A2EC5BDA8F9BAAA8468A047 /* ZappPlugins.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZappPlugins.modulemap; sourceTree = "<group>"; };
+		84DF9357139630D0DD30D4E257DA7DC5 /* ZPContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPContent.swift; sourceTree = "<group>"; };
+		86ABC6716BEC945EFE22F200B1702222 /* APLoadingTimeMeasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APLoadingTimeMeasure.swift; sourceTree = "<group>"; };
+		86AFB068728848FD79DCC0F3B43FAB5B /* UIColor+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+APAdditions.h"; sourceTree = "<group>"; };
+		88158432375EBE244743DDB95B67F30F /* ZAAppDelegateConnectorAnalyticsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorAnalyticsProtocol.swift; sourceTree = "<group>"; };
+		88706F3685713ACCFBECE5D1D6C43EF9 /* ZPPlayerChromecastProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerChromecastProtocol.swift; sourceTree = "<group>"; };
+		892110D1A1BC156172F3B69F5D0BB522 /* ZPPlayerNotificationsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerNotificationsProtocol.swift; sourceTree = "<group>"; };
+		895C28FA7AC205522FC0C10A0E6B9295 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		8A481A14B3050C45B400C8128530455C /* ZLNavigationTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationTypes.swift; sourceTree = "<group>"; };
+		8C05844E4B32A90EF42CDC0D7A94D14F /* APAtomEntryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAtomEntryProtocol.h; sourceTree = "<group>"; };
+		8C70B5132630A0F4F088638B14C38560 /* NSData+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+APAdditions.m"; sourceTree = "<group>"; };
+		8D2152BFB93B5E2C23E047C80EA3CFA9 /* ZLDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLDataSource.swift; sourceTree = "<group>"; };
+		8E56933DE0C838DF6AFCBB68B45FA427 /* NSURL+APAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+APAddition.m"; sourceTree = "<group>"; };
+		90A6B9E7F32ADD921C62E1125EF48496 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		90E43703C2184694FA18F27523046CF7 /* Pods-ZappAnalyticsPluginsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDK-dummy.m"; sourceTree = "<group>"; };
+		910958A2B626287B3EFA0F2C98257AD0 /* CABasicGenericViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CABasicGenericViewControllerProtocol.swift; sourceTree = "<group>"; };
+		923F712E912B472B85CD2224A7A52B01 /* ZappPlugins-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZappPlugins-prefix.pch"; sourceTree = "<group>"; };
+		92826F30612EBE490F1AA731C613BF02 /* APAtomMediaGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAtomMediaGroup.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E36B529D080876D88B547D8725CC69 /* ZAAppDelegateConnectorStoreFrontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorStoreFrontProtocol.swift; sourceTree = "<group>"; };
+		97210F432C515BF52E99DA44BB5EA7F1 /* ZPAdConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdConfig.swift; sourceTree = "<group>"; };
+		9859691EACE1C70586F65957259D54DD /* InfoPlistHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfoPlistHelper.swift; sourceTree = "<group>"; };
+		98FF51186979258EA294E90939FB3084 /* NSFileManager+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+APAdditions.h"; sourceTree = "<group>"; };
+		9933831762F6771561953ADAF241C04D /* UIScrollView+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APAdditions.m"; sourceTree = "<group>"; };
+		996D8381E9D951ADB27259C283A88ADE /* DateFormatterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
+		9BDE36F3F5B8487CBC1E49C52367BF1C /* ZLNavigationItemKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItemKeys.swift; sourceTree = "<group>"; };
+		9D767EC0B2E10F75D1F9B552FCD93253 /* ZAAppDelegateConnectorTimeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorTimeProtocol.h; sourceTree = "<group>"; };
+		9DD6636A3A2A6E15E5865E553A09460A /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E01512E7B17EF8BA7B67A532E005681 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		9F084FF7E84C2B961E2F16807B875436 /* String+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+APAdditions.swift"; sourceTree = "<group>"; };
+		A05706DC034C8CB1882B3983E43CED5A /* CABasicGenericViewControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CABasicGenericViewControllerDataSource.h; sourceTree = "<group>"; };
+		A08959C349AA95D9CE4463D239046DF1 /* NSURL+APAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+APAddition.h"; sourceTree = "<group>"; };
+		A15E9D9729F6B4B0AEB2D07A4D418E2F /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorLayoutComponentsProtocol.swift; sourceTree = "<group>"; };
+		A263FA6E419875A59AFDE06CFD3E5901 /* APAtomMediaGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APAtomMediaGroup.m; sourceTree = "<group>"; };
+		A3017F910D7B3081664E7CD456C700DA /* ZPPurchasableItemProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPurchasableItemProtocol.swift; sourceTree = "<group>"; };
+		A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5CF5ECDBBC1C2853611D74078EF66B6 /* NSBundle+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+APAdditions.m"; sourceTree = "<group>"; };
+		A5EFE41FFA9869BE01D9DD7C224C450F /* ZLScreenTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenTypes.swift; sourceTree = "<group>"; };
+		A959BB64094A5DBC323DF400EF178EF0 /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
+		AB27895D067BB9CD95409B2CECAA2F3F /* ZLNavigationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationModel.swift; sourceTree = "<group>"; };
+		ABAB54BD1EF5CF67D08430D05FA38036 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		AC582FABADC9FDFC7DF647BD6864D5E7 /* ZPAdvertisementManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdvertisementManager.swift; sourceTree = "<group>"; };
+		ACC182D1FD9B729A949B356AA5D2648C /* UIImage+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+APAdditions.m"; sourceTree = "<group>"; };
+		ADB5B8E3ABF810A6B4FCCBADCFBDB489 /* ZAAppDelegateConnectorConnectivityProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorConnectivityProtocol.swift; sourceTree = "<group>"; };
+		AE438A3A20D8FE451F3F4A33CD0D3C15 /* UINavigationController+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+APAdditions.h"; sourceTree = "<group>"; };
+		AEB3E5B7F67D9E237039E2035C2204E7 /* ZPFirebaseRemoteConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPFirebaseRemoteConfigurationManager.swift; sourceTree = "<group>"; };
+		AF4B20460BA67CFCA12A33D987D56AE8 /* ZPCollectionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPCollectionProtocol.swift; sourceTree = "<group>"; };
+		B1AF126F98257836AB2EB7D4F4AC4C96 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		B3A641F9DEAADAB16E0691C4F07A085B /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
+		B517DA691F193C07ADCE88CF1C837281 /* AVAudioSession+Patch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVAudioSession+Patch.m"; sourceTree = "<group>"; };
+		B61C2B74E6687D008F925D3FECCDAC5A /* ZLSupplementaryModelTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLSupplementaryModelTypes.swift; sourceTree = "<group>"; };
+		B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB33090036853D5B6C918AE61DE965DD /* ZAAppDelegateConnectorFacebookAccountKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorFacebookAccountKitProtocol.h; sourceTree = "<group>"; };
+		BC3BDD9A927537DFB16A5564E24DC1E9 /* UIView+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+APAdditions.m"; sourceTree = "<group>"; };
+		BCC0F4549B776DC5E731B6AF5D3A0FC2 /* ZPAppLoadingHookManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAppLoadingHookManager.swift; sourceTree = "<group>"; };
+		BD3958FAC218B482168A2295D35AED8A /* SKProduct+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKProduct+APAdditions.h"; sourceTree = "<group>"; };
+		BD5A55D98E06F7E556D86510222DBFDF /* APContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APContainerProtocol.h; sourceTree = "<group>"; };
+		BDCDC858ACB8E47645D63C177CB72F5E /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
+		BE5311C6F9B5523D055EB7DF47963165 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
+		BE9BB0EFFC39EB738426BE9AF7338085 /* UIView+APAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+APAnimation.m"; sourceTree = "<group>"; };
+		BF8D35C67846F4ABA16494E5E21FBA8F /* SKProduct+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+APAdditions.m"; sourceTree = "<group>"; };
+		BFBFD2D41827B9FB6442AF359A53E483 /* UIDevice+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+APAdditions.m"; sourceTree = "<group>"; };
+		C092504F64A8056EC2EB1ACB6F3E20EB /* ZAAppDelegateConnectorComponentsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorComponentsProtocol.swift; sourceTree = "<group>"; };
+		C14B039567694E521A88466FECBDE4C5 /* UIViewController+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APAdditions.m"; sourceTree = "<group>"; };
+		C1BE10B33D59E4CEB7FFD966F5FA0170 /* ZLScreenAdvertisingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenAdvertisingModel.swift; sourceTree = "<group>"; };
+		C2D6ABC142C42EBAB6FBB25730C538D1 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDKTests-dummy.m"; sourceTree = "<group>"; };
+		C39B52DA3C8A687D196AFE25CA7FCF3B /* ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h; sourceTree = "<group>"; };
+		C3A218884A5D8B9EE76C135EFA2F609D /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
+		C4F7EA5F29A829CF2FDFA22EA43372BD /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		C5256F14E368FFC9FC89A6BB669F2B7E /* NSObject+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+APAdditions.h"; sourceTree = "<group>"; };
+		C9DB52F533C23EDE644DF2396B9342FA /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9A15E9A70DF9C182158E5FAEF222E0 /* UIColor+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APAdditions.m"; sourceTree = "<group>"; };
+		CD5660AF5E57E102DB38E87CECF189FA /* ZappPlugins-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZappPlugins-umbrella.h"; sourceTree = "<group>"; };
+		CF0A8DE950A8FF9CF44A06C758D0A062 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		D01A86B6BD8F325AB108AA1D7A7A9A03 /* UIColor+ZPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZPAdditions.h"; sourceTree = "<group>"; };
+		D14EA817166FC449DD9E9260F766957C /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		D24E844107EA721B4C56A706C3533E96 /* ZAAppDelegateConnectorLayoutsStylesProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorLayoutsStylesProtocol.h; sourceTree = "<group>"; };
+		D31AF01F02BD94B5FCE30F634C51DA6C /* Pods_ZappAnalyticsPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDK.framework; path = "Pods-ZappAnalyticsPluginsSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52B6FB96E214E3FE3C985E0B84F685F /* ZPReactNativeBaseProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPReactNativeBaseProvider.swift; sourceTree = "<group>"; };
+		D681A8D2723B6FF234B598D9B0D13C4D /* ZLScreenModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenModel.swift; sourceTree = "<group>"; };
+		D76EB5345F4FAA9EDE799BBDD546EDFB /* ZLComponentStyleModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentStyleModel.swift; sourceTree = "<group>"; };
+		D8FDA2B626758A6ACEE0DA3668389F26 /* ZAAppDelegateConnectorURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorURLProtocol.h; sourceTree = "<group>"; };
+		DC3B279AA140CD93D40B17ABF05525A5 /* NSArray+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+APAdditions.m"; sourceTree = "<group>"; };
+		DCF26441516DFE8977E076E8B5B0F06C /* ZPReactNativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPReactNativeManager.swift; sourceTree = "<group>"; };
+		DED3535731752D951BEEEEDF26C003F1 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D77F749EF07E5DB7C0EFF80F0548D5 /* ZAAppDelegateConnectorAudioSessionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorAudioSessionProtocol.swift; sourceTree = "<group>"; };
+		E0F11029834804AB8BE23DF77E6014DB /* Pods-ZappAnalyticsPluginsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDK.modulemap"; sourceTree = "<group>"; };
+		E14C892419494D483B4A1CE1FDD07600 /* CAComponentModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CAComponentModelProtocol.swift; sourceTree = "<group>"; };
+		E5CCE6F73F0572C50D79D8FCDB6D2987 /* APProgramProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APProgramProtocol.h; sourceTree = "<group>"; };
+		E88F45D14ED7FC891039D922DA22A897 /* UIView+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+APAdditions.swift"; sourceTree = "<group>"; };
+		EA106851F08B899C0CC941D687F37576 /* ZPPluginUrlSchemeHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPPluginUrlSchemeHandler.swift; path = ZappPlugins/ZPPluginUrlSchemeHandler.swift; sourceTree = "<group>"; };
+		EA36778B0DCE2AECF56CDBE9CA996E90 /* ZPReactNativeProviderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPReactNativeProviderProtocol.swift; sourceTree = "<group>"; };
+		EE0537CDB32C724139F1B9BCCC69F790 /* DateFormatter+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+APAdditions.swift"; sourceTree = "<group>"; };
+		EED35A97C6B128E7D304B04782B20000 /* CACellViewControllerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CACellViewControllerBase.h; sourceTree = "<group>"; };
+		F13B245675A056F3EBD30125EB8EDCB8 /* UIViewController+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APAdditions.h"; sourceTree = "<group>"; };
+		F22D1F36EC1F28A1DBFC98F7E9E49DE5 /* NSString+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+APAdditions.m"; sourceTree = "<group>"; };
+		F3219672BA441E40978688E4BE7EE2D4 /* ZPImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPImageView.swift; sourceTree = "<group>"; };
+		F3C19F22ED1A89CD4C99122A302B975D /* UIScrollView+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APAdditions.h"; sourceTree = "<group>"; };
+		F3D39133B546A37B767B493160815B27 /* UIFont+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+APAdditions.m"; sourceTree = "<group>"; };
+		F84A8FF80FF7CCF6AC1615C1D5AC507C /* Dictionary+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		FA0CE2FAC2917FD04123FE936ACCA45B /* UIView+APAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+APAnimation.h"; sourceTree = "<group>"; };
+		FAB756EBB9C33D3601F7A56A3C3ACC64 /* Color+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Additions.swift"; sourceTree = "<group>"; };
+		FBBF1BF23293C41B451A9ADCAAE97D13 /* ZAAppConnector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppConnector.swift; sourceTree = "<group>"; };
+		FDDCF49A9E73C42D725D7033FC36D1CB /* Pods_ZappAnalyticsPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDKTests.framework; path = "Pods-ZappAnalyticsPluginsSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDD961556CC8149D9233116E5562317 /* Pods-ZappAnalyticsPluginsSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZappAnalyticsPluginsSDK-resources.sh"; sourceTree = "<group>"; };
+		FDED1CBC365D8BE05BFD1A33F552A243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49752299ABD383A2764F3F8C83038E /* NSString+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+APAdditions.h"; sourceTree = "<group>"; };
+		FFABFD6343005F7FBB32992BC5BC86C0 /* ZLComponentBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentBuilderProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0333ECBBA1D179379BC7834AF571C0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62AE828F5C30428E99E92DCA41D1A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351FD2F50E064F606F3DEAF58DD8E527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C76E9383A6B093CF55B8E787A3F5A5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F43C02E99830C11E4003AF0358198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B004836B5C47AB7D4C906541C80D9 /* Foundation.framework in Frameworks */,
+				5FD172F88AA31E254F0C86EEEA380B96 /* QuartzCore.framework in Frameworks */,
+				857A391F556AA309A35DC465E7D88CC4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58FB1E97D0D19397CCD255764D0EEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18CC6CF776DDFB470F3795303D166F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A96FE209F71162B3F32DF96A5EF6A01 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EE129312BFEF33C15C628472AD6B7DE8 /* CGFloat */,
+				9A7E8515817DD07B4541011028DA5842 /* Collection */,
+				72E6EB57DB147B1470C7608ED7E53400 /* Color */,
+				0F307FA0219FAD7D106A019720F9923C /* DateFormatter */,
+				11845FBC6CE432943DE23FE3F75B03A0 /* Dictionary */,
+				AFB7BEA92208E96996A25B189A56AE3A /* DispatchQueue */,
+				66903C3CC313C7084EC89667214077B2 /* InfoPlist */,
+				7D14B83049E2301C6689D134A4C78693 /* LoadingTimeMeasure */,
+				F02BCC7F85923705AC0C8C0D8DBB967F /* ProcessInfo */,
+				9DC5BDC15EB19DCCC72C3752B868CF4A /* String */,
+				5CB6D75A445278E58B4410C32DB7D10F /* UIAlertController */,
+				C83ACC185EFD3BF62BF126843D626D9C /* UIApplication */,
+				11518AE5B01C4AD156FB467D7827EBC9 /* UIView */,
+				CBD77AE56A5BB932DE5FA2C0A58B89DC /* UIViewController */,
+			);
+			name = Swift;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		0A9BC082A4EFBC60FFC1F77938068927 /* RootViewContainerController */ = {
+			isa = PBXGroup;
+			children = (
+				6BD39A6AAE0E1CA28C43A5421B68A920 /* ZPRootViewContainerControllerDelegate.swift */,
+			);
+			name = RootViewContainerController;
+			path = ZappPlugins/RootViewContainerController;
+			sourceTree = "<group>";
+		};
+		0D7A87A398F0D91F1E1B327DC5AD954E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8B915FF40EB401BFF7A6C07CC4BAC /* Foundation.framework */,
+				83F55B96F9FD27342C0F09BBB7DEE1AE /* QuartzCore.framework */,
+				A53654F6C69F2B1C06A517CAB5691730 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0F307FA0219FAD7D106A019720F9923C /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				EE0537CDB32C724139F1B9BCCC69F790 /* DateFormatter+APAdditions.swift */,
+				996D8381E9D951ADB27259C283A88ADE /* DateFormatterManager.swift */,
+			);
+			name = DateFormatter;
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		10A091F903F3EC4498341394573D2B7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E33B5D3B57BC2E7C45EC2B3D08297D6 /* Info.plist */,
+				842CE4B38A2EC5BDA8F9BAAA8468A047 /* ZappPlugins.modulemap */,
+				17C70168CFC524D6F1E39D08B6012123 /* ZappPlugins.xcconfig */,
+				66B425031FB7BFF0729819F54148569B /* ZappPlugins-dummy.m */,
+				923F712E912B472B85CD2224A7A52B01 /* ZappPlugins-prefix.pch */,
+				CD5660AF5E57E102DB38E87CECF189FA /* ZappPlugins-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZappPlugins";
+			sourceTree = "<group>";
+		};
+		11518AE5B01C4AD156FB467D7827EBC9 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E88F45D14ED7FC891039D922DA22A897 /* UIView+APAdditions.swift */,
+			);
+			name = UIView;
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		11845FBC6CE432943DE23FE3F75B03A0 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F84A8FF80FF7CCF6AC1615C1D5AC507C /* Dictionary+Extension.swift */,
+			);
+			name = Dictionary;
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		12040D82C1CF193DE1A903D5C550072E /* NSURLComponents */ = {
+			isa = PBXGroup;
+			children = (
+				37ED585817DBDFD1DD7301D5E5D25F86 /* NSURLComponents+APAddition.h */,
+				7ECA5B7F3455A905FCF28AD96F03E031 /* NSURLComponents+APAddition.m */,
+			);
+			name = NSURLComponents;
+			path = NSURLComponents;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A87A398F0D91F1E1B327DC5AD954E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		150E2F34C85921102A584AE49D17049F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19C45F9F8B194329D5D40C89719BC04B /* ZAAppDelegateConnectorActionProtocol.h */,
+				81CD421E39CF07C6182DE2DEE2341FD3 /* ZAAppDelegateConnectorAdFactoryProtocol.swift */,
+				88158432375EBE244743DDB95B67F30F /* ZAAppDelegateConnectorAnalyticsProtocol.swift */,
+				0E8A0DEB61C406CFDFC1C3C61F3F8722 /* ZAAppDelegateConnectorAnimationProtocol.h */,
+				E0D77F749EF07E5DB7C0EFF80F0548D5 /* ZAAppDelegateConnectorAudioSessionProtocol.swift */,
+				1D9CB7ADBC25B780F839D78AE27F3978 /* ZAAppDelegateConnectorChromecastProtocol.h */,
+				C092504F64A8056EC2EB1ACB6F3E20EB /* ZAAppDelegateConnectorComponentsProtocol.swift */,
+				ADB5B8E3ABF810A6B4FCCBADCFBDB489 /* ZAAppDelegateConnectorConnectivityProtocol.swift */,
+				BB33090036853D5B6C918AE61DE965DD /* ZAAppDelegateConnectorFacebookAccountKitProtocol.h */,
+				C39B52DA3C8A687D196AFE25CA7FCF3B /* ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h */,
+				3D14EF45610B8C295E429091BC7340F7 /* ZAAppDelegateConnectorGenericProtocol.swift */,
+				7D97A3EC9FDBE4ECF5FF28178BAB7C00 /* ZAAppDelegateConnectorIdentityProtocol.swift */,
+				31EE30B5BA7143FACA60C0FEC4CF0E0C /* ZAAppDelegateConnectorImageProtocol.swift */,
+				A15E9D9729F6B4B0AEB2D07A4D418E2F /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift */,
+				D24E844107EA721B4C56A706C3533E96 /* ZAAppDelegateConnectorLayoutsStylesProtocol.h */,
+				56AC0D8930E1A1725167CAB9D9AA71A2 /* ZAAppDelegateConnectorLocalizationProtocol.h */,
+				16D93CF707857BBF52F5492344D01D22 /* ZAAppDelegateConnectorNavigationProtocol.h */,
+				51054CF6EC0473CEAF88E02FECA3510E /* ZAAppDelegateConnectorRootProtocol.swift */,
+				96E36B529D080876D88B547D8725CC69 /* ZAAppDelegateConnectorStoreFrontProtocol.swift */,
+				9D767EC0B2E10F75D1F9B552FCD93253 /* ZAAppDelegateConnectorTimeProtocol.h */,
+				D8FDA2B626758A6ACEE0DA3668389F26 /* ZAAppDelegateConnectorURLProtocol.h */,
+				119B0B28C044BB3449954D272228D62A /* ZAAppDelegateQuickBrickProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		158CDA7C4F8E62F7D8424B84A5E3BF5A /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				98FF51186979258EA294E90939FB3084 /* NSFileManager+APAdditions.h */,
+				3B9F4B90E3681B1FFA649B3D20809E70 /* NSFileManager+APAdditions.m */,
+			);
+			name = NSFileManager;
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		15B63F46AB1757A14AA9338810222DD0 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				24DFF4749CCBDE6A5D9A034434DC9069 /* UIDevice+APAdditions.h */,
+				BFBFD2D41827B9FB6442AF359A53E483 /* UIDevice+APAdditions.m */,
+			);
+			name = UIDevice;
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		16E4160C82A7632CE6F10E56483099C8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0614ADF1A164924FB4A4196541E53D65 /* ZPPluginPresenterProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1863D36EFD60B005B725EA4CBF3B3713 /* PluginPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				0FAD5F304986791040A99A186F3AA9BF /* ZPPluginPresenterManager.swift */,
+				16E4160C82A7632CE6F10E56483099C8 /* Protocols */,
+			);
+			name = PluginPresenter;
+			path = ZappPlugins/PluginPresenter;
+			sourceTree = "<group>";
+		};
+		188F0B750CFFA6C62D293E03A4FD660C /* BaseInstance */ = {
+			isa = PBXGroup;
+			children = (
+				D52B6FB96E214E3FE3C985E0B84F685F /* ZPReactNativeBaseProvider.swift */,
+			);
+			name = BaseInstance;
+			path = BaseInstance;
+			sourceTree = "<group>";
+		};
+		1BB167E81A5FB099052F1E8B45D6631D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31AF01F02BD94B5FCE30F634C51DA6C /* Pods_ZappAnalyticsPluginsSDK.framework */,
+				FDDCF49A9E73C42D725D7033FC36D1CB /* Pods_ZappAnalyticsPluginsSDKTests.framework */,
+				1CB778A786390F96FD02D0E18E4F6F3A /* Toaster.framework */,
+				5340E9998BA93C4018C0AE2C78A3287E /* ZappPlugins.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE351C6EDA7B6B610385E9B32A5F333 /* ApplicasterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				73E177C3BFA80BD0D828238264F3E4AD /* Models */,
+				3F4912524F8FFF799A79165748FE19B1 /* Protocols */,
+			);
+			name = ApplicasterSDK;
+			path = ZappPlugins/ApplicasterSDK;
+			sourceTree = "<group>";
+		};
+		1EBF89A4AA46011CB5CBED49F08B0039 /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				81605B740A6C3B170F2FE4C709B117B3 /* AVAudioSession */,
+				890E0E2D455EBC03EE2DF24FDA98C155 /* AVPlayerItem */,
+				8103ABF86DDCFD9877FB48CF23695601 /* NSArray */,
+				25C5345BDAF00A2B31F310CE5CA0D932 /* NSBundle */,
+				8774448E2F890DA14EBAF94B7E07115C /* NSData */,
+				EE20C4ACCD5DE33719E9E8770140847A /* NSDictionary */,
+				158CDA7C4F8E62F7D8424B84A5E3BF5A /* NSFileManager */,
+				C23128BA3A2F12D70620760D473CDFA9 /* NSObject */,
+				2D96B0D92E1C2559EEF26917C7AFA618 /* NSString */,
+				8558A28FDD0B30C9C3D5934E81BEDD90 /* NSURL */,
+				12040D82C1CF193DE1A903D5C550072E /* NSURLComponents */,
+				251ABEC7D57A61680C1FC716525034A0 /* SKProduct */,
+				5E5404E900E8C559F6D8F9B65069131E /* UIColor */,
+				15B63F46AB1757A14AA9338810222DD0 /* UIDevice */,
+				FDAEBE423514F94EA7B5BBDAC2A3B324 /* UIFont */,
+				5E6EABCE813A9190CB7354F46D4E8E42 /* UIImage */,
+				C163CB8231C2A332D3597CB389A849AB /* UINavigationController */,
+				EBBC47EE051FE375AF4E62A088BBDC98 /* UIScrollView */,
+				CC15C5D4C2F741D3343A6F042ABEBC05 /* UIView */,
+				34FD3F752D2AA955857FAC5BBD19DAB9 /* UIViewController */,
+			);
+			name = ObjectiveC;
+			path = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		251ABEC7D57A61680C1FC716525034A0 /* SKProduct */ = {
+			isa = PBXGroup;
+			children = (
+				BD3958FAC218B482168A2295D35AED8A /* SKProduct+APAdditions.h */,
+				BF8D35C67846F4ABA16494E5E21FBA8F /* SKProduct+APAdditions.m */,
+			);
+			name = SKProduct;
+			path = SKProduct;
+			sourceTree = "<group>";
+		};
+		25C5345BDAF00A2B31F310CE5CA0D932 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				658ED782141AFF1515C7A15A9944DD57 /* NSBundle+APAdditions.h */,
+				A5CF5ECDBBC1C2853611D74078EF66B6 /* NSBundle+APAdditions.m */,
+			);
+			name = NSBundle;
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		2D96B0D92E1C2559EEF26917C7AFA618 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FF49752299ABD383A2764F3F8C83038E /* NSString+APAdditions.h */,
+				F22D1F36EC1F28A1DBFC98F7E9E49DE5 /* NSString+APAdditions.m */,
+				1832AC09560992F06ACB238510E90193 /* NSString+InflectionSupport.h */,
+				12EB4F5005B69A7F982F400553809EBD /* NSString+InflectionSupport.m */,
+			);
+			name = NSString;
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		34FD3F752D2AA955857FAC5BBD19DAB9 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F13B245675A056F3EBD30125EB8EDCB8 /* UIViewController+APAdditions.h */,
+				C14B039567694E521A88466FECBDE4C5 /* UIViewController+APAdditions.m */,
+			);
+			name = UIViewController;
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		36BBF8B146C9CC7CCD3A615AD9AD209C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				342EBD6183615D9777E888BB5E71C60E /* ZPPlayerManager.swift */,
+				940B8D0D391ACA854BC9469E6A0BE79A /* Protocols */,
+			);
+			name = Player;
+			path = ZappPlugins/Player;
+			sourceTree = "<group>";
+		};
+		3F4912524F8FFF799A79165748FE19B1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BD5A55D98E06F7E556D86510222DBFDF /* APContainerProtocol.h */,
+				1BC500D5A9EF37E6091CA69D09282C6F /* ZPCategoryProtocol.swift */,
+				AF4B20460BA67CFCA12A33D987D56AE8 /* ZPCollectionProtocol.swift */,
+				72010B86FD900A9EDA519AEFB1E7FB56 /* ZPImageViewProtocol.swift */,
+				067B27CFB538EB01BB0FFE83572DEF8A /* ZPModelProtocol.swift */,
+				B0812B9A2D76F96156D22F3FD47D7FC0 /* APAtomEntry */,
+				BF21164899F2FBF85FC03D7825F35181 /* APBroadcaster */,
+				C4E66B4216ED871EA833E4515AC7883E /* APProgram */,
+				BC3AC9E172F64BDF1E17DB2FEFD5478B /* StoreFront */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		43BF387B4C1C397FC353ECBF60E3848B /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				97210F432C515BF52E99DA44BB5EA7F1 /* ZPAdConfig.swift */,
+				3FA694D98D230A227D98AC228EB6B918 /* ZPAdPluginProtocol.swift */,
+				1767A095476D578B6FC153A183765AE3 /* ZPAdPresenterProtocol.swift */,
+				AC582FABADC9FDFC7DF647BD6864D5E7 /* ZPAdvertisementManager.swift */,
+				017345477AA2854C8CEB5C79389FAFB5 /* ZPAdViewProtocol.swift */,
+			);
+			name = Advertisement;
+			path = ZappPlugins/Advertisement;
+			sourceTree = "<group>";
+		};
+		45ADB8B43978A69B3B825C2A09E3B615 /* Pods-ZappAnalyticsPluginsSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				418AA62FBB23A15D09A06F75100850E5 /* Info.plist */,
+				7484A6C47FA5562C1DB69C0E2D1F3887 /* Pods-ZappAnalyticsPluginsSDKTests.modulemap */,
+				833053397AB06BD6ED831108B43AC8A2 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */,
+				08330C35F33B324E57F4319FEDEE0D64 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */,
+				C2D6ABC142C42EBAB6FBB25730C538D1 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */,
+				3DE2FFA9566D4CC35658BBCD9F9DA75B /* Pods-ZappAnalyticsPluginsSDKTests-frameworks.sh */,
+				053B729ABA63E67FA3913F9A334DF3DC /* Pods-ZappAnalyticsPluginsSDKTests-resources.sh */,
+				7FD9D34282BDABC656EB17BA908D7F0B /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */,
+				C9DB52F533C23EDE644DF2396B9342FA /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */,
+				D14EA817166FC449DD9E9260F766957C /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDKTests";
+			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests";
+			sourceTree = "<group>";
+		};
+		4716361A4057459A280DFF7C5301CCB5 /* Pods-ZappAnalyticsPluginsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D71F25CB0E9563320450E5B9F4C4 /* Info.plist */,
+				E0F11029834804AB8BE23DF77E6014DB /* Pods-ZappAnalyticsPluginsSDK.modulemap */,
+				9DD6636A3A2A6E15E5865E553A09460A /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */,
+				46D27A1B0150B680F1FB6FB34708F389 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */,
+				90E43703C2184694FA18F27523046CF7 /* Pods-ZappAnalyticsPluginsSDK-dummy.m */,
+				FDDD961556CC8149D9233116E5562317 /* Pods-ZappAnalyticsPluginsSDK-resources.sh */,
+				3B48D1D72911A50C291C452CDA13AFD6 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */,
+				DED3535731752D951BEEEEDF26C003F1 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */,
+				9E01512E7B17EF8BA7B67A532E005681 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDK";
+			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDK";
+			sourceTree = "<group>";
+		};
+		4E33C70864AEC7C10AF45C42C5A3C8AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F693CB7BF1B3855336A09D295D03E /* LayoutComponents */,
+				5CF61AE97DFBBAE2B8FC5FF693E97646 /* Protocols */,
+				D8DD1AB311BFFCED60ABB98BD40F598B /* ViewControllers */,
+			);
+			name = Components;
+			path = ZappPlugins/Components;
+			sourceTree = "<group>";
+		};
+		53CAB39A0453478E455C4D4BB55E2458 /* CAGenericViewController */ = {
+			isa = PBXGroup;
+			children = (
+				14EAF2C32C4FE2DDCA7F74FA91BBA24B /* CAGenericViewControllerProtocol.h */,
+			);
+			name = CAGenericViewController;
+			path = CAGenericViewController;
+			sourceTree = "<group>";
+		};
+		5CB6D75A445278E58B4410C32DB7D10F /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				779F4F06FB1A62FF431011B0A8C12F9D /* UIAlertController+Extension.swift */,
+			);
+			name = UIAlertController;
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		5CF61AE97DFBBAE2B8FC5FF693E97646 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5EDFF734EDA1DE31808988F372FAF065 /* CABasicGenericViewController */,
+				87E98BE6E2EAF6B2D308A8FBA15D85C4 /* CAComponent */,
+				BA5F34D364244CD40258D5E621041D6C /* CAComponentModel */,
+				53CAB39A0453478E455C4D4BB55E2458 /* CAGenericViewController */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5E5404E900E8C559F6D8F9B65069131E /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				86AFB068728848FD79DCC0F3B43FAB5B /* UIColor+APAdditions.h */,
+				CB9A15E9A70DF9C182158E5FAEF222E0 /* UIColor+APAdditions.m */,
+				D01A86B6BD8F325AB108AA1D7A7A9A03 /* UIColor+ZPAdditions.h */,
+				1D6427BACFE9027720A264486C8B108B /* UIColor+ZPAdditions.m */,
+			);
+			name = UIColor;
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		5E6EABCE813A9190CB7354F46D4E8E42 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				7524F43105575C897C83809EF945CD87 /* UIImage+APAdditions.h */,
+				ACC182D1FD9B729A949B356AA5D2648C /* UIImage+APAdditions.m */,
+				70E5185347AFD86FB1CEEED443FDC73E /* UIImage+ImageWithColor.h */,
+				C4F7EA5F29A829CF2FDFA22EA43372BD /* UIImage+ImageWithColor.m */,
+			);
+			name = UIImage;
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		5EDFF734EDA1DE31808988F372FAF065 /* CABasicGenericViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A05706DC034C8CB1882B3983E43CED5A /* CABasicGenericViewControllerDataSource.h */,
+				910958A2B626287B3EFA0F2C98257AD0 /* CABasicGenericViewControllerProtocol.swift */,
+			);
+			name = CABasicGenericViewController;
+			path = CABasicGenericViewController;
+			sourceTree = "<group>";
+		};
+		65C129F466FAFB9B1A44B17B848BCAE7 /* FirebaseRemoteConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3E5B7F67D9E237039E2035C2204E7 /* ZPFirebaseRemoteConfigurationManager.swift */,
+				A9066FD4CDB17C36A557F15EB5644B13 /* Protocols */,
+			);
+			name = FirebaseRemoteConfiguration;
+			path = ZappPlugins/FirebaseRemoteConfiguration;
+			sourceTree = "<group>";
+		};
+		66903C3CC313C7084EC89667214077B2 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				9859691EACE1C70586F65957259D54DD /* InfoPlistHelper.swift */,
+			);
+			name = InfoPlist;
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		69AC3FC376D8BEB35B0C5B4B75C1CE8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F763380E8C37CD6D32AB0169D93AD564 /* ZappPlugins */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6EDAE6A227D41B0CD16242003E6FD147 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D21ED2C0ACF4BE9AD5804E3A8F11E52 /* ZappPlugins.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72E6EB57DB147B1470C7608ED7E53400 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				FAB756EBB9C33D3601F7A56A3C3ACC64 /* Color+Additions.swift */,
+			);
+			name = Color;
+			path = Color;
+			sourceTree = "<group>";
+		};
+		73E177C3BFA80BD0D828238264F3E4AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DF9357139630D0DD30D4E257DA7DC5 /* ZPContent.swift */,
+				F3219672BA441E40978688E4BE7EE2D4 /* ZPImageView.swift */,
+				8D7D602F48291F65D04A92AD3C9819C5 /* APAtomMediaGroup */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D14B83049E2301C6689D134A4C78693 /* LoadingTimeMeasure */ = {
+			isa = PBXGroup;
+			children = (
+				86ABC6716BEC945EFE22F200B1702222 /* APLoadingTimeMeasure.swift */,
+			);
+			name = LoadingTimeMeasure;
+			path = LoadingTimeMeasure;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				69AC3FC376D8BEB35B0C5B4B75C1CE8F /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				AA0851EB04E800A0544AAD4F48AA938E /* Pods */,
+				1BB167E81A5FB099052F1E8B45D6631D /* Products */,
+				BAF9EC0FF83463351192CAC67A83EA91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8103ABF86DDCFD9877FB48CF23695601 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				20860BDB217E7908B8D2839904182A71 /* NSArray+APAdditions.h */,
+				DC3B279AA140CD93D40B17ABF05525A5 /* NSArray+APAdditions.m */,
+			);
+			name = NSArray;
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		81605B740A6C3B170F2FE4C709B117B3 /* AVAudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				812C64A3550F4B0C5457033F123590AF /* AVAudioSession+Patch.h */,
+				B517DA691F193C07ADCE88CF1C837281 /* AVAudioSession+Patch.m */,
+			);
+			name = AVAudioSession;
+			path = AVAudioSession;
+			sourceTree = "<group>";
+		};
+		82D00AD511E035028A6F54DE9B28B779 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EA36778B0DCE2AECF56CDBE9CA996E90 /* ZPReactNativeProviderProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8558A28FDD0B30C9C3D5934E81BEDD90 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				A08959C349AA95D9CE4463D239046DF1 /* NSURL+APAddition.h */,
+				8E56933DE0C838DF6AFCBB68B45FA427 /* NSURL+APAddition.m */,
+			);
+			name = NSURL;
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		8632C48A747CD547F140ED1AA7CD2E31 /* AppLoadingHook */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0F4549B776DC5E731B6AF5D3A0FC2 /* ZPAppLoadingHookManager.swift */,
+				7331C72137D1058E11D8B0FC86D7481D /* ZPAppLoadingHookProtocol.swift */,
+			);
+			name = AppLoadingHook;
+			path = ZappPlugins/AppLoadingHook;
+			sourceTree = "<group>";
+		};
+		8774448E2F890DA14EBAF94B7E07115C /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				208FA82574D462A0C2F6BAFD9851D980 /* NSData+APAdditions.h */,
+				8C70B5132630A0F4F088638B14C38560 /* NSData+APAdditions.m */,
+			);
+			name = NSData;
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		87E98BE6E2EAF6B2D308A8FBA15D85C4 /* CAComponent */ = {
+			isa = PBXGroup;
+			children = (
+				3FB706B0F086BD0F0A8E75560D0D1D6C /* CAComponentDelegate.h */,
+				37C3A07C6F7F029A6F6840C4440268F8 /* CAComponentProtocol.h */,
+			);
+			name = CAComponent;
+			path = CAComponent;
+			sourceTree = "<group>";
+		};
+		890E0E2D455EBC03EE2DF24FDA98C155 /* AVPlayerItem */ = {
+			isa = PBXGroup;
+			children = (
+				61B74CC864154AC73AD68AB882F4F412 /* AVPlayerItem+APAdditions.h */,
+				115E1B5205384E005726344C19B07900 /* AVPlayerItem+APAdditions.m */,
+			);
+			name = AVPlayerItem;
+			path = AVPlayerItem;
+			sourceTree = "<group>";
+		};
+		8D7D602F48291F65D04A92AD3C9819C5 /* APAtomMediaGroup */ = {
+			isa = PBXGroup;
+			children = (
+				92826F30612EBE490F1AA731C613BF02 /* APAtomMediaGroup.h */,
+				A263FA6E419875A59AFDE06CFD3E5901 /* APAtomMediaGroup.m */,
+			);
+			name = APAtomMediaGroup;
+			path = APAtomMediaGroup;
+			sourceTree = "<group>";
+		};
+		940B8D0D391ACA854BC9469E6A0BE79A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				64323B40EC2A809D4CBC711E3AA6B6CE /* ZPPlayable.swift */,
+				88706F3685713ACCFBECE5D1D6C43EF9 /* ZPPlayerChromecastProtocol.swift */,
+				892110D1A1BC156172F3B69F5D0BB522 /* ZPPlayerNotificationsProtocol.swift */,
+				5137E4B93EB29C60E138712156335FB6 /* ZPPlayerProtocol.swift */,
+				3AC5ED5F52F632DC4894765271A92CCC /* ZPVideoBackgroundViewProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9A7E8515817DD07B4541011028DA5842 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				895C28FA7AC205522FC0C10A0E6B9295 /* Collection+Extension.swift */,
+			);
+			name = Collection;
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		9D9537351121C966E8D4BCD8C9CC2080 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDC858ACB8E47645D63C177CB72F5E /* Toast.swift */,
+				C3A218884A5D8B9EE76C135EFA2F609D /* ToastCenter.swift */,
+				B1AF126F98257836AB2EB7D4F4AC4C96 /* Toaster.h */,
+				688134426F38DC90F4ABFA9D14EA9757 /* ToastView.swift */,
+				B3A641F9DEAADAB16E0691C4F07A085B /* ToastWindow.swift */,
+				C346BE152706BFABC04031422BFA893A /* Support Files */,
+			);
+			name = Toaster;
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		9DC5BDC15EB19DCCC72C3752B868CF4A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				9F084FF7E84C2B961E2F16807B875436 /* String+APAdditions.swift */,
+			);
+			name = String;
+			path = String;
+			sourceTree = "<group>";
+		};
+		A9066FD4CDB17C36A557F15EB5644B13 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63D8AF682234D88CDB17309D61066494 /* ZPFirebaseRemoteConfigurationProtocol.swift */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AA0851EB04E800A0544AAD4F48AA938E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D9537351121C966E8D4BCD8C9CC2080 /* Toaster */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE3568D78AD55539B0A001B236986041 /* ZLGenericViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48ADC8CE8F9F2B325C516F188E79B567 /* ZLGenericViewControllerProtocol.swift */,
+			);
+			name = ZLGenericViewController;
+			path = ZLGenericViewController;
+			sourceTree = "<group>";
+		};
+		AFB7BEA92208E96996A25B189A56AE3A /* DispatchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A8FE5A61ECA0D7DD6BAF134FD5682 /* DispatchQueue+Extension.swift */,
+			);
+			name = DispatchQueue;
+			path = DispatchQueue;
+			sourceTree = "<group>";
+		};
+		B0812B9A2D76F96156D22F3FD47D7FC0 /* APAtomEntry */ = {
+			isa = PBXGroup;
+			children = (
+				596BA39A0BE14523E886235633572B9C /* APAtomContainerProtocol.h */,
+				8C05844E4B32A90EF42CDC0D7A94D14F /* APAtomEntryProtocol.h */,
+				74147F5591E2243308DEE2111A781765 /* ZPAtomEntryPlayableProtocol.swift */,
+			);
+			name = APAtomEntry;
+			path = APAtomEntry;
+			sourceTree = "<group>";
+		};
+		B542DFF24D50F44ECAF040074F5C1431 /* ZappHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				1EBF89A4AA46011CB5CBED49F08B0039 /* ObjectiveC */,
+				0A96FE209F71162B3F32DF96A5EF6A01 /* Swift */,
+			);
+			name = ZappHelpers;
+			path = ZappPlugins/ZappHelpers;
+			sourceTree = "<group>";
+		};
+		B5F5A829CE2D864C3F3E3F27815F0677 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4602569EAC1FCF25D14F6C8851E670FF /* ZLBaseModel.swift */,
+				31CE1C088B461EA4A6951A34A8A2E3B4 /* ZLComponentModel.swift */,
+				D76EB5345F4FAA9EDE799BBDD546EDFB /* ZLComponentStyleModel.swift */,
+				47989E38F87BB5B4B14502751DE1EB74 /* ZLComponentStyleSupplementaryModel.swift */,
+				5FE6815C39CD1D233E665E8B11BCE3EB /* ZLNavigationItem.swift */,
+				AB27895D067BB9CD95409B2CECAA2F3F /* ZLNavigationModel.swift */,
+				C1BE10B33D59E4CEB7FFD966F5FA0170 /* ZLScreenAdvertisingModel.swift */,
+				D681A8D2723B6FF234B598D9B0D13C4D /* ZLScreenModel.swift */,
+				6F098EDB69E2CC5CE7A4E85ED68D5311 /* ZLScreenModel+Refresh.swift */,
+				7E604708BE36812844A82DD899750CF7 /* ZLStyleBaseModel.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9E0950FC48AD6DC584FD3BC109445A1 /* ZappConnector */ = {
+			isa = PBXGroup;
+			children = (
+				FBBF1BF23293C41B451A9ADCAAE97D13 /* ZAAppConnector.swift */,
+				DB40F3D39BB7C59D41DC3F5288A155FD /* Classes */,
+				150E2F34C85921102A584AE49D17049F /* Protocols */,
+			);
+			name = ZappConnector;
+			path = ZappPlugins/ZappConnector;
+			sourceTree = "<group>";
+		};
+		BA5F34D364244CD40258D5E621041D6C /* CAComponentModel */ = {
+			isa = PBXGroup;
+			children = (
+				E14C892419494D483B4A1CE1FDD07600 /* CAComponentModelProtocol.swift */,
+			);
+			name = CAComponentModel;
+			path = CAComponentModel;
+			sourceTree = "<group>";
+		};
+		BAF9EC0FF83463351192CAC67A83EA91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4716361A4057459A280DFF7C5301CCB5 /* Pods-ZappAnalyticsPluginsSDK */,
+				45ADB8B43978A69B3B825C2A09E3B615 /* Pods-ZappAnalyticsPluginsSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3AC9E172F64BDF1E17DB2FEFD5478B /* StoreFront */ = {
+			isa = PBXGroup;
+			children = (
+				559B62F9AD1A005826AC4CD385A9AB17 /* ZPDefaultStoreFrontHandlerProtocol.swift */,
+				796014D664A4E5CE98146053A2A33B71 /* ZPDefaultStoreFrontProtocol.swift */,
+				A3017F910D7B3081664E7CD456C700DA /* ZPPurchasableItemProtocol.swift */,
+			);
+			name = StoreFront;
+			path = StoreFront;
+			sourceTree = "<group>";
+		};
+		BE4F693CB7BF1B3855336A09D295D03E /* LayoutComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BF8520C8F7FCAE589ED36E6146863EE9 /* Enums */,
+				B5F5A829CE2D864C3F3E3F27815F0677 /* Models */,
+				DC2268318B9B2A0342451EAC87A3FAE8 /* Protocols */,
+			);
+			name = LayoutComponents;
+			path = LayoutComponents;
+			sourceTree = "<group>";
+		};
+		BF21164899F2FBF85FC03D7825F35181 /* APBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				6871E3676D7EBB9F3095C39A59810D1B /* ZPBroadcasterProtocol.swift */,
+			);
+			name = APBroadcaster;
+			path = APBroadcaster;
+			sourceTree = "<group>";
+		};
+		BF8520C8F7FCAE589ED36E6146863EE9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0750893EEAA0E6ED4D25F7C29E1F7147 /* ZLApiKeys.swift */,
+				8D2152BFB93B5E2C23E047C80EA3CFA9 /* ZLDataSource.swift */,
+				9BDE36F3F5B8487CBC1E49C52367BF1C /* ZLNavigationItemKeys.swift */,
+				62E15A8BEB8B3CDE9EC219AA2DEFC627 /* ZLNavigationItemTypes.swift */,
+				664BB7BAAFEF2C55F6E3C358113C3CB1 /* ZLNavigationsKeys.swift */,
+				8A481A14B3050C45B400C8128530455C /* ZLNavigationTypes.swift */,
+				A5EFE41FFA9869BE01D9DD7C224C450F /* ZLScreenTypes.swift */,
+				B61C2B74E6687D008F925D3FECCDAC5A /* ZLSupplementaryModelTypes.swift */,
+			);
+			name = Enums;
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C163CB8231C2A332D3597CB389A849AB /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AE438A3A20D8FE451F3F4A33CD0D3C15 /* UINavigationController+APAdditions.h */,
+				2AA18F4260E94E76055D366DE04B8563 /* UINavigationController+APAdditions.m */,
+			);
+			name = UINavigationController;
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		C23128BA3A2F12D70620760D473CDFA9 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C5256F14E368FFC9FC89A6BB669F2B7E /* NSObject+APAdditions.h */,
+				4315F829BD16E80264C3CB9FAF285DCD /* NSObject+APAdditions.m */,
+				7D67611C0418757F3CDD76B1036975C0 /* NSObject+Swizzle.h */,
+				ABAB54BD1EF5CF67D08430D05FA38036 /* NSObject+Swizzle.m */,
+			);
+			name = NSObject;
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		C346BE152706BFABC04031422BFA893A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDED1CBC365D8BE05BFD1A33F552A243 /* Info.plist */,
+				528FEF1E15DCFFD87809D81F0042C3A4 /* Toaster.modulemap */,
+				A959BB64094A5DBC323DF400EF178EF0 /* Toaster.xcconfig */,
+				BE5311C6F9B5523D055EB7DF47963165 /* Toaster-dummy.m */,
+				0CE31ED5876D51274CC123FB9F153E3B /* Toaster-prefix.pch */,
+				CF0A8DE950A8FF9CF44A06C758D0A062 /* Toaster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+		C4E66B4216ED871EA833E4515AC7883E /* APProgram */ = {
+			isa = PBXGroup;
+			children = (
+				E5CCE6F73F0572C50D79D8FCDB6D2987 /* APProgramProtocol.h */,
+			);
+			name = APProgram;
+			path = APProgram;
+			sourceTree = "<group>";
+		};
+		C83ACC185EFD3BF62BF126843D626D9C /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				5EF5D630937A33AA824DCE13E80369F0 /* UIApplication+Extension.swift */,
+			);
+			name = UIApplication;
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		CBD77AE56A5BB932DE5FA2C0A58B89DC /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38AEB20CC0554D4B14D3158FB4006BAF /* UIViewController+Extension.swift */,
+			);
+			name = UIViewController;
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		CC15C5D4C2F741D3343A6F042ABEBC05 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DDF9D073F466E0EBBCE67E5A3B3F6 /* UIView+APAdditions.h */,
+				BC3BDD9A927537DFB16A5564E24DC1E9 /* UIView+APAdditions.m */,
+				FA0CE2FAC2917FD04123FE936ACCA45B /* UIView+APAnimation.h */,
+				BE9BB0EFFC39EB738426BE9AF7338085 /* UIView+APAnimation.m */,
+			);
+			name = UIView;
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CFD9C2CE54119984CCDE97BA3CB86521 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				DCF26441516DFE8977E076E8B5B0F06C /* ZPReactNativeManager.swift */,
+				188F0B750CFFA6C62D293E03A4FD660C /* BaseInstance */,
+				82D00AD511E035028A6F54DE9B28B779 /* Protocols */,
+			);
+			name = ReactNative;
+			path = ZappPlugins/ReactNative;
+			sourceTree = "<group>";
+		};
+		D8DD1AB311BFFCED60ABB98BD40F598B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EED35A97C6B128E7D304B04782B20000 /* CACellViewControllerBase.h */,
+				1B54DD2FF4B669AD15A4BED3CB1BB3BF /* CACellViewControllerBase.m */,
+			);
+			name = ViewControllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB40F3D39BB7C59D41DC3F5288A155FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD683F809A7E9C32DB902CB55D5B61 /* ZAAccountKitUser.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC2268318B9B2A0342451EAC87A3FAE8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5897795B01BB1636D8DD64DC12731C16 /* ZLComponentTypeProtocol.swift */,
+				F64CBDBEC81DBF7A27316D62BF34C3A4 /* ZLComponentBuilder */,
+				AE3568D78AD55539B0A001B236986041 /* ZLGenericViewController */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EBBC47EE051FE375AF4E62A088BBDC98 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F3C19F22ED1A89CD4C99122A302B975D /* UIScrollView+APAdditions.h */,
+				9933831762F6771561953ADAF241C04D /* UIScrollView+APAdditions.m */,
+			);
+			name = UIScrollView;
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		EE129312BFEF33C15C628472AD6B7DE8 /* CGFloat */ = {
+			isa = PBXGroup;
+			children = (
+				90A6B9E7F32ADD921C62E1125EF48496 /* CGFloat+Extensions.swift */,
+			);
+			name = CGFloat;
+			path = CGFloat;
+			sourceTree = "<group>";
+		};
+		EE20C4ACCD5DE33719E9E8770140847A /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				7C01BAA599DA75BE361A0D434EC0BCB8 /* NSDictionary+APAdditions.h */,
+				4CFD18E52E7B07C59E332627C5C901A0 /* NSDictionary+APAdditions.m */,
+			);
+			name = NSDictionary;
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		F02BCC7F85923705AC0C8C0D8DBB967F /* ProcessInfo */ = {
+			isa = PBXGroup;
+			children = (
+				699B30F89FACDA5053E16664EF43E481 /* ProcessInfo+Extension.swift */,
+			);
+			name = ProcessInfo;
+			path = ProcessInfo;
+			sourceTree = "<group>";
+		};
+		F64CBDBEC81DBF7A27316D62BF34C3A4 /* ZLComponentBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				FFABFD6343005F7FBB32992BC5BC86C0 /* ZLComponentBuilderProtocol.swift */,
+				2925DF61798799E364578CCCFE03C3AC /* ZLComponentBuilderStructureProtocol.swift */,
+			);
+			name = ZLComponentBuilder;
+			path = ZLComponentBuilder;
+			sourceTree = "<group>";
+		};
+		F763380E8C37CD6D32AB0169D93AD564 /* ZappPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				79D8B8CE89025651FF2D23922B11EA3E /* ZappPlugins.h */,
+				5AB2046087F0E2D35349E5AE5D6E5F6B /* ZPAdapterProtocol.swift */,
+				6E1B76B188F7EA7A87866E4B620A8879 /* ZPPlugableScreenProtocol.swift */,
+				7F8690784D4A8B0355514DD6CC2A1023 /* ZPPluginManager.swift */,
+				2B8683F4B203563C02B86C90C0B6F916 /* ZPPluginModel.swift */,
+				EA106851F08B899C0CC941D687F37576 /* ZPPluginUrlSchemeHandler.swift */,
+				43BF387B4C1C397FC353ECBF60E3848B /* Advertisement */,
+				1CE351C6EDA7B6B610385E9B32A5F333 /* ApplicasterSDK */,
+				8632C48A747CD547F140ED1AA7CD2E31 /* AppLoadingHook */,
+				4E33C70864AEC7C10AF45C42C5A3C8AA /* Components */,
+				65C129F466FAFB9B1A44B17B848BCAE7 /* FirebaseRemoteConfiguration */,
+				36BBF8B146C9CC7CCD3A615AD9AD209C /* Player */,
+				1863D36EFD60B005B725EA4CBF3B3713 /* PluginPresenter */,
+				6EDAE6A227D41B0CD16242003E6FD147 /* Pod */,
+				CFD9C2CE54119984CCDE97BA3CB86521 /* ReactNative */,
+				0A9BC082A4EFBC60FFC1F77938068927 /* RootViewContainerController */,
+				10A091F903F3EC4498341394573D2B7E /* Support Files */,
+				B9E0950FC48AD6DC584FD3BC109445A1 /* ZappConnector */,
+				B542DFF24D50F44ECAF040074F5C1431 /* ZappHelpers */,
+			);
+			name = ZappPlugins;
+			path = ../Submodules/ZappPlugins;
+			sourceTree = "<group>";
+		};
+		FDAEBE423514F94EA7B5BBDAC2A3B324 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				0430C6CFF89EFDC3C9CD1F34361A60D2 /* UIFont+APAdditions.h */,
+				F3D39133B546A37B767B493160815B27 /* UIFont+APAdditions.m */,
+			);
+			name = UIFont;
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5920495F8B12B9D777F2AE70392FB42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18DB9648FA032F3D9C664673A7E28E3 /* APAtomContainerProtocol.h in Headers */,
+				B7A2B80E09A3D080DA917C40F1CF32A1 /* APAtomEntryProtocol.h in Headers */,
+				00AFD5E655D4C8B24C9A35D384516667 /* APAtomMediaGroup.h in Headers */,
+				72D34C0EAA39EEFD53673A8B6C489F09 /* APContainerProtocol.h in Headers */,
+				C564ED009F3EB599A7DD4B130CE354B4 /* APProgramProtocol.h in Headers */,
+				D0268C94DB55523814FEC9B3D3BD3F29 /* AVAudioSession+Patch.h in Headers */,
+				8FB2A74EFCED85F0667F51FFA571896B /* AVPlayerItem+APAdditions.h in Headers */,
+				85F90372BDDA74563526FA8933CE709C /* CABasicGenericViewControllerDataSource.h in Headers */,
+				E5AB06D665C857061196EECF17EDAC92 /* CACellViewControllerBase.h in Headers */,
+				FDD4C6BB0077D879800C34C7309AAAA6 /* CAComponentDelegate.h in Headers */,
+				7CBC596185DE9E4C7ECE7FA433148B3C /* CAComponentProtocol.h in Headers */,
+				622A96D76565A3F509D127805CD958B1 /* CAGenericViewControllerProtocol.h in Headers */,
+				E9095550E0D8AC97E258B07CD3695B18 /* NSArray+APAdditions.h in Headers */,
+				42EC21B01802732959E6F2AA9D63416A /* NSBundle+APAdditions.h in Headers */,
+				B3395BE234CA5589CCA5DFD892588E58 /* NSData+APAdditions.h in Headers */,
+				EF72C8B3CA0940E748B8EB0349BB4003 /* NSDictionary+APAdditions.h in Headers */,
+				43895C7E7B69AE2A9909D6B1BA12B4CE /* NSFileManager+APAdditions.h in Headers */,
+				E76D5FB6A3C4725A8B7A706A483E6301 /* NSObject+APAdditions.h in Headers */,
+				713C64501E672550346D35E95C520C75 /* NSObject+Swizzle.h in Headers */,
+				A76F4627FBDB7EDC66E0107CD42148BE /* NSString+APAdditions.h in Headers */,
+				59FEA28632F1D33DCEDA3B2114B72515 /* NSString+InflectionSupport.h in Headers */,
+				FBE33BAB961D6DE87229E9A63ED80548 /* NSURL+APAddition.h in Headers */,
+				A291C2F711C10D2B05B9B8DBFC828966 /* NSURLComponents+APAddition.h in Headers */,
+				E29DDF72D0B3847F6F3F29C8E620E4D9 /* SKProduct+APAdditions.h in Headers */,
+				43768735FB83E3699203BD4B4B71343E /* UIColor+APAdditions.h in Headers */,
+				C43081F46BB7881C59CD129F6E5FC962 /* UIColor+ZPAdditions.h in Headers */,
+				2C631A96BE08C95D2A1BFF02933608C2 /* UIDevice+APAdditions.h in Headers */,
+				7AA060C2953DF10EDF05FA37D17A00B1 /* UIFont+APAdditions.h in Headers */,
+				82E373606A6B6AD90B1A1B17B282D622 /* UIImage+APAdditions.h in Headers */,
+				DE9E64634AD1A1CA101F85C3C5EE807B /* UIImage+ImageWithColor.h in Headers */,
+				0E2BE9061777AF22E30BC90FBAF9AF13 /* UINavigationController+APAdditions.h in Headers */,
+				5FD22CA87C6C9C976BBA9832C9CA18D7 /* UIScrollView+APAdditions.h in Headers */,
+				D0733AC9D5E95A90B54D5B460E5E3D2C /* UIView+APAdditions.h in Headers */,
+				A70C5913B7FD85247F0B7FEDDE7C3728 /* UIView+APAnimation.h in Headers */,
+				3E26F7912F8DD128234D2550BBDB7F08 /* UIViewController+APAdditions.h in Headers */,
+				C04FA7DAF269BE92EB21A313DE8075DD /* ZAAppDelegateConnectorActionProtocol.h in Headers */,
+				A4B795B614BBB29277A594DF68540B45 /* ZAAppDelegateConnectorAnimationProtocol.h in Headers */,
+				47CEB110F9A0162AB5835E32E642ACFB /* ZAAppDelegateConnectorChromecastProtocol.h in Headers */,
+				EE1286B6F06924E1194E5812C23B0C4D /* ZAAppDelegateConnectorFacebookAccountKitProtocol.h in Headers */,
+				4DB309196446130CB08E669B40AD631E /* ZAAppDelegateConnectorFirebaseRemoteConfigurationProtocol.h in Headers */,
+				8C202259970293859E32B326E472376C /* ZAAppDelegateConnectorLayoutsStylesProtocol.h in Headers */,
+				20AA7EE4E1CEB7B16223F6E3AD3ADCFB /* ZAAppDelegateConnectorLocalizationProtocol.h in Headers */,
+				6B98CED3742165E2EFC21B14E0E38B8D /* ZAAppDelegateConnectorNavigationProtocol.h in Headers */,
+				D642D7C57FEE1309380C02FC6662A93B /* ZAAppDelegateConnectorTimeProtocol.h in Headers */,
+				8FDE5C27FCC0A205619275DE8083E15D /* ZAAppDelegateConnectorURLProtocol.h in Headers */,
+				3B93371D64771FEEDB0E334374CA6AEE /* ZappPlugins-umbrella.h in Headers */,
+				5C90C66750FE025CD98259CC5B97850B /* ZappPlugins.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97044F931C2894D1E9709B9709A4967 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D69180217675AD9CB393AEEB72940A1 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CEA22A91087ECDF2290F36E510693 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BE0ABB001137A791D25F7ECA9803BD /* Toaster-umbrella.h in Headers */,
+				D65060EACBC1DD28703D5C1A250E308C /* Toaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9091B80D91C0C7CA667A1C770AFB5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CC3EE845408428A5BDFCB21E866BDE /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F50315328AF6203C37CB6345FFFD08F /* Pods-ZappAnalyticsPluginsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028EC1A9678C49967A00852765CAD65B /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDK" */;
+			buildPhases = (
+				B97044F931C2894D1E9709B9709A4967 /* Headers */,
+				3A511B0E8E112CB73F99B38AF1F17500 /* Sources */,
+				0333ECBBA1D179379BC7834AF571C0B6 /* Frameworks */,
+				64AB8A14E1ED1A5013E75B69EDBDBBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B309403C80CAE87C5E27C868F02196 /* PBXTargetDependency */,
+				982D5192305BA40F7BAC2C75B2E7C251 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDK";
+			productName = "Pods-ZappAnalyticsPluginsSDK";
+			productReference = D31AF01F02BD94B5FCE30F634C51DA6C /* Pods_ZappAnalyticsPluginsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF02F0863A1F28B5ACF874378D4B456 /* Pods-ZappAnalyticsPluginsSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66924406C0565A5FE8E91FD2C9FD6940 /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDKTests" */;
+			buildPhases = (
+				EE9091B80D91C0C7CA667A1C770AFB5D /* Headers */,
+				9BB1A95ED1D85E95990F86A6290D0512 /* Sources */,
+				351FD2F50E064F606F3DEAF58DD8E527 /* Frameworks */,
+				ED984B936CBD8CE71969EBA846612899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D9007280803FAE3B3DD3D7552CABCF /* PBXTargetDependency */,
+				823A52D0F10FB7D12104248963127B7B /* PBXTargetDependency */,
+				A168E5B29BB7983F99206D54DB3F61DC /* PBXTargetDependency */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDKTests";
+			productName = "Pods-ZappAnalyticsPluginsSDKTests";
+			productReference = FDDCF49A9E73C42D725D7033FC36D1CB /* Pods_ZappAnalyticsPluginsSDKTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65699690D1E8F1D19AB6D09558387C44 /* ZappPlugins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303B7C4EF9379CEC1A4050AEB15A69A6 /* Build configuration list for PBXNativeTarget "ZappPlugins" */;
+			buildPhases = (
+				A5920495F8B12B9D777F2AE70392FB42 /* Headers */,
+				47B7FAB3E6C65F0A36A32B6541A4B3F7 /* Sources */,
+				C58FB1E97D0D19397CCD255764D0EEED /* Frameworks */,
+				7041CF39B34A49CF818027BFE72EAB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZappPlugins;
+			productName = ZappPlugins;
+			productReference = 5340E9998BA93C4018C0AE2C78A3287E /* ZappPlugins.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBF4A08179E81DE8FF4B68E84E45FAAC /* Toaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969C93BC23521308E8794F2B5CC2BCF0 /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildPhases = (
+				ED6CEA22A91087ECDF2290F36E510693 /* Headers */,
+				C3CE38018BE2B3721B80E6EE206A016A /* Sources */,
+				934F43C02E99830C11E4003AF0358198 /* Frameworks */,
+				5931D47A5CC8F169093028B201727EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = 1CB778A786390F96FD02D0E18E4F6F3A /* Toaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1BB167E81A5FB099052F1E8B45D6631D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F50315328AF6203C37CB6345FFFD08F /* Pods-ZappAnalyticsPluginsSDK */,
+				5AF02F0863A1F28B5ACF874378D4B456 /* Pods-ZappAnalyticsPluginsSDKTests */,
+				CBF4A08179E81DE8FF4B68E84E45FAAC /* Toaster */,
+				65699690D1E8F1D19AB6D09558387C44 /* ZappPlugins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5931D47A5CC8F169093028B201727EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64AB8A14E1ED1A5013E75B69EDBDBBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041CF39B34A49CF818027BFE72EAB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED984B936CBD8CE71969EBA846612899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A511B0E8E112CB73F99B38AF1F17500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290B82B5C7BA60A7910D85CEA35067C1 /* Pods-ZappAnalyticsPluginsSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B7FAB3E6C65F0A36A32B6541A4B3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513AE63A196EAA2DE43E8B384B544389 /* APAtomMediaGroup.m in Sources */,
+				F8F0472E93722526F8A595302603F295 /* APLoadingTimeMeasure.swift in Sources */,
+				C99A37125E90A67AB66EAD51BE39FD2E /* AVAudioSession+Patch.m in Sources */,
+				139BA986358E47354319E8B5CA16BFE5 /* AVPlayerItem+APAdditions.m in Sources */,
+				F7ECA82A643E7ECB23079640E6CEC96E /* CABasicGenericViewControllerProtocol.swift in Sources */,
+				E48FDC7E78B9C93A24F3EA4F42A381CA /* CACellViewControllerBase.m in Sources */,
+				963983ED37696789EE8477888B53BF50 /* CAComponentModelProtocol.swift in Sources */,
+				E69CC668730697956C8CE4BBC94DE1E6 /* CGFloat+Extensions.swift in Sources */,
+				BAC7D527AF27A1F5DCAAFC2E0318863A /* Collection+Extension.swift in Sources */,
+				FBF030776648042361AA42A3C712AF37 /* Color+Additions.swift in Sources */,
+				02D860C00359BA9DBDC79478B0DACAC3 /* DateFormatter+APAdditions.swift in Sources */,
+				701658924F0E463126744F0443599820 /* DateFormatterManager.swift in Sources */,
+				1F79CADFC13654C72141ECD3A84CCB19 /* Dictionary+Extension.swift in Sources */,
+				58F2D025B35B24AEF65E2226F999574C /* DispatchQueue+Extension.swift in Sources */,
+				EED52D8702A81A502DFAEC3694259167 /* InfoPlistHelper.swift in Sources */,
+				2B2BB167B5D871B27C0E13C3C02C4922 /* NSArray+APAdditions.m in Sources */,
+				78719058DCE556C67AED7643CA43E59B /* NSBundle+APAdditions.m in Sources */,
+				21633ED49A83B1047BEB8AE5613C99D6 /* NSData+APAdditions.m in Sources */,
+				2A797E16553F2CEB355328C06633316B /* NSDictionary+APAdditions.m in Sources */,
+				6E3D5347913617A5B1E0B0F61FA0E079 /* NSFileManager+APAdditions.m in Sources */,
+				255C33069BD7E926666478D7FBC6A3DF /* NSObject+APAdditions.m in Sources */,
+				7AD6A325CD28DFBC13D47C02610F5A3D /* NSObject+Swizzle.m in Sources */,
+				DF84C9F730A8F7D5E682F5CA2B87F796 /* NSString+APAdditions.m in Sources */,
+				4CCA0C4C2CC8B6B39FA8240A7FF92E4A /* NSString+InflectionSupport.m in Sources */,
+				23E23EB8E43AEEF5B631E37A718C2A44 /* NSURL+APAddition.m in Sources */,
+				87745054E1921C7EE05AA40230B216D8 /* NSURLComponents+APAddition.m in Sources */,
+				76A0A0BCD71764F4B789A11C7B926ECA /* ProcessInfo+Extension.swift in Sources */,
+				F6D4E7CEA140709BB539BC681B3E79AF /* SKProduct+APAdditions.m in Sources */,
+				88E217AEA2A08488E6A7170F4768ABA6 /* String+APAdditions.swift in Sources */,
+				9A5FEF745334F2D643C15918B6225E09 /* UIAlertController+Extension.swift in Sources */,
+				850EDB6B3AC81776AC5143B01788869E /* UIApplication+Extension.swift in Sources */,
+				870A32689EC96006E9DD0630B58E3904 /* UIColor+APAdditions.m in Sources */,
+				D3A034FDB9EDA69D8D3663DCB7D59826 /* UIColor+ZPAdditions.m in Sources */,
+				2EF6A92B6103D61E89D5DD6250DE32CD /* UIDevice+APAdditions.m in Sources */,
+				A8A27B9D46CC0FB7BBD56B8139E65418 /* UIFont+APAdditions.m in Sources */,
+				00F2561A55C88C50B8AF5767BEDB4A7A /* UIImage+APAdditions.m in Sources */,
+				F2430FB63CA5525CC7E1ABDAD37DA44A /* UIImage+ImageWithColor.m in Sources */,
+				0401AB2BAC5D3D3FC0DB4F3DF3A2C2B8 /* UINavigationController+APAdditions.m in Sources */,
+				EE5B74E64DAE52C65DD0504EA58B9378 /* UIScrollView+APAdditions.m in Sources */,
+				8C57E835BD405E99722C7297DBAC6218 /* UIView+APAdditions.m in Sources */,
+				DF5CBE9B9E1AC63ACA72F5484485DF76 /* UIView+APAdditions.swift in Sources */,
+				C65258B9C944FC67F9C3CBBCAF726434 /* UIView+APAnimation.m in Sources */,
+				A16BD9ECEA095BFD33CA56461D02BE8F /* UIViewController+APAdditions.m in Sources */,
+				FFEC94EA5817E1CA6122BAF5591A6321 /* UIViewController+Extension.swift in Sources */,
+				2A812409FBF3E65D0535CC79CA362C91 /* ZAAccountKitUser.swift in Sources */,
+				7FC3BA46A33BAC687ADA2A1E9BE81136 /* ZAAppConnector.swift in Sources */,
+				67FBE55B16E82A9EC37B7B6D93CC272B /* ZAAppDelegateConnectorAdFactoryProtocol.swift in Sources */,
+				7B52DF193F8B3E3F50B21692EA98F2C6 /* ZAAppDelegateConnectorAnalyticsProtocol.swift in Sources */,
+				4AEEFE861D0EF87749C9618230EA0C82 /* ZAAppDelegateConnectorAudioSessionProtocol.swift in Sources */,
+				18AF7CC7A8EEEC56E1B7BE0B3CD30EFA /* ZAAppDelegateConnectorComponentsProtocol.swift in Sources */,
+				9AD64498D19D8B54EC85203161CB3EA0 /* ZAAppDelegateConnectorConnectivityProtocol.swift in Sources */,
+				A17067E53245710BA5682B408ABF322B /* ZAAppDelegateConnectorGenericProtocol.swift in Sources */,
+				DA1B5E6F93DA7A6A01C9B1E555D74376 /* ZAAppDelegateConnectorIdentityProtocol.swift in Sources */,
+				1C70B504657EFE29F84629D31249CE9C /* ZAAppDelegateConnectorImageProtocol.swift in Sources */,
+				8834859E46FD6497B664C72F926C473F /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift in Sources */,
+				C53D8D207F2B0165069961E68648A8BB /* ZAAppDelegateConnectorRootProtocol.swift in Sources */,
+				1F1ABC34379796DA9669BB125FBC4912 /* ZAAppDelegateConnectorStoreFrontProtocol.swift in Sources */,
+				0500ED70975E71537C296A6E3CD67716 /* ZAAppDelegateQuickBrickProtocol.swift in Sources */,
+				9E337D1E8CEB676183C9274E5392124B /* ZappPlugins-dummy.m in Sources */,
+				64378831AB06B24B97266AAD400F1A9C /* ZLApiKeys.swift in Sources */,
+				29DA1EE371B6665CBB0335F475CD0C8B /* ZLBaseModel.swift in Sources */,
+				4774917F08EF42D5AA9A33A87574078D /* ZLComponentBuilderProtocol.swift in Sources */,
+				2991C589822BFFB78D2FC9E64821B3DF /* ZLComponentBuilderStructureProtocol.swift in Sources */,
+				F6FE5815E8C5624829FC7C3890C40A31 /* ZLComponentModel.swift in Sources */,
+				3CCFBD3BD28F1EFB53E4F5191499F6CB /* ZLComponentStyleModel.swift in Sources */,
+				1C42EB9326A71F2F06E8A4C7F5CD7109 /* ZLComponentStyleSupplementaryModel.swift in Sources */,
+				57B901FCF03B42D108F56BF2034F02DE /* ZLComponentTypeProtocol.swift in Sources */,
+				A6AAD5DC536FD32BC815F93FF88E68B0 /* ZLDataSource.swift in Sources */,
+				A2C9CB85BE7726B455707257674E70BD /* ZLGenericViewControllerProtocol.swift in Sources */,
+				ADA1AC623C20FADAE0FBA842CAF10422 /* ZLNavigationItem.swift in Sources */,
+				E51242C17E05562B61E57599A17E760D /* ZLNavigationItemKeys.swift in Sources */,
+				CFAE4C7E1DF3494476F618AB3389E2C4 /* ZLNavigationItemTypes.swift in Sources */,
+				4ABB36535A12ACD416CC8D861D9BE356 /* ZLNavigationModel.swift in Sources */,
+				279CEF27B58E67AC5E17804DD7767581 /* ZLNavigationsKeys.swift in Sources */,
+				49AFD4BB4B8DB1C599706256D4C7FF37 /* ZLNavigationTypes.swift in Sources */,
+				6750A7D2DA8D8DA16A42134B18A9C9B6 /* ZLScreenAdvertisingModel.swift in Sources */,
+				9004B53B57F15DD773108D676A75F942 /* ZLScreenModel+Refresh.swift in Sources */,
+				77737A60C6AC4B1B8604775362A73127 /* ZLScreenModel.swift in Sources */,
+				5DB0A071EB0F2059A36B743814B36BEE /* ZLScreenTypes.swift in Sources */,
+				2108E2A54466F55DB04E82AC433EEEB8 /* ZLStyleBaseModel.swift in Sources */,
+				D1373C4C34F5E41FCB1BB8442D510BC6 /* ZLSupplementaryModelTypes.swift in Sources */,
+				DCD54E11097D725B9839895761D446B2 /* ZPAdapterProtocol.swift in Sources */,
+				788139B9DDC5C5E15441F79EE1E82B3C /* ZPAdConfig.swift in Sources */,
+				52166DA35AB469D8C756642B3EC7B57E /* ZPAdPluginProtocol.swift in Sources */,
+				AA9E337BCB629998A47BEA18A7052BE6 /* ZPAdPresenterProtocol.swift in Sources */,
+				DD9277DEF80EEADEB8B9B2BEC7EAA3F4 /* ZPAdvertisementManager.swift in Sources */,
+				FD8834D90F82EDC2D03FCFD09B66479E /* ZPAdViewProtocol.swift in Sources */,
+				BD4CD97C0DFFA0F988BE5163E17CAFB0 /* ZPAppLoadingHookManager.swift in Sources */,
+				E4320151EC15F1B28A444DBE88F29A95 /* ZPAppLoadingHookProtocol.swift in Sources */,
+				591D856D0337E9ACDA968BD3C5831C3C /* ZPAtomEntryPlayableProtocol.swift in Sources */,
+				437234D22827FEAA0E7BAE459DC7DB23 /* ZPBroadcasterProtocol.swift in Sources */,
+				D3295439C9784C5BBF7054D8715F78D8 /* ZPCategoryProtocol.swift in Sources */,
+				4D010EA5BF292D9AC810C2428008A354 /* ZPCollectionProtocol.swift in Sources */,
+				29267A8F3B017408384070ACF77CCB47 /* ZPContent.swift in Sources */,
+				23AD67208F36EF8412CB7908378FE2BB /* ZPDefaultStoreFrontHandlerProtocol.swift in Sources */,
+				1AB8526A27590EE024A9A2865ACE41D1 /* ZPDefaultStoreFrontProtocol.swift in Sources */,
+				6A85B4242583E1866D2D0A37332C6C02 /* ZPFirebaseRemoteConfigurationManager.swift in Sources */,
+				6DC9D2AA8E5B0B36D799F9B0A892A21E /* ZPFirebaseRemoteConfigurationProtocol.swift in Sources */,
+				B97D85B8FE9DBD395326C04EFFC96F94 /* ZPImageView.swift in Sources */,
+				95B47EBC940996B387B80D28AA83629C /* ZPImageViewProtocol.swift in Sources */,
+				EC19672C490C7C580C46565E7F1F4B87 /* ZPModelProtocol.swift in Sources */,
+				83A8AE500CA7908EA36C0F72EE2AE0AC /* ZPPlayable.swift in Sources */,
+				1649FC873A8582D45857CF8AC03838C6 /* ZPPlayerChromecastProtocol.swift in Sources */,
+				6E92793FFCE927B2E7191D6FDBFADAFF /* ZPPlayerManager.swift in Sources */,
+				E7DF0A6964E5E83FB788B7E186B34ABA /* ZPPlayerNotificationsProtocol.swift in Sources */,
+				04B5557062E41264D12BC40799E1112C /* ZPPlayerProtocol.swift in Sources */,
+				E4933C6901264DAFE826CD9BD4F408FF /* ZPPlugableScreenProtocol.swift in Sources */,
+				FF67D132793683BE3F95281343AA06F3 /* ZPPluginManager.swift in Sources */,
+				5ABD2A3AE5B332EC8012A1DD436F7BBC /* ZPPluginModel.swift in Sources */,
+				9A8333AA4098CBD73F7D53C0DB1F2225 /* ZPPluginPresenterManager.swift in Sources */,
+				0EE33623328D8624200413725FB56156 /* ZPPluginPresenterProtocol.swift in Sources */,
+				E9D6A20E4B4A2BE5887B5C8E4309622F /* ZPPluginUrlSchemeHandler.swift in Sources */,
+				014738F8102EDC6ED5966256AF9F9216 /* ZPPurchasableItemProtocol.swift in Sources */,
+				FF6AC0134A747D5310F652F391AE624E /* ZPReactNativeBaseProvider.swift in Sources */,
+				CE7007A516995BBCBC818C43C7569CC6 /* ZPReactNativeManager.swift in Sources */,
+				C262E3F7B5E79A89A53EACACCDC72045 /* ZPReactNativeProviderProtocol.swift in Sources */,
+				E18A716F298C20731EDBC6F6F3126DD9 /* ZPRootViewContainerControllerDelegate.swift in Sources */,
+				84A856A0CF5FF421B83537421B5F453F /* ZPVideoBackgroundViewProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB1A95ED1D85E95990F86A6290D0512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC47643E59741A22CA5718F8583F8B1 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CE38018BE2B3721B80E6EE206A016A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF030FB37E807944B4259E64484C0CE /* Toast.swift in Sources */,
+				F306B494CAC893ED27ADFA0EFC4AA28A /* ToastCenter.swift in Sources */,
+				043DEA52D66EE1DDA29D5451C3CB4246 /* Toaster-dummy.m in Sources */,
+				86C133AA6234E407AB969C3FE33A4231 /* ToastView.swift in Sources */,
+				753F59E9A32680393527CBC59E67FE61 /* ToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D9007280803FAE3B3DD3D7552CABCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZappAnalyticsPluginsSDK";
+			target = 2F50315328AF6203C37CB6345FFFD08F /* Pods-ZappAnalyticsPluginsSDK */;
+			targetProxy = EA2F6030C04387B9F240EC309CEC6A23 /* PBXContainerItemProxy */;
+		};
+		823A52D0F10FB7D12104248963127B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = CBF4A08179E81DE8FF4B68E84E45FAAC /* Toaster */;
+			targetProxy = CB7905B82D404790FF9CF85FE34F8062 /* PBXContainerItemProxy */;
+		};
+		982D5192305BA40F7BAC2C75B2E7C251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZappPlugins;
+			target = 65699690D1E8F1D19AB6D09558387C44 /* ZappPlugins */;
+			targetProxy = 920C6DD4C3A7D6E3E1374BFC201B5617 /* PBXContainerItemProxy */;
+		};
+		A168E5B29BB7983F99206D54DB3F61DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZappPlugins;
+			target = 65699690D1E8F1D19AB6D09558387C44 /* ZappPlugins */;
+			targetProxy = 4EB13013D0A964BB9E2A62B21490B812 /* PBXContainerItemProxy */;
+		};
+		F4B309403C80CAE87C5E27C868F02196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = CBF4A08179E81DE8FF4B68E84E45FAAC /* Toaster */;
+			targetProxy = 09A7741533BD642F63C0CD16880477C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05D4D3E63E14E508AB707B3C30E1FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A959BB64094A5DBC323DF400EF178EF0 /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0BEDC09601515AFB39BDEE6165A3B25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A959BB64094A5DBC323DF400EF178EF0 /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F10F253E1D8AA5F6211FBE6AFBFA7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C70168CFC524D6F1E39D08B6012123 /* ZappPlugins.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZappPlugins/ZappPlugins-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZappPlugins/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZappPlugins/ZappPlugins.modulemap";
+				PRODUCT_MODULE_NAME = ZappPlugins;
+				PRODUCT_NAME = ZappPlugins;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		182CB23C2A1308FB0E2B287D50EBD235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED3535731752D951BEEEEDF26C003F1 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK/Pods-ZappAnalyticsPluginsSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		708CF9FDDF440A72E6FA49638999A011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14EA817166FC449DD9E9260F766957C /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9731D8DE638BFDBCE8A1305D0E5E76CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DB52F533C23EDE644DF2396B9342FA /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E88F9DC42F8AA0FD75957FC28B48A137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C70168CFC524D6F1E39D08B6012123 /* ZappPlugins.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZappPlugins/ZappPlugins-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZappPlugins/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZappPlugins/ZappPlugins.modulemap";
+				PRODUCT_MODULE_NAME = ZappPlugins;
+				PRODUCT_NAME = ZappPlugins;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9C7842CABFF5D4D7BA9AD4E1015DA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E01512E7B17EF8BA7B67A532E005681 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK/Pods-ZappAnalyticsPluginsSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028EC1A9678C49967A00852765CAD65B /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CB23C2A1308FB0E2B287D50EBD235 /* Debug */,
+				F9C7842CABFF5D4D7BA9AD4E1015DA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303B7C4EF9379CEC1A4050AEB15A69A6 /* Build configuration list for PBXNativeTarget "ZappPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88F9DC42F8AA0FD75957FC28B48A137 /* Debug */,
+				0F10F253E1D8AA5F6211FBE6AFBFA7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66924406C0565A5FE8E91FD2C9FD6940 /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9731D8DE638BFDBCE8A1305D0E5E76CE /* Debug */,
+				708CF9FDDF440A72E6FA49638999A011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969C93BC23521308E8794F2B5CC2BCF0 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEDC09601515AFB39BDEE6165A3B25D /* Debug */,
+				05D4D3E63E14E508AB707B3C30E1FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
