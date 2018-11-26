@@ -16,9 +16,9 @@ let kNotApplicableKey  =  "N/A"
 
 @objc open class ZPAnalyticsProvider : NSObject, ZPAnalyticsProviderProtocol {
 
-    open var defaultEventProperties: [String:NSObject]!
-    open var genericUserProfile: [String:NSObject]!
-    open var providerProperties: [String:NSObject]!
+    open var defaultEventProperties: [String:NSObject] = [:]
+    open var genericUserProfile: [String:NSObject] = [:]
+    open var providerProperties: [String:NSObject] = [:]
     open var baseProperties: [String:NSObject] = [String:NSObject]()
 
     open var configurationJSON:NSDictionary?
@@ -69,6 +69,7 @@ let kNotApplicableKey  =  "N/A"
     public required init(configurationJSON:NSDictionary?) {
         super.init()
         self.configurationJSON = configurationJSON
+        self.providerProperties = configurationJSON as? [String : NSObject] ?? [:]
     }
 
     public required override init() {

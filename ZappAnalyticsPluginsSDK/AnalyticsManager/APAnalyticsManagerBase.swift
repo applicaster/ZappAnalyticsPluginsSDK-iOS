@@ -13,22 +13,27 @@ public typealias AnalyticManagerPreparationCompletion = () -> Void
 public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProviderProtocol, _ success:Bool, _ logText:String?) -> Void
 @objc open class APAnalyticsManageBase:NSObject {
     @objc public var analyticsProviders:[ZPAnalyticsProviderProtocol] = []
-    var currentScreenViewTitle:String?
-    
-    public func prepareManager(completion:(AnalyticManagerPreparationCompletion)) {
-        clearAnalyticsProviders()
-        createAnalyticsProviders(completion: completion)
-    }
+    @objc public private(set) var currentScreenViewTitle:String?
     
     public func clearAnalyticsProviders() {
         analyticsProviders = []
     }
+ 
+    public func prepareManager(currentProvider:(_ provider:ZPAnalyticsProviderProtocol) -> ZPAnalyticsProviderProtocol?, completion:(AnalyticManagerPreparationCompletion)) {
+        clearAnalyticsProviders()
+        createAnalyticsProviders(currentProvider:currentProvider,
+                                 completion: completion)
+    }
     
-    public func createAnalyticsProviders(completion:(AnalyticManagerPreparationCompletion)) {
+    
+    public func createAnalyticsProviders(currentProvider:(_ provider:ZPAnalyticsProviderProtocol) -> ZPAnalyticsProviderProtocol?,
+                                         completion:(AnalyticManagerPreparationCompletion)) {
         let pluggableProviders = ZPAnalyticsManager.sharedInstance.getProviders()
-        
         for provider in pluggableProviders {
-            analyticsProviders.append(provider)
+            if let updatedProvider = currentProvider(provider),
+                updatedProvider.configureProvider() {
+                analyticsProviders.append(updatedProvider)
+            }
         }
         completion()
     }
@@ -43,14 +48,14 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
     public func trackEvent(name: String, parameters: [String: Any]?, model:NSObject?, logCompletion:@escaping ProviderSendAnalyticsCompletion) {
         for provider in analyticsProviders {
             if provider.shouldTrackEvent(name) {
+                let parameters = parameters as? [String:NSObject] ?? [:]
+
                 if let method = provider.trackEvent(_:parameters:model:) {
-                    let parameters = parameters as? [String:NSObject] ?? [:]
                     method(name,
                            parameters,
                            model)
                 } else {
-                    let parameters = parameters as? [String:NSObject] ?? [:]
-                    provider.trackEvent?(name, parameters: parameters) { (success:Bool, logText:String) in
+                    provider.trackEvent(name, parameters: parameters) { (success, logText) in
                         logCompletion(provider, success, logText)
                     }
                 }
