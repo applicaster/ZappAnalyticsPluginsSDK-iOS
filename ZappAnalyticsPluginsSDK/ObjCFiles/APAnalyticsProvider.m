@@ -65,9 +65,10 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
 }
 
 - (NSArray*) blacklistedEvents {
-    
+    __weak typeof(self) weakSelf = self;
+
     dispatch_once(&_onceTokenBlacklist, ^{
-        NSString *events = _configurationJSON[@"blacklisted_events"];
+        NSString *events = weakSelf.configurationJSON[@"blacklisted_events"];
         if (events) {
             //get a list of the events
             NSArray<NSString *> *strings = [events componentsSeparatedByString:@";"];
@@ -79,13 +80,13 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
                     [arrEvents addObject: [string lowercaseString]];
                 }
             }
-            _blacklistedEvents = [arrEvents copy];
+            weakSelf.blacklistedEvents = [arrEvents copy];
         }
         else {
-            _blacklistedEvents = @[];
+            weakSelf.blacklistedEvents = @[];
         }
     });
-    return _blacklistedEvents;
+    return weakSelf.blacklistedEvents;
 }
 
 - (BOOL) enableLogEventsToasts {
