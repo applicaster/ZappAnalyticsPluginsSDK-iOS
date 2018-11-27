@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FFCAE94B032CD35EA80806E /* Pods_ZappAnalyticsPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9419B52E50362A1ED79496 /* Pods_ZappAnalyticsPluginsSDKTests.framework */; };
+		40F5604C21A6BE570091838E /* APAnalyticsManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5604B21A6BE570091838E /* APAnalyticsManagerBase.swift */; };
 		D8613FDBF13594578407DE0A /* Pods_ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858EFEE01A9EBD6984BACFCB /* Pods_ZappAnalyticsPluginsSDK.framework */; };
 		FA7474C820FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7474BE20FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework */; };
 		FA7474CD20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474CC20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		08DA74C534D17F90D9D42C34 /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40F5604B21A6BE570091838E /* APAnalyticsManagerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APAnalyticsManagerBase.swift; sourceTree = "<group>"; };
 		475FE9EA532FEEDFF4AA7AC3 /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		83B4C3309B3B82FF5BB06731 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK/Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		858EFEE01A9EBD6984BACFCB /* Pods_ZappAnalyticsPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappAnalyticsPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 		FA74751E20FF8279006DF6BB /* AnalyticsManager */ = {
 			isa = PBXGroup;
 			children = (
+				40F5604B21A6BE570091838E /* APAnalyticsManagerBase.swift */,
 				FA74751F20FF8279006DF6BB /* ZPAnalyticsManager.swift */,
 				FA74752220FF8279006DF6BB /* Protocols */,
 			);
@@ -358,6 +361,7 @@
 			files = (
 				FA74752A20FF8279006DF6BB /* ZPAnalyticsScreenProtocol.swift in Sources */,
 				FA7474E420FE5E4B006DF6BB /* ZPPlayerControllsNotifications.m in Sources */,
+				40F5604C21A6BE570091838E /* APAnalyticsManagerBase.swift in Sources */,
 				FA7474E220FE5E4B006DF6BB /* ZPAnalyticsProvider+TimedEventsSupport.swift in Sources */,
 				FA7474E320FE5E4B006DF6BB /* ZPAnalyticsProviderTimedEventsSupportProtocol.swift in Sources */,
 				FA7474E120FE5E4B006DF6BB /* ZPAnalyticsProvider.swift in Sources */,

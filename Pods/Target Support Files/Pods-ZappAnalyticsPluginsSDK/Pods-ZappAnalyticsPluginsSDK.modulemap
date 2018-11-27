@@ -1,0 +1,6 @@
+framework module Pods_ZappAnalyticsPluginsSDK {
+  umbrella header "Pods-ZappAnalyticsPluginsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
