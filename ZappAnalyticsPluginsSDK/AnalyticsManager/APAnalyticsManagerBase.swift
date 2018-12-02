@@ -77,6 +77,17 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
         }
     }
     
+    @objc open func endTimedEvent(_ eventName: String,
+                                  withParameters parameters: [String : Any]?) {
+        let parameters = parameters as? [String:NSObject] ?? [:]
+        for provider in analyticsProviders {
+            if provider.shouldTrackEvent(eventName) {
+                provider.endTimedEvent?(eventName,
+                                        parameters: parameters)
+            }
+        }
+    }
+
     public func trackScreenView(screenTitle: String, parameters: [String: Any]?, logCompletion:@escaping ProviderSendAnalyticsCompletion) {
         if currentScreenViewTitle != screenTitle {
             var parameters = parameters as? [String:NSObject] ?? [:]
