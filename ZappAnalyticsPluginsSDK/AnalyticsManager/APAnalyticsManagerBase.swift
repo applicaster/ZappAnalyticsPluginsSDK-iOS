@@ -63,7 +63,6 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
         }
     }
     
-    
     public func trackEvent(name: String,
                            parameters:  Dictionary<String, Any>?,
                            timed: Bool) {
@@ -87,7 +86,6 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
                                         parameters: parameters)
             }
         }
-        
     }
 
     public func trackScreenView(screenTitle: String, parameters: [String: Any]?, logCompletion:@escaping ProviderSendAnalyticsCompletion) {
