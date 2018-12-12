@@ -121,14 +121,7 @@ let kNotApplicableKey  =  "N/A"
     }
 
     open func createAnalyticsProvider(_ allProvidersSetting: [String:NSObject]) -> Bool {
-
-        if let providerDataByKey = allProvidersSetting[self.providerKey] as? [String:NSObject] {
-            if let properties = providerDataByKey[kSettingsAnalyticsKey] as? [String:NSObject] {
-                self.providerProperties = properties
-                return self.configureProvider()
-            }
-        }
-        return false
+        return self.configureProvider()
     }
 
     open func configureProvider() -> Bool {
