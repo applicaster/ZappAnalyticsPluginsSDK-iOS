@@ -46,6 +46,7 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
     self = [self init];
     if (self) {
         _configurationJSON = configurationJSON;
+        _providerProperties = configurationJSON;
     }
     return self;
 }
@@ -130,13 +131,7 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
 }
 
 - (BOOL)createAnalyticsProvider:(NSDictionary *)analyticsParameters{
-    
-    if ([analyticsParameters[self.providerKey] isKindOfClass:[NSDictionary class]] &&
-        [analyticsParameters[self.providerKey][kSettingsAnalyticsKey] isKindOfClass:[NSDictionary class]]){
-        self.providerProperties = analyticsParameters[self.providerKey][kSettingsAnalyticsKey];
-        return [self createAnalyticsProviderSettings];
-    }
-    return NO;
+    return [self createAnalyticsProviderSettings];
 }
 
 - (NSInteger)analyticsMaxParametersAllowed{
