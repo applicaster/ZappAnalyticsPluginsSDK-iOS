@@ -31,7 +31,7 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
         let pluggableProviders = ZPAnalyticsManager.sharedInstance.getProviders()
         for provider in pluggableProviders {
             if let updatedProvider = currentProvider(provider),
-                updatedProvider.configureProvider() {
+                updatedProvider.createAnalyticsProvider([:]) {
                 analyticsProviders.append(updatedProvider)
             }
         }
