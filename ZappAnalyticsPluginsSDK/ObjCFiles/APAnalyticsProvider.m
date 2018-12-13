@@ -87,7 +87,7 @@ NSString *const kBroadcasterExtensionsInternalParam = @"broadcaster_extensions";
             weakSelf.blacklistedEvents = @[];
         }
     });
-    return weakSelf.blacklistedEvents;
+    return _blacklistedEvents;
 }
 
 - (BOOL) enableLogEventsToasts {
