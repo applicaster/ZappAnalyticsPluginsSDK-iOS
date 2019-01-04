@@ -9,7 +9,7 @@ target 'ZappAnalyticsPluginsSDK' do
   platform :ios, '9.0'
 
   # Pods for ZappAnalyticsPluginsSDK
-  pod 'ZappPlugins', :path => '../ZappPlugins-iOS/ZappPlugins-Dev.podspec'
+  pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
   pod 'Toaster'
 
   target 'ZappAnalyticsPluginsSDKTests' do
