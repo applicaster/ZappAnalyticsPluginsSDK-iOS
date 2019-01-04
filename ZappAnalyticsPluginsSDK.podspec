@@ -2,9 +2,8 @@ Pod::Spec.new do |s|
   s.name  = "ZappAnalyticsPluginsSDK"
   s.version = '6.3.0'
   s.platform = :ios, :tvos
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "__ios_platform_version__"
   s.tvos.deployment_target = "10.0"
-
   s.summary = "ZappAnalyticsPluginsSDK"
   s.description = "ZappAnalyticsPluginsSDK container."
   s.homepage  = "https://github.com/applicaster/ZappAnalyticsPluginsSDK-iOS"
