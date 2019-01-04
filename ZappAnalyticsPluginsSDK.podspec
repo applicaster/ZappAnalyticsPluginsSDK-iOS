@@ -1,7 +1,10 @@
 Pod::Spec.new do |s|
   s.name  = "ZappAnalyticsPluginsSDK"
-  s.version = '6.2.5'
-  s.platform  = :ios, '9.0'
+  s.version = '6.3.0'
+  s.platform = :ios, :tvos
+  s.ios.deployment_target = "9.0"
+  s.tvos.deployment_target = "10.0"
+
   s.summary = "ZappAnalyticsPluginsSDK"
   s.description = "ZappAnalyticsPluginsSDK container."
   s.homepage  = "https://github.com/applicaster/ZappAnalyticsPluginsSDK-iOS"
@@ -13,6 +16,8 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'ZappAnalyticsPluginsSDK/**/*.h'
   s.source_files  = 'ZappAnalyticsPluginsSDK/**/*.{h,m,swift}'
+
+
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                 'ENABLE_BITCODE' => 'YES',
                 'SWIFT_VERSION' => '4.2',
@@ -20,5 +25,5 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
-  s.dependency 'Toaster'
+  s.ios.dependency 'Toaster'
 end

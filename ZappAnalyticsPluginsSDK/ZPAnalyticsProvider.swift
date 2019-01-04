@@ -7,7 +7,9 @@
 //
 
 import UIKit
+#if os(iOS)
 import Toaster
+#endif
 import ZappPlugins
 
 //Providers Json Parameters
@@ -151,11 +153,13 @@ let kNotApplicableKey  =  "N/A"
 
     static func extraDefaultProperties() -> [String:NSObject] {
         var properties:[String:NSObject] = [:]
+        #if os(iOS)
 
         //attach current screen name if exists
         if let topViewController = ZAAppConnector.sharedInstance().navigationDelegate.currentViewController() as? ZPAnalyticsScreenProtocol {
             properties["Triggered From"] = topViewController.analyticsScreenName() as NSObject
         }
+        #endif
         return properties
     }
 
@@ -168,6 +172,8 @@ let kNotApplicableKey  =  "N/A"
     }
 
     open func presentToastForLoggedEvent(_ eventDescription: String?) {
+        #if os(iOS)
+
         guard let desc = eventDescription, !desc.isEmpty else {
             return
         }
@@ -183,12 +189,14 @@ let kNotApplicableKey  =  "N/A"
                                                        eventsToastsDuration: self.eventsToastsDuration,
                                                        eventsToastsBackgroundColor: self.eventsToastsBackgroundColor,
                                                        eventsToastsTextColor: self.eventsToastsTextColor)
+        #endif
     }
 
     @objc static public func presentToastForLoggedEvent(_ eventDescription: String?,
                                                       eventsToastsDuration:TimeInterval,
                                                       eventsToastsBackgroundColor:UIColor,
                                                       eventsToastsTextColor:UIColor) {
+        #if os(iOS)
         guard let desc = eventDescription, !desc.isEmpty else {
             return
         }
@@ -199,6 +207,7 @@ let kNotApplicableKey  =  "N/A"
         toast.view.backgroundColor = eventsToastsBackgroundColor
         toast.view.textColor = eventsToastsTextColor
         toast.show()
+        #endif
     }
 
     @objc static public func parseParameters(fromEventName evenName:String?) -> [String:String] {
@@ -323,6 +332,8 @@ let kNotApplicableKey  =  "N/A"
                                                                       eventProperties: [String:NSObject]) -> [String:NSObject] {
 
         var dictRetValue:[String:NSObject] = [String:NSObject]()
+        #if os(iOS)
+
         let dictParametersSources = self.getParametersForMatchingWithFirebaseRemoteConfigurationKeys(baseProperties, eventProperties: eventProperties)
 
         if let firebaseDelegate = ZAAppConnector.sharedInstance().firebaseRemoteConfigurationDelegate,
@@ -339,11 +350,14 @@ let kNotApplicableKey  =  "N/A"
                 }
             }
         }
+        #endif
         return dictRetValue
     }
 
     @objc static public func getParametersForMatchingWithFirebaseRemoteConfigurationKeys(_ baseProperties: [String:NSObject], eventProperties: [String:NSObject]) -> [String:NSObject] {
         var dictRetValue:[String:NSObject] = eventProperties
+
+        #if os(iOS)
 
         if let dictBroadcasterExtensions = baseProperties[kBroadcasterExtensionsInternalParam] as? [String:NSObject] {
             for (key, value) in dictBroadcasterExtensions {
@@ -355,7 +369,7 @@ let kNotApplicableKey  =  "N/A"
         for (key, value) in params {
             dictRetValue[key] = value as? NSObject
         }
-
+        #endif
         return dictRetValue
     }
 }
