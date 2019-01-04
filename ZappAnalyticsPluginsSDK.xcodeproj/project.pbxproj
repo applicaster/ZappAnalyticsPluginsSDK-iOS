@@ -340,7 +340,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
-				"${BUILT_PRODUCTS_DIR}/ZappPlugins/ZappPlugins.framework",
+				"${PODS_ROOT}/ZappPlugins/Frameworks/ZappPlugins.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
