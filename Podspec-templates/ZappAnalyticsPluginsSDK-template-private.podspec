@@ -1,7 +1,10 @@
 Pod::Spec.new do |s|
   s.name  = "__framework_name__"
   s.version = '__version__'
-  s.platform  = :ios, '__ios_platform_version__'
+  s.platform = :ios, :tvos
+  s.ios.deployment_target = "__ios_platform_version__"
+  s.tvos.deployment_target = "10.0"
+
   s.summary = "__framework_name__"
   s.description = "__framework_name__ container."
   s.homepage  = "https://github.com/applicaster/__framework_name__-iOS"
@@ -19,5 +22,5 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
-  s.dependency 'Toaster'
+  s.ios.dependency 'Toaster'
 end
