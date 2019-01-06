@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
-  s.dependency 'ZappPlugins', '~> 7.2.0'
+  s.dependency 'ZappPlugins', '~> 7.3.0'
   s.dependency 'Toaster'
 
 end
