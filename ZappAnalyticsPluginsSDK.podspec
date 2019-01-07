@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name  = "ZappAnalyticsPluginsSDK"
-  s.version = '6.3.1'
+  s.version = '6.4.0'
   s.platform = :ios, :tvos
   s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "10.0"
