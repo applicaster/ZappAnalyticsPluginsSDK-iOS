@@ -6,7 +6,7 @@ use_frameworks!
 
 target 'ZappAnalyticsPluginsSDK' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  platform :ios, '9.0'
+  platform :ios, '10.0'
 
   # Pods for ZappAnalyticsPluginsSDK
   pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
