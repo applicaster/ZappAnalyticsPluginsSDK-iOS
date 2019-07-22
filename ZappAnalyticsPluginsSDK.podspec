@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name  = "ZappAnalyticsPluginsSDK"
-  s.version = '7.0.0'
+  s.version = '8.0.0'
   s.platform = :ios, :tvos
   s.ios.deployment_target = "10.0"
   s.tvos.deployment_target = "10.0"
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                 'ENABLE_BITCODE' => 'YES',
-                'SWIFT_VERSION' => '4.2',
+                'SWIFT_VERSION' => '5.0',
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 

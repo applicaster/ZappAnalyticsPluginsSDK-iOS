@@ -23,8 +23,6 @@ NSString *const APPlayerControllerCancelCurrentItemFromDownloadNotification = @"
 NSString *const APPlayerControllerAddToFavorites = @"APPlayerControllerAddToFavorites";
 NSString *const APPlayerControllerRemoveFromFavorites = @"APPlayerControllerRemoveFromFavorites";
 
-NSString *const APPlayerControllerToggleFacebookCommentsNotification = @"APPlayerControllerToggleFacebookCommentsNotification";
-
 NSString *const APPlayerControllerItemDidPlayToEndTimeNotification = @"APPlayerControllerItemDidPlayToEndTimeNotification";
 NSString *const APPlayerControllerDidPlayNotification = @"APPlayerControllerDidPlayNotification";
 NSString *const APPlayerControllerDidPauseNotification = @"APPlayerControllerDidPauseNotification";

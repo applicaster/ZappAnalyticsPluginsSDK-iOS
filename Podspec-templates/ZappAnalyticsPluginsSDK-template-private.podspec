@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
               }
 
   s.dependency 'ZappPlugins'
-  s.ios.dependency 'Toaster'
+  s.ios.dependency 'Toaster', '= 2.2.1'
 end
