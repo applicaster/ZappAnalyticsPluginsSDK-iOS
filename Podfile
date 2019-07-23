@@ -13,7 +13,6 @@ target 'ZappAnalyticsPluginsSDK' do
   pod 'Toaster', :git => 'https://github.com/devxoul/Toaster.git', :tag => '2.2.0'
 
   target 'ZappAnalyticsPluginsSDKTests' do
-    inherit! :search_paths
     # Pods for testing
   end
 

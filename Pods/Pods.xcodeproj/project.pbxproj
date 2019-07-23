@@ -38,6 +38,7 @@
 		1BFAD1D80303081E50165F95A33A407B /* ZAAppDelegateConnectorStoreFrontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAA98915AD1EC3A4798B3DBF8E68174 /* ZAAppDelegateConnectorStoreFrontProtocol.swift */; };
 		1D89BF180442823E6AA3D8E6783BBD66 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C651E3008E2C2BE2CA263DEE0B0B85 /* Dictionary+Extension.swift */; };
 		1D95AC398DC989C90B60B3E4D5EBD41B /* AVUrlAsset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9946A451A1BF496B7A5A00F0CBFA /* AVUrlAsset+Extensions.swift */; };
+		1DF4F43CD4A95DE11DB480B6CD3B29F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92787AE4F73F541289E9F3992F35522E /* Foundation.framework */; };
 		1E824E9224AED89677D57139EEDBBCC0 /* ZPPlayableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C85AC31FC4FEFF44EF749270D02EF04 /* ZPPlayableModel.swift */; };
 		1EEA5B7974907023EAB0DDE35193FB01 /* APLoadingTimeMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8259C8AB4EA4E1461FB7BBF416572B6 /* APLoadingTimeMeasure.swift */; };
 		1FC6A99C684B52A27F4B03AB9111F53E /* NSFileManager+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 951E9E9C314C45D31EBC47EF1EF664C6 /* NSFileManager+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +54,7 @@
 		2707C88BF9498C6410A94450AE540E4B /* ZPPlayerDependantPluginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9499A464F0258232DAFEEB73ABA9D28 /* ZPPlayerDependantPluginProtocol.swift */; };
 		28502F5DCDCFDC03734FD0C6C7CD29CD /* ZPAdViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C13D455B5BF3C8A5A26AD55F6EE57 /* ZPAdViewProtocol.swift */; };
 		28B42E8A0E96E278A3DEB8A1FEF64454 /* NSDictionary+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F594742E0169D4F2E2791882086740 /* NSDictionary+APAdditions.m */; };
-		28C008BDEBF3AF4A0B9B8096255807C0 /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F18D5F706FF7DBFA0AA9F24F98DA53 /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */; };
+		28C008BDEBF3AF4A0B9B8096255807C0 /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678506F7C644A5B36AE8142DC887BAAE /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */; };
 		29684B7E7C45F645BBAB03994B9BE24F /* ZPScreenHookManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5168F247252F42E83CBA4A0BD8FF2 /* ZPScreenHookManagerProtocol.swift */; };
 		29BDE6659C63409DB9C207E029F88318 /* APLoadingTimeMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8259C8AB4EA4E1461FB7BBF416572B6 /* APLoadingTimeMeasure.swift */; };
 		29F2D58F50718CC501DC0921EDDA4336 /* UIImage+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F39C52D7678559A195B2C6C39A7665AB /* UIImage+APAdditions.m */; };
@@ -119,7 +120,6 @@
 		5C10E012DD915C2AF73BB6DA07B06A04 /* ZAAppDelegateConnectorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F6698697C0E1CAC7693552275A923D /* ZAAppDelegateConnectorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D72A3BC91B98C0FD4A87493F50375E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DADFC5163E61EE275C6B2F78CDDD8C2 /* AVFoundation.framework */; };
 		5DD1BC5616A9FF1F9D0EA1A569A36F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFA10E95289744E8BE079CDE3AFACF5 /* Foundation.framework */; };
-		5E0964879D7F7F3057A59CAF2D7F22BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92787AE4F73F541289E9F3992F35522E /* Foundation.framework */; };
 		5E9E5CDAD6EC9BBB3C3A4DC42C207545 /* APContainerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C6D8C45B25A9407EDDEFD44CE83B87 /* APContainerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F15EDCC5907E1D8494493C93AA7EA4F /* ZPReactNativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C44A6F45533791B64D780D84A701D38 /* ZPReactNativeManager.swift */; };
 		5F277BBCE34D461F879B5C6E18B9E33D /* UIView+APAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE38A9A187D20092836A2EBB69FD10DA /* UIView+APAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -162,9 +162,8 @@
 		7A253D4E0A44BB9F3D0BB717ADE20E2D /* UIScrollView+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A23B89482AF8F120D089B48BD192EB /* UIScrollView+APAdditions.m */; };
 		7BBBD24E7CB50016750BE5A8919DDB94 /* UINavigationController+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DA381CAEBEC502D93CEB268579F4D6 /* UINavigationController+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CE1B0AE3EF1453AA81E01E69E203066 /* ZAAppDelegateConnectorGenericProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A74398EF93469B8C6CCB730EA839EB /* ZAAppDelegateConnectorGenericProtocol.swift */; };
-		7F64AF5CE1E3B5DB965F9C4D0C910D27 /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9271A3139A29E4D5FA3E4CA1DC285B34 /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F64AF5CE1E3B5DB965F9C4D0C910D27 /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46DCC039ACE6368CC2D5BC05444E6C9A /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F8E2E2CDBAA57434E9526B29A229196 /* NSDictionary+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E60E76A024E32A64FF5EFA30D0AFDA34 /* NSDictionary+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8100FE76130CC80FE2E30C9A56CCC5CE /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC8501CFB3376C5CDCE823F232C67B6 /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8142B21890CD8CFC91240F695261B51A /* ZPRootViewContainerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E611F0370147404DC21E8113ADDCEAB2 /* ZPRootViewContainerControllerDelegate.swift */; };
 		81D414AA6E628010E529519A18C5C132 /* APCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594BE2E28CF872943B57B92EE7FDAB9A /* APCacheManager.swift */; };
 		83243614DF0562BAB038F223F369FA77 /* ZAAppDelegateConnectorChromecastProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC407704AEE9689ADA3A73A68EFC213 /* ZAAppDelegateConnectorChromecastProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -204,7 +203,6 @@
 		A0C924DABB1442377BD77B38FEA115D5 /* NSData+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BF77249F1874E9EBF13087E1D37595 /* NSData+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A10E03C5F969CAD94A1B5E28EF5CCBE9 /* UIImage+APAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 415DA3C5F8F60D7CBC1EC66D7F369B04 /* UIImage+APAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A10F7EE225A8EA373614212AB13E6E33 /* UIDevice+IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381B0AC24D70393E71F42E93A66E254 /* UIDevice+IpAddress.swift */; };
-		A24483C7759ADEB476A727412897765E /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D6FEBBF5EFEE9BEB3903D0FB4B5029 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */; };
 		A391A81C07CD3ECB27A5641D33BE359C /* ZPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFE34D8BB32F31801CDF90B53DED6D /* ZPImageView.swift */; };
 		A39ED8D3C0CF950B56B8B245E2C2CF54 /* AVPlayerItem+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7050471B1F574C943D6EE9418DC7191B /* AVPlayerItem+APAdditions.m */; };
 		A48C8001FAC6B1B1EB239450A9B27970 /* NSURLComponents+APAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0E004110EEAF78B21AB255313DCF7 /* NSURLComponents+APAddition.m */; };
@@ -214,7 +212,7 @@
 		A63ED60E5072E22E883505CE1780DA6F /* SKProduct+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2DB21E63F67A91D566436CDF0D3E0 /* SKProduct+APAdditions.m */; };
 		A7E314C36F0E35489D28D778A6BE5E23 /* APCachedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5CF033B97D3C6DA4DCEBA1C64D6C7E /* APCachedModel.swift */; };
 		A8F6B6AF3AE72FA6F002657B3A0103F3 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B36EEF814E8042DDE8DC3D18AEEE0 /* UIAlertController+Extension.swift */; };
-		A98F699D590A3929327926966FE37DC8 /* Pods-ZappAnalyticsPluginsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC60279A3837089FDA9187B5A321882C /* Pods-ZappAnalyticsPluginsSDK-dummy.m */; };
+		A98F699D590A3929327926966FE37DC8 /* Pods-ZappAnalyticsPluginsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CCEA134D3CF79B188AD5FE4149431E /* Pods-ZappAnalyticsPluginsSDK-dummy.m */; };
 		A9A467C7DFA7FE3E585ED3371B1272C0 /* CAComponentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F46919C2AB1B08B0BA80631403C38D /* CAComponentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F88054861D31EBD30B992C9FA54617 /* NSObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE00C5EF8BE3564E615DB21A7042262 /* NSObject+Additions.swift */; };
 		AA1E95FA84F82F95A5334FA8143BA8F3 /* ZPHTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9003E0F77707D930022CF01412B83A5 /* ZPHTTPStatusCode.swift */; };
@@ -223,10 +221,11 @@
 		AC39A769438648CF3D06CF35A685F19B /* UILabel+GAAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7C9DDDF7D594B7B7B95CF519C0A6A4 /* UILabel+GAAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC86124154A835B7DE1EE586AF03059B /* NSData+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 12083E9C5FC8BDC8F71DB274DE68EDE6 /* NSData+APAdditions.m */; };
 		AF2567D23B76FB3A05FAB8DDC1089865 /* ZLComponentStyleSupplementaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB26AB95414FBAFE3DFD7FB8F44B3E3 /* ZLComponentStyleSupplementaryModel.swift */; };
-		B08E4FA1CC56E5F13F883DFDC4C9F210 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43484D00DC646F6BCA209ADDFA66EB1C /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08E4FA1CC56E5F13F883DFDC4C9F210 /* Pods-ZappAnalyticsPluginsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B08750644294D6577E7A273C60F6AA /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1B003FBFAE9A14CD5B65CB027E84FDF /* ZPDownloadableItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36165DBF0DDF31473C35EAE65BF380B /* ZPDownloadableItemProtocol.swift */; };
 		B1C76DFC408AD60FAFCAF160CF1D979A /* ZAAppDelegateConnectorStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26466D5625E483B04531F6B7F9622551 /* ZAAppDelegateConnectorStorageProtocol.swift */; };
 		B3156856C8B113C5890AF33469CA22EB /* ZPScreenPluginRNProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26A522F91AD350742D383FC91557A03 /* ZPScreenPluginRNProtocol.swift */; };
+		B36B5A33BF516CC9E392C21AF43BA871 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E48BE40DE78C432F279FC4B83CDFF485 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m */; };
 		B38C18DB3A4A1299CC1F905F158A5D0A /* CACellViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF725DC845E1178D0EA34244400130 /* CACellViewControllerBase.m */; };
 		B532DBBC22FB289DFD6886825AF534D4 /* NSArray+APAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DA88902AAE2BCEA60DF09557931F8 /* NSArray+APAdditions.m */; };
 		B71C7492F473C24802C347C1CFE455A0 /* Color+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD981AA1BE50624BF9D59EC8C409F6 /* Color+Additions.swift */; };
@@ -294,6 +293,7 @@
 		DA2296E356B25CDA90437D234DFA31BE /* ZPContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79646809A2A5D89432DE9EF544581207 /* ZPContent.swift */; };
 		DA64C0C5E1D4AC260E3B7FEB7089BD21 /* ZPUIBuilderPluginsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066DEF130C325D90216C460D51A1495C /* ZPUIBuilderPluginsProtocol.swift */; };
 		DC2A7BB4641AE97CC9202ABA715AB74C /* UIView+APAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DC3E34D873BDD0138B1037DFFD9C0 /* UIView+APAdditions.swift */; };
+		DCB585978C95A7A664F118E2A9AFAA86 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623674D70A3724166EA057101FDD1B9B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCDEC42B7DF3C0EB7A357993DB34182D /* ZPScreenAutomationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B564BE4BDC9A2D9E82FEC0A38F3243 /* ZPScreenAutomationProtocol.swift */; };
 		DEB64C6CB27DB7CF0D695D102AF43D85 /* ZappPlugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDF7C9C598A83DC0F66C0744CCFE179 /* ZappPlugins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0F8A77B8187BC0FAC0B58EB0400751D /* UIButton+APAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ABCDAF160C605429A51C7032C9C89F /* UIButton+APAdditions.swift */; };
@@ -339,12 +339,19 @@
 			remoteGlobalIDString = 4AB79DA270A117A1422C62733164F001;
 			remoteInfo = "ZappPlugins-iOS";
 		};
-		768731644259A28F906BA202FF3288C6 /* PBXContainerItemProxy */ = {
+		5A6E5EFC5CF9CAED2ACAE1A172CD5122 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FD1DDA5926CD3BD80568CADA6B6522F;
-			remoteInfo = "Pods-ZappAnalyticsPluginsSDK";
+			remoteGlobalIDString = B90AB98A7BC6A346D671B36DB990DAC2;
+			remoteInfo = Toaster;
+		};
+		7B73C173870877D85BFAF52764B7FC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB79DA270A117A1422C62733164F001;
+			remoteInfo = "ZappPlugins-iOS";
 		};
 		B7B3EE7819015C1A86DD9E0433D53D7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -373,7 +380,6 @@
 		0A3084E0289574C895994594756422E1 /* ZPAdPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdPresenterProtocol.swift; sourceTree = "<group>"; };
 		0B116F074882DC80F4A95632D25ACBF7 /* ZappPlugins-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZappPlugins-tvOS-dummy.m"; path = "../ZappPlugins-tvOS/ZappPlugins-tvOS-dummy.m"; sourceTree = "<group>"; };
 		0B22CB40B97698520CFF7D6A80DAE31F /* UILabel+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+APAdditions.swift"; sourceTree = "<group>"; };
-		0B36981A30511BB92B045B2523383991 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig"; sourceTree = "<group>"; };
 		0C44A6F45533791B64D780D84A701D38 /* ZPReactNativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPReactNativeManager.swift; sourceTree = "<group>"; };
 		0F9EF4A62F216360F5E5B1629CD198CB /* ZPPluginPresenterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPluginPresenterManager.swift; sourceTree = "<group>"; };
 		104E408E59A0B40A1E475C900624DE83 /* UIScrollView+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APAdditions.h"; sourceTree = "<group>"; };
@@ -381,7 +387,7 @@
 		12083E9C5FC8BDC8F71DB274DE68EDE6 /* NSData+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+APAdditions.m"; sourceTree = "<group>"; };
 		123DD3E2E41DE81D1A610CC1EC3BED4C /* ZPPlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerManager.swift; sourceTree = "<group>"; };
 		1241D59622BEDD55545F6BF5A62DCBDC /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
-		137F239887A7A5997BCDF986DCBE6EDE /* Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist"; sourceTree = "<group>"; };
+		132110F52A911B0516F0EA5C0BC9E3B8 /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		1574C8C5E8C7019F85CEE4A17F14B74A /* CAGenericViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAGenericViewControllerProtocol.h; sourceTree = "<group>"; };
 		1A7EEEBF94F008466FCA9A0D1567DFD1 /* APAtomEntryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAtomEntryProtocol.h; sourceTree = "<group>"; };
 		1ABE4E7790FA2A6BEF3E65DD20F492B5 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
@@ -391,6 +397,7 @@
 		1EB26AB95414FBAFE3DFD7FB8F44B3E3 /* ZLComponentStyleSupplementaryModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentStyleSupplementaryModel.swift; sourceTree = "<group>"; };
 		1F0B620BD4A5979694D623E0E74A2DC8 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
 		1FAA785BA2891ADB8E9240B8697BF523 /* ZLComponentModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentModel.swift; sourceTree = "<group>"; };
+		1FE38BA39255712A050641AD088F5A1B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		218524BE28F25313DA0E9C48404B20E9 /* ZPPlayerChromecastProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerChromecastProtocol.swift; sourceTree = "<group>"; };
 		21A23B89482AF8F120D089B48BD192EB /* UIScrollView+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APAdditions.m"; sourceTree = "<group>"; };
 		21E7E0B8D97F54849C5673879C2497AA /* NSString+InflectionSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectionSupport.m"; sourceTree = "<group>"; };
@@ -401,17 +408,17 @@
 		265235717785A7D2201B523CB7A73569 /* ZLScreenTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenTypes.swift; sourceTree = "<group>"; };
 		28430ABFAE25F2B3F1670C712F2EE4D9 /* NSObject+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+APAdditions.h"; sourceTree = "<group>"; };
 		2CD2DB21E63F67A91D566436CDF0D3E0 /* SKProduct+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+APAdditions.m"; sourceTree = "<group>"; };
+		2E77FF2C97556A7E84E7673B5F295C63 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-Info.plist"; sourceTree = "<group>"; };
 		2F9B9B4BE01BFD601D9688D0262346E1 /* ZPPlugableScreenDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlugableScreenDelegate.swift; sourceTree = "<group>"; };
 		30724AE1DDA458D5E05010B1C6B19D88 /* ZPFirebaseRemoteConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPFirebaseRemoteConfigurationProtocol.swift; sourceTree = "<group>"; };
 		30C428F025A53314A74C2AC1EA4C686A /* ZLComponentTypeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentTypeProtocol.swift; sourceTree = "<group>"; };
 		328189CEDAC84825F78E60EABEF4E423 /* NSObject+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+APAdditions.m"; sourceTree = "<group>"; };
 		331BE8D8A4C17F090A76F11F3A9A6449 /* ZappPlugins-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZappPlugins-tvOS-prefix.pch"; path = "../ZappPlugins-tvOS/ZappPlugins-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		3327D42FB09E7F5923CE90C1AABF9F35 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3546B9981ED1F884692E5ADD486FD351 /* UILabel+GAAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GAAdditions.m"; sourceTree = "<group>"; };
+		35AB91554BCFA0956A97705258054085 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		37387C4B81CDCA2D4420A36FEFC528B7 /* ZAAppDelegateConnectorRootProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorRootProtocol.swift; sourceTree = "<group>"; };
 		38D9122C4C43A96BB27A90BED9CF685F /* ZLScreenModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenModel.swift; sourceTree = "<group>"; };
 		39DB16B7B79024330C79B3AB36E2CA13 /* NSArray+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+APAdditions.h"; sourceTree = "<group>"; };
-		3A3796B5BC7CE570017CDE11BB84DA13 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B2991C29C47BBC60A2A472A1F08AA46 /* UIView+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+APAdditions.m"; sourceTree = "<group>"; };
 		3D1B20BC8B9492AC788C67232FFF1A32 /* CAComponentModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CAComponentModelProtocol.swift; sourceTree = "<group>"; };
 		3D25FF46BB3C59526CF8417973D66E59 /* ZappPlugins-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZappPlugins-iOS-dummy.m"; sourceTree = "<group>"; };
@@ -420,13 +427,13 @@
 		40DB49C9F0AD718191DA63728F4CF73D /* ZPDefaultStoreFrontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDefaultStoreFrontProtocol.swift; sourceTree = "<group>"; };
 		415DA3C5F8F60D7CBC1EC66D7F369B04 /* UIImage+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+APAdditions.h"; sourceTree = "<group>"; };
 		41AD28F910507D69332864C65EE01997 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		42B08750644294D6577E7A273C60F6AA /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDK-umbrella.h"; sourceTree = "<group>"; };
 		430C13D455B5BF3C8A5A26AD55F6EE57 /* ZPAdViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdViewProtocol.swift; sourceTree = "<group>"; };
-		43484D00DC646F6BCA209ADDFA66EB1C /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDK-umbrella.h"; sourceTree = "<group>"; };
 		43CF725DC845E1178D0EA34244400130 /* CACellViewControllerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CACellViewControllerBase.m; sourceTree = "<group>"; };
 		457FD37FB4CC1CDFA9F158E9404C2526 /* ZLBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLBaseModel.swift; sourceTree = "<group>"; };
 		463272CE44FA49C417FE1938939E62E6 /* APKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APKeychain.h; sourceTree = "<group>"; };
+		46DCC039ACE6368CC2D5BC05444E6C9A /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h"; sourceTree = "<group>"; };
 		48620602AE8892BADA186EA1FF0216C6 /* SwiftSwizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftSwizzler.swift; sourceTree = "<group>"; };
-		4B2372515E7BBA759F9F04402DFC134F /* Pods_ZappAnalyticsPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDKTests.framework; path = "Pods-ZappAnalyticsPluginsSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3D9946A451A1BF496B7A5A00F0CBFA /* AVUrlAsset+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVUrlAsset+Extensions.swift"; sourceTree = "<group>"; };
 		5084691CB65D464E5B5F27D9CF473204 /* ZappPlugins-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZappPlugins-iOS-prefix.pch"; sourceTree = "<group>"; };
 		50EBD431A717CEFD5EF4C4ACA9546CE9 /* CABasicGenericViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CABasicGenericViewControllerProtocol.swift; sourceTree = "<group>"; };
@@ -435,14 +442,15 @@
 		5320407A0063745AF7700C80BB2F5647 /* NSFileManager+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+APAdditions.m"; sourceTree = "<group>"; };
 		535024D7B042104F00FA41A7ABB57617 /* APAtomContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APAtomContainerProtocol.h; sourceTree = "<group>"; };
 		53844E82AD8CE56756EE606B869F7262 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
-		53E41E7AFC2B3031B83EA8A20CF4588E /* Pods-ZappAnalyticsPluginsSDKTvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDKTvOS.modulemap"; sourceTree = "<group>"; };
 		53F50014BEB04E708357424BFD41AA47 /* UIColor+ZPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZPAdditions.m"; sourceTree = "<group>"; };
 		549B72060E8A8E6B04EC887B12CF022D /* ZappPlugins.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZappPlugins.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54AD83D60BAFF65E0E5DD85A0D9B4F2C /* Pods-ZappAnalyticsPluginsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDK.modulemap"; sourceTree = "<group>"; };
 		54C73044EB2F87D6A9E430C7EBEF4E81 /* ZAAppDelegateConnectorLayoutsStylesProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorLayoutsStylesProtocol.h; sourceTree = "<group>"; };
 		54ED4AC447AA6302BF5956A46BB6442C /* UIDevice+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+APAdditions.m"; sourceTree = "<group>"; };
 		55229ABC9055BBA7078A021A1C351489 /* ZLDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLDataSource.swift; sourceTree = "<group>"; };
 		555875F028E732A95C94E64325DE084F /* APAtomMediaGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APAtomMediaGroup.m; sourceTree = "<group>"; };
 		576CC1C8731F031D31824C9F61893392 /* ZPImageViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPImageViewProtocol.swift; sourceTree = "<group>"; };
+		5804F482678A35804A2B5D138A87A34A /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		588D5D2B1EBE4C25FE6A42F476DBF700 /* ZAAppDelegateConnectorLayoutComponentsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorLayoutComponentsProtocol.swift; sourceTree = "<group>"; };
 		5896A413C52A14B30E8E883F65C05D80 /* ZPUIBuilderScreenProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPUIBuilderScreenProtocol.swift; sourceTree = "<group>"; };
 		58E5812D79EFA1ADA7A37ED6057A00AA /* ZPPreloadURLType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPreloadURLType.swift; sourceTree = "<group>"; };
@@ -451,41 +459,46 @@
 		5C556E80F7EC0EE1E9BEB0D526A2FFA1 /* ZPPluginModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPluginModel.swift; sourceTree = "<group>"; };
 		5C5613F64E4AECEA5F9C39253817E5ED /* ZPFirebaseRemoteConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPFirebaseRemoteConfigurationManager.swift; sourceTree = "<group>"; };
 		5CF44D743B9B7F525688AF9E2EB2F7DC /* NSString+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+APAdditions.m"; sourceTree = "<group>"; };
-		5D0F5DF402B10E8F62991ADAA2D276ED /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
 		5E6FC656090D7282E94D94B0F817EF62 /* SKProduct+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKProduct+APAdditions.h"; sourceTree = "<group>"; };
 		5E9C5614B83E278715714E4B4467DA43 /* ZPAdPluginProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdPluginProtocol.swift; sourceTree = "<group>"; };
+		5EFC248056B5CDF064DE471E309585C6 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4B0D110DD2DDCDA1A0C627799114A8 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		5F5CF033B97D3C6DA4DCEBA1C64D6C7E /* APCachedModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APCachedModel.swift; sourceTree = "<group>"; };
 		6058518F81FEED8CBEAF49D156F37596 /* CAComponentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAComponentDelegate.h; sourceTree = "<group>"; };
+		623674D70A3724166EA057101FDD1B9B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		628CF073BF91DFD338AF47150C83535B /* ZLComponentBuilderStructureProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentBuilderStructureProtocol.swift; sourceTree = "<group>"; };
-		62A7EB5A4F24B3CC8ABDD78E296C88A9 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		640AC66994CC5AD9B32CE6AD3F2DEDC3 /* UIFont+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+APAdditions.m"; sourceTree = "<group>"; };
+		64BA37671BF608B4111C860F445F04CB /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.modulemap"; sourceTree = "<group>"; };
 		64F996FFB1EA277691AEEFC8F802BB6A /* DateFormatterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
-		68DBF4972DD46B68DF0FEA3A656B8A40 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		66FEE118E604E80720F6B5D24F3F164F /* Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist"; sourceTree = "<group>"; };
+		678506F7C644A5B36AE8142DC887BAAE /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m"; sourceTree = "<group>"; };
 		690D9E05ADB513FA641031A7271095FF /* ZLNavigationItemKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItemKeys.swift; sourceTree = "<group>"; };
 		6A0693C926CB17D85267A9B030FCFBD2 /* ZPPlayerManagerBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerManagerBase.swift; sourceTree = "<group>"; };
-		6AD03FDDB8AAF6792EABF5159E3DC0CF /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6BDF7C9C598A83DC0F66C0744CCFE179 /* ZappPlugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZappPlugins.h; path = ZappPlugins/ZappPlugins.h; sourceTree = "<group>"; };
 		6C85AC31FC4FEFF44EF749270D02EF04 /* ZPPlayableModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayableModel.swift; sourceTree = "<group>"; };
 		6E4D54794056C1C6D8E6A7B6E7F396E5 /* UIDevice+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+APAdditions.h"; sourceTree = "<group>"; };
 		6E6A0CD5AC6E29159BF9C728962327D0 /* ZLNavigationsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationsKeys.swift; sourceTree = "<group>"; };
 		6E72C69FCD03E7D4DADC284BB7929168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6EF8D9BEFDFB85B9110DB2D59853C39D /* ZPVideoBackgroundViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPVideoBackgroundViewProtocol.swift; sourceTree = "<group>"; };
+		6F236E7F74D80CB2CDB158B5E7ACB1B8 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F293C674B7827AD87C3060DC27F712E /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		70079E4142C9BF37A930C80A480E93BB /* ZLScreenModel+Refresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ZLScreenModel+Refresh.swift"; sourceTree = "<group>"; };
 		7050471B1F574C943D6EE9418DC7191B /* AVPlayerItem+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+APAdditions.m"; sourceTree = "<group>"; };
 		712C67C60AF73746F3D5F0DF83102E06 /* ZPDownloadButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDownloadButtonDelegate.swift; sourceTree = "<group>"; };
 		71857616AB583DF838258D5C7EFA9A2F /* ZLComponentBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLComponentBuilderProtocol.swift; sourceTree = "<group>"; };
 		71F6698697C0E1CAC7693552275A923D /* ZAAppDelegateConnectorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorAnimationProtocol.h; sourceTree = "<group>"; };
 		7223CDCC1FA84C12BB034B1B12B84B55 /* ZAAppDelegateConnectorNetworkProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorNetworkProtocol.swift; sourceTree = "<group>"; };
+		73191120975A62AB0754E569ABCCC8A7 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh"; sourceTree = "<group>"; };
 		767E59785E3278180627081E890590F2 /* String+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+APAdditions.swift"; sourceTree = "<group>"; };
 		76B125C368F0929E67D1191B953DD93A /* UIViewController+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APAdditions.h"; sourceTree = "<group>"; };
 		7710E465EBDE4E1017B4C37CF47446CC /* UIView+APAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+APAnimation.m"; sourceTree = "<group>"; };
 		77740883DC289EE7363A7731BCA636B5 /* UIView+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+APAdditions.h"; sourceTree = "<group>"; };
+		7783622EDBE516590E2C9931C1146DBA /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		79646809A2A5D89432DE9EF544581207 /* ZPContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPContent.swift; sourceTree = "<group>"; };
 		79D4AFD1D6AB6D845768F73D8411F1EF /* ZPCollectionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPCollectionProtocol.swift; sourceTree = "<group>"; };
 		7A05BC97D2FB9088D2F3C17372037823 /* ZPCategoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPCategoryProtocol.swift; sourceTree = "<group>"; };
 		7AC5168F247252F42E83CBA4A0BD8FF2 /* ZPScreenHookManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPScreenHookManagerProtocol.swift; sourceTree = "<group>"; };
 		7B4DF821919AC503D04E36D3655F3756 /* NSString+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+APAdditions.h"; sourceTree = "<group>"; };
-		7C4B4E08F03132E2D7963AA827A0516A /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F152A433BA30796CFB900C60CD05CB1 /* APCacheHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APCacheHelper.swift; sourceTree = "<group>"; };
 		800C556D39D7BAC4CF132827646EEB92 /* UIImage+APAdditionsiOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+APAdditionsiOS.h"; sourceTree = "<group>"; };
 		80DA381CAEBEC502D93CEB268579F4D6 /* UINavigationController+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+APAdditions.h"; sourceTree = "<group>"; };
@@ -498,15 +511,13 @@
 		87C26F2CA620D50CB0F3F4201A9B3827 /* ZPPlayerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerProtocol.swift; sourceTree = "<group>"; };
 		884ED8265FE871299644C03E5C1B4BC7 /* ZPPluginManager+iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ZPPluginManager+iOS.swift"; sourceTree = "<group>"; };
 		8958D959A32EED42FAA02F3CB80D3992 /* APFileLoadingCompletion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APFileLoadingCompletion.swift; sourceTree = "<group>"; };
-		8A0C3DCB607FA489F48ADA12AED0D6B6 /* Pods-ZappAnalyticsPluginsSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDKTests.modulemap"; sourceTree = "<group>"; };
+		89E14F2141C6D868E799CC161DB0BA95 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D2C09DB7D4993248796613BBA048B86 /* ZappPlugins-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ZappPlugins-iOS.modulemap"; sourceTree = "<group>"; };
 		8D7AA4ECBF7548BBB9C2B4D5AE53C02A /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		8D9B41ED17205F1FE1275AD208DF024C /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
 		8E59227AB63A704DD89AC531D851E022 /* NSBundle+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+APAdditions.h"; sourceTree = "<group>"; };
 		8F291E494FD68EE5E2C5FB9C70F21BD3 /* ZAAppDelegateConnectorURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorURLProtocol.h; sourceTree = "<group>"; };
 		901EB2DEF43877D50840D1CDDBB1BABE /* NSBundle+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+APAdditions.m"; sourceTree = "<group>"; };
-		91DA7CDDD80DF9535E1B96BDE2EAE797 /* Pods-ZappAnalyticsPluginsSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTests-Info.plist"; sourceTree = "<group>"; };
-		9271A3139A29E4D5FA3E4CA1DC285B34 /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h"; sourceTree = "<group>"; };
 		92787AE4F73F541289E9F3992F35522E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		927DC55AE2E895B7F193CC8B04FAA030 /* ZAAppDelegateConnectorAudioSessionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorAudioSessionProtocol.swift; sourceTree = "<group>"; };
 		93E0A1D9746E0877388650DC6C0C0EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -527,7 +538,6 @@
 		A21C3EAD9A09F2F705D658642B939B92 /* ZLGenericViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLGenericViewControllerProtocol.swift; sourceTree = "<group>"; };
 		A23DA88902AAE2BCEA60DF09557931F8 /* NSArray+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+APAdditions.m"; sourceTree = "<group>"; };
 		A2ABCDAF160C605429A51C7032C9C89F /* UIButton+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+APAdditions.swift"; sourceTree = "<group>"; };
-		A2D6FEBBF5EFEE9BEB3903D0FB4B5029 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDKTests-dummy.m"; sourceTree = "<group>"; };
 		A36165DBF0DDF31473C35EAE65BF380B /* ZPDownloadableItemProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDownloadableItemProtocol.swift; sourceTree = "<group>"; };
 		A3A45635B225F271317F2BF87560393C /* ZPDownloadButtonProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDownloadButtonProtocol.swift; sourceTree = "<group>"; };
 		A41071EFDB49E699C96AA6265D9A15D6 /* UIFont+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+APAdditions.h"; sourceTree = "<group>"; };
@@ -540,7 +550,6 @@
 		A8B564BE4BDC9A2D9E82FEC0A38F3243 /* ZPScreenAutomationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPScreenAutomationProtocol.swift; path = ZappPlugins/ZPScreenAutomationProtocol.swift; sourceTree = "<group>"; };
 		A8F46919C2AB1B08B0BA80631403C38D /* CAComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAComponentProtocol.h; sourceTree = "<group>"; };
 		AA9DEBAB79D707798FC6AC3143D743C7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		AAA94ED46DFD3174612B8D340453A60C /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABF31652984EEFBEC9A34C9F9107742E /* ZLNavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItem.swift; sourceTree = "<group>"; };
 		AC1567B238C362D3FCAB9AB5B8AAD24D /* ZPDefaultStoreFrontHandlerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPDefaultStoreFrontHandlerProtocol.swift; sourceTree = "<group>"; };
 		AD42E653992A28D9B0C4D8E8C47AA5A6 /* ZPReactNativeBaseProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPReactNativeBaseProvider.swift; sourceTree = "<group>"; };
@@ -551,20 +560,18 @@
 		B1692655B35400CB34E18B0CACB6EFB7 /* ZPJsonSerializableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPJsonSerializableProtocol.swift; sourceTree = "<group>"; };
 		B178F90F43EBC09FD0ADCC5912F2D5D6 /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
 		B1B4A2574200F96C45AC3B13C04B7AB9 /* APFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APFile.swift; sourceTree = "<group>"; };
+		B1E81F6400D911C272CB57C5B2DD5EBB /* Pods-ZappAnalyticsPluginsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-Info.plist"; sourceTree = "<group>"; };
 		B3581108C72C51BCB722AA1592457F47 /* ZPScreenHookAdapterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPScreenHookAdapterProtocol.swift; sourceTree = "<group>"; };
 		B3F0E004110EEAF78B21AB255313DCF7 /* NSURLComponents+APAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLComponents+APAddition.m"; sourceTree = "<group>"; };
-		B4235AEF573EE22BB49FC1746C6EC92A /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8B3B68755CAC492BFBD707248260EB6 /* ZLScreenAdvertisingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLScreenAdvertisingModel.swift; sourceTree = "<group>"; };
 		BA0C763F3BEF8A204A50B661B0747B5B /* ZAAppDelegateConnectorIdentityProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorIdentityProtocol.swift; sourceTree = "<group>"; };
 		BCA75EC631A276E95DCBC0C7B25AF8A4 /* ZAAppDelegateConnectorLocalizationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZAAppDelegateConnectorLocalizationProtocol.h; sourceTree = "<group>"; };
 		BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster.framework; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDC8501CFB3376C5CDCE823F232C67B6 /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZappAnalyticsPluginsSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		C25355A50DFFFE1C2F8D71BAAD7B08FD /* ZappPlugins-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ZappPlugins-tvOS.modulemap"; path = "../ZappPlugins-tvOS/ZappPlugins-tvOS.modulemap"; sourceTree = "<group>"; };
 		C264633448915AD4F3701F6347C80837 /* ZAAppConnector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppConnector.swift; sourceTree = "<group>"; };
 		C26A522F91AD350742D383FC91557A03 /* ZPScreenPluginRNProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPScreenPluginRNProtocol.swift; sourceTree = "<group>"; };
 		C2E95E5082B63D4037499A884AE8607F /* ZLNavigationItemTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationItemTypes.swift; sourceTree = "<group>"; };
 		C46A88CA75BF2F2932BA70979809F261 /* UIImage+APAdditionsiOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+APAdditionsiOS.m"; sourceTree = "<group>"; };
-		C4EEC0451B773D59E70B46DDD2184147 /* Pods-ZappAnalyticsPluginsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDK-Info.plist"; sourceTree = "<group>"; };
 		C76B4863759ACAB281C09F37E986FD93 /* ZPPluginPresenterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPluginPresenterProtocol.swift; sourceTree = "<group>"; };
 		C8259C8AB4EA4E1461FB7BBF416572B6 /* APLoadingTimeMeasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APLoadingTimeMeasure.swift; sourceTree = "<group>"; };
 		C85D47B0DDEB14077197FADE93463B5F /* ZPAppLoadingHookManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAppLoadingHookManager.swift; sourceTree = "<group>"; };
@@ -574,27 +581,28 @@
 		C9EA42E3E696633CDDBF720A01FCCF34 /* UIViewController+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APAdditions.m"; sourceTree = "<group>"; };
 		CA8166B8BA6AC92EA3E1512DC2F5883B /* UIColor+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APAdditions.m"; sourceTree = "<group>"; };
 		CAA2E49F9FE88E692B10E82B76982890 /* CACellViewControllerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CACellViewControllerBase.h; sourceTree = "<group>"; };
+		CAA787F549479B84757E35E653C8C400 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
 		CBC196CC5D0F7CBA83D99A9D016324E0 /* DateFormatter+APAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+APAdditions.swift"; sourceTree = "<group>"; };
 		CD2DD4BD649AD4171B2DB5483B332361 /* ZappPlugins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZappPlugins.framework; path = "ZappPlugins-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEC4BEA48DF72310AEAB5534CF5BD34 /* ZAAppDelegateConnectorComponentsProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorComponentsProtocol.swift; sourceTree = "<group>"; };
 		D0C294830D3D1CF70E2891ED0FCD00FE /* NSObject+Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
 		D1B106510B33197F2A25AAD2D236227A /* Pods_ZappAnalyticsPluginsSDKTvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDKTvOS.framework; path = "Pods-ZappAnalyticsPluginsSDKTvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1F18D5F706FF7DBFA0AA9F24F98DA53 /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m"; sourceTree = "<group>"; };
+		D1BCD5CF694E7CA0924E83A7E0DA9532 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D2CCEA134D3CF79B188AD5FE4149431E /* Pods-ZappAnalyticsPluginsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDK-dummy.m"; sourceTree = "<group>"; };
 		D5CD981AA1BE50624BF9D59EC8C409F6 /* Color+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Additions.swift"; sourceTree = "<group>"; };
 		D6C6D8C45B25A9407EDDEFD44CE83B87 /* APContainerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APContainerProtocol.h; sourceTree = "<group>"; };
 		D9499A464F0258232DAFEEB73ABA9D28 /* ZPPlayerDependantPluginProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPlayerDependantPluginProtocol.swift; sourceTree = "<group>"; };
 		D94B711F48381480FD8532DE9A03D494 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
-		D97631DE6E58F99902AEBB5C91418A73 /* Pods-ZappAnalyticsPluginsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDK.modulemap"; sourceTree = "<group>"; };
 		DA783F517DA8A2C0DDF198E3ABD05E42 /* ZPAdPluginRefreshProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdPluginRefreshProtocol.swift; sourceTree = "<group>"; };
 		DB52E83F1BE1DA8DBA8319B0030A15BB /* ZPPurchasableItemProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPPurchasableItemProtocol.swift; sourceTree = "<group>"; };
 		DBAE47535818B894D35CEF0BD9E04061 /* ZLScreenModel+HooksPlugins.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ZLScreenModel+HooksPlugins.swift"; sourceTree = "<group>"; };
-		DC60279A3837089FDA9187B5A321882C /* Pods-ZappAnalyticsPluginsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDK-dummy.m"; sourceTree = "<group>"; };
 		DED0CA7A3B9F59BAE3778B4A1C0C9079 /* NSDictionary+Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Merge.swift"; sourceTree = "<group>"; };
 		DF69D3B372B8E4299C1F9391A0BA3236 /* NSString+InflectionSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectionSupport.h"; sourceTree = "<group>"; };
 		E0C651E3008E2C2BE2CA263DEE0B0B85 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		E1BD7B8400DCAC88C82F0B5747E1BF6A /* Pods-ZappAnalyticsPluginsSDKTvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZappAnalyticsPluginsSDKTvOS.modulemap"; sourceTree = "<group>"; };
 		E268DDA3C1E7819CA043EFA3ECEBA5BD /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		E3206339D61AED675D71FAC81442866A /* ZAAppDelegateConnectorConnectivityProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorConnectivityProtocol.swift; sourceTree = "<group>"; };
-		E47A1E25E4927E99EFCC25D8C68C46C2 /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		E48BE40DE78C432F279FC4B83CDFF485 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m"; sourceTree = "<group>"; };
 		E5356DF3281767E6ED17A4FE39A9F13F /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		E5CBB1DC23E8BF79CDB8464D2BB82760 /* ZPBroadcasterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPBroadcasterProtocol.swift; sourceTree = "<group>"; };
 		E60E76A024E32A64FF5EFA30D0AFDA34 /* NSDictionary+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+APAdditions.h"; sourceTree = "<group>"; };
@@ -610,6 +618,7 @@
 		ECAA98915AD1EC3A4798B3DBF8E68174 /* ZAAppDelegateConnectorStoreFrontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorStoreFrontProtocol.swift; sourceTree = "<group>"; };
 		ECE00C5EF8BE3564E615DB21A7042262 /* NSObject+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Additions.swift"; sourceTree = "<group>"; };
 		EDE2F826278CE04B0098418BC49653B1 /* APProgramProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APProgramProtocol.h; sourceTree = "<group>"; };
+		EE821E85EC8BD2D9CB090A29EFC70D17 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFCB5B14BBDC33D6A1CC4DC61558F12A /* Pods_ZappAnalyticsPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZappAnalyticsPluginsSDK.framework; path = "Pods-ZappAnalyticsPluginsSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDC47865AD495A1E46ADC85AC670CC1 /* ZappPlugins-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ZappPlugins-tvOS-Info.plist"; path = "../ZappPlugins-tvOS/ZappPlugins-tvOS-Info.plist"; sourceTree = "<group>"; };
 		F056615B9AEABB15DD2323B69A4BE83F /* ZLNavigationTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZLNavigationTypes.swift; sourceTree = "<group>"; };
@@ -620,7 +629,6 @@
 		F4B657FA0E81BC0702995EBFDF2A1651 /* ZPAdvertisementManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPAdvertisementManager.swift; sourceTree = "<group>"; };
 		F4BF77249F1874E9EBF13087E1D37595 /* NSData+APAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+APAdditions.h"; sourceTree = "<group>"; };
 		F51541B52B38966AF5146D5D2F85AC07 /* InfoPlistHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfoPlistHelper.swift; sourceTree = "<group>"; };
-		F5316E09D8ABCC0EE6DACAA2627682B4 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F594742E0169D4F2E2791882086740 /* NSDictionary+APAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+APAdditions.m"; sourceTree = "<group>"; };
 		F70B865D61B37F8E4FEED2EE5C524C78 /* ZAAppDelegateConnectorStickyViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZAAppDelegateConnectorStickyViewProtocol.swift; sourceTree = "<group>"; };
 		F87F2D0A1784641D81F62EE0B1B45F81 /* UIColor+ZPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZPAdditions.h"; sourceTree = "<group>"; };
@@ -678,33 +686,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE84CEC70B0E8C440DF77345279F54E4 /* Frameworks */ = {
+		C8C73D95701C4DCF4284CEB2D37F5111 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0964879D7F7F3057A59CAF2D7F22BA /* Foundation.framework in Frameworks */,
+				1DF4F43CD4A95DE11DB480B6CD3B29F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0753380A45006AB92D3672BCA8E5F2C1 /* Pods-ZappAnalyticsPluginsSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D97631DE6E58F99902AEBB5C91418A73 /* Pods-ZappAnalyticsPluginsSDK.modulemap */,
-				62A7EB5A4F24B3CC8ABDD78E296C88A9 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */,
-				3A3796B5BC7CE570017CDE11BB84DA13 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */,
-				DC60279A3837089FDA9187B5A321882C /* Pods-ZappAnalyticsPluginsSDK-dummy.m */,
-				C4EEC0451B773D59E70B46DDD2184147 /* Pods-ZappAnalyticsPluginsSDK-Info.plist */,
-				43484D00DC646F6BCA209ADDFA66EB1C /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */,
-				F5316E09D8ABCC0EE6DACAA2627682B4 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */,
-				5D0F5DF402B10E8F62991ADAA2D276ED /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */,
-			);
-			name = "Pods-ZappAnalyticsPluginsSDK";
-			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDK";
-			sourceTree = "<group>";
-		};
 		080CECC57295622FB8AD5A6F717AD18D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,19 +747,6 @@
 			);
 			name = UIView;
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		131C796F5DF1F1B4DC4BE2B110C65CCF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EFCB5B14BBDC33D6A1CC4DC61558F12A /* Pods_ZappAnalyticsPluginsSDK.framework */,
-				4B2372515E7BBA759F9F04402DFC134F /* Pods_ZappAnalyticsPluginsSDKTests.framework */,
-				D1B106510B33197F2A25AAD2D236227A /* Pods_ZappAnalyticsPluginsSDKTvOS.framework */,
-				BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */,
-				80EF1CA714FAC832799B419A432D5ADE /* ZappPlugins.framework */,
-				CD2DD4BD649AD4171B2DB5483B332361 /* ZappPlugins.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		14ED8865E6C81F1E78BC919B738E5059 /* RootViewContainerController */ = {
@@ -1020,6 +999,22 @@
 			path = StoreFront;
 			sourceTree = "<group>";
 		};
+		40587FF87DBBA6D898035A8F7FA0A7FE /* Pods-ZappAnalyticsPluginsSDKTvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD7B8400DCAC88C82F0B5747E1BF6A /* Pods-ZappAnalyticsPluginsSDKTvOS.modulemap */,
+				89E14F2141C6D868E799CC161DB0BA95 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown */,
+				EE821E85EC8BD2D9CB090A29EFC70D17 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist */,
+				678506F7C644A5B36AE8142DC887BAAE /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */,
+				66FEE118E604E80720F6B5D24F3F164F /* Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist */,
+				46DCC039ACE6368CC2D5BC05444E6C9A /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */,
+				132110F52A911B0516F0EA5C0BC9E3B8 /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */,
+				D1BCD5CF694E7CA0924E83A7E0DA9532 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDKTvOS";
+			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTvOS";
+			sourceTree = "<group>";
+		};
 		41EB1D977A4C9AC8EB1D2A257082A0F0 /* PluginPresenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -1088,22 +1083,6 @@
 			);
 			name = InfoPlist;
 			path = InfoPlist;
-			sourceTree = "<group>";
-		};
-		497AB626E7F5855B6A23A05E89E0A780 /* Pods-ZappAnalyticsPluginsSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				8A0C3DCB607FA489F48ADA12AED0D6B6 /* Pods-ZappAnalyticsPluginsSDKTests.modulemap */,
-				3327D42FB09E7F5923CE90C1AABF9F35 /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */,
-				B4235AEF573EE22BB49FC1746C6EC92A /* Pods-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */,
-				A2D6FEBBF5EFEE9BEB3903D0FB4B5029 /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m */,
-				91DA7CDDD80DF9535E1B96BDE2EAE797 /* Pods-ZappAnalyticsPluginsSDKTests-Info.plist */,
-				BDC8501CFB3376C5CDCE823F232C67B6 /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h */,
-				7C4B4E08F03132E2D7963AA827A0516A /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */,
-				E47A1E25E4927E99EFCC25D8C68C46C2 /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */,
-			);
-			name = "Pods-ZappAnalyticsPluginsSDKTests";
-			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests";
 			sourceTree = "<group>";
 		};
 		4B0C43D56046D218896EBA2BE1199281 /* Components */ = {
@@ -1200,6 +1179,16 @@
 			path = ZappPlugins/AppLoadingHook;
 			sourceTree = "<group>";
 		};
+		6306BCEC89EF664957567D84BBA6A8FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				973DD415C565A16A29957A9B13723978 /* Pods-ZappAnalyticsPluginsSDK */,
+				C94BB3152AFD37F0811DD49380C29CC7 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests */,
+				40587FF87DBBA6D898035A8F7FA0A7FE /* Pods-ZappAnalyticsPluginsSDKTvOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		64F90BD46B81C960A01A64D54B8D59BE /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -1246,22 +1235,6 @@
 			);
 			name = Universal;
 			path = Universal;
-			sourceTree = "<group>";
-		};
-		6881111E8D7CB1C9B66882EF44B49DB1 /* Pods-ZappAnalyticsPluginsSDKTvOS */ = {
-			isa = PBXGroup;
-			children = (
-				53E41E7AFC2B3031B83EA8A20CF4588E /* Pods-ZappAnalyticsPluginsSDKTvOS.modulemap */,
-				AAA94ED46DFD3174612B8D340453A60C /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.markdown */,
-				68DBF4972DD46B68DF0FEA3A656B8A40 /* Pods-ZappAnalyticsPluginsSDKTvOS-acknowledgements.plist */,
-				D1F18D5F706FF7DBFA0AA9F24F98DA53 /* Pods-ZappAnalyticsPluginsSDKTvOS-dummy.m */,
-				137F239887A7A5997BCDF986DCBE6EDE /* Pods-ZappAnalyticsPluginsSDKTvOS-Info.plist */,
-				9271A3139A29E4D5FA3E4CA1DC285B34 /* Pods-ZappAnalyticsPluginsSDKTvOS-umbrella.h */,
-				6AD03FDDB8AAF6792EABF5159E3DC0CF /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */,
-				0B36981A30511BB92B045B2523383991 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */,
-			);
-			name = "Pods-ZappAnalyticsPluginsSDKTvOS";
-			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTvOS";
 			sourceTree = "<group>";
 		};
 		68A9066B58897E8F95505FD2AFBBCF15 /* iOS */ = {
@@ -1530,6 +1503,22 @@
 			path = ZLComponentBuilder;
 			sourceTree = "<group>";
 		};
+		973DD415C565A16A29957A9B13723978 /* Pods-ZappAnalyticsPluginsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				54AD83D60BAFF65E0E5DD85A0D9B4F2C /* Pods-ZappAnalyticsPluginsSDK.modulemap */,
+				5804F482678A35804A2B5D138A87A34A /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.markdown */,
+				6F236E7F74D80CB2CDB158B5E7ACB1B8 /* Pods-ZappAnalyticsPluginsSDK-acknowledgements.plist */,
+				D2CCEA134D3CF79B188AD5FE4149431E /* Pods-ZappAnalyticsPluginsSDK-dummy.m */,
+				B1E81F6400D911C272CB57C5B2DD5EBB /* Pods-ZappAnalyticsPluginsSDK-Info.plist */,
+				42B08750644294D6577E7A273C60F6AA /* Pods-ZappAnalyticsPluginsSDK-umbrella.h */,
+				35AB91554BCFA0956A97705258054085 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */,
+				CAA787F549479B84757E35E653C8C400 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDK";
+			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDK";
+			sourceTree = "<group>";
+		};
 		9CA3C82F0C015F94DB717663CA64F242 /* CABasicGenericViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1550,6 +1539,19 @@
 			);
 			name = Player;
 			path = ZappPlugins/Player;
+			sourceTree = "<group>";
+		};
+		9F786C3DCA01C9BA5073F874F935E4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB5B14BBDC33D6A1CC4DC61558F12A /* Pods_ZappAnalyticsPluginsSDK.framework */,
+				5EFC248056B5CDF064DE471E309585C6 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */,
+				D1B106510B33197F2A25AAD2D236227A /* Pods_ZappAnalyticsPluginsSDKTvOS.framework */,
+				BD810337F4A305D60D9250A197AA1EF1 /* Toaster.framework */,
+				80EF1CA714FAC832799B419A432D5ADE /* ZappPlugins.framework */,
+				CD2DD4BD649AD4171B2DB5483B332361 /* ZappPlugins.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9F7DEAB610894148628D76ABAA168752 /* NSArray */ = {
@@ -1727,6 +1729,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C94BB3152AFD37F0811DD49380C29CC7 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				64BA37671BF608B4111C860F445F04CB /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.modulemap */,
+				7783622EDBE516590E2C9931C1146DBA /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.markdown */,
+				6F293C674B7827AD87C3060DC27F712E /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-acknowledgements.plist */,
+				E48BE40DE78C432F279FC4B83CDFF485 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m */,
+				73191120975A62AB0754E569ABCCC8A7 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh */,
+				2E77FF2C97556A7E84E7673B5F295C63 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-Info.plist */,
+				623674D70A3724166EA057101FDD1B9B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h */,
+				1FE38BA39255712A050641AD088F5A1B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig */,
+				5F4B0D110DD2DDCDA1A0C627799114A8 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests";
+			path = "Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests";
+			sourceTree = "<group>";
+		};
 		CA6208E7945101B8EC7FC7BD9308CF08 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
@@ -1764,8 +1783,8 @@
 				819FFC6D51F7B576683B087B2544D71A /* Development Pods */,
 				E53CF863BEF6F2596473318FA053A0E5 /* Frameworks */,
 				080CECC57295622FB8AD5A6F717AD18D /* Pods */,
-				131C796F5DF1F1B4DC4BE2B110C65CCF /* Products */,
-				FEF0CDC437DCD553B510F2B45077296F /* Targets Support Files */,
+				9F786C3DCA01C9BA5073F874F935E4C0 /* Products */,
+				6306BCEC89EF664957567D84BBA6A8FD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1935,16 +1954,6 @@
 			path = NSURLComponents;
 			sourceTree = "<group>";
 		};
-		FEF0CDC437DCD553B510F2B45077296F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0753380A45006AB92D3672BCA8E5F2C1 /* Pods-ZappAnalyticsPluginsSDK */,
-				497AB626E7F5855B6A23A05E89E0A780 /* Pods-ZappAnalyticsPluginsSDKTests */,
-				6881111E8D7CB1C9B66882EF44B49DB1 /* Pods-ZappAnalyticsPluginsSDKTvOS */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2062,11 +2071,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E92E23B7601999A69FBBCC64BF58C6 /* Headers */ = {
+		B53B06ACF4979DDC684FA6F7A8331939 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8100FE76130CC80FE2E30C9A56CCC5CE /* Pods-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */,
+				DCB585978C95A7A664F118E2A9AFAA86 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2111,6 +2120,26 @@
 			productReference = 80EF1CA714FAC832799B419A432D5ADE /* ZappPlugins.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		654C1AB92619A8A44B1945282E8A4C60 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E52FD75D44AF6E29832D6B8AFB8C61 /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests" */;
+			buildPhases = (
+				B53B06ACF4979DDC684FA6F7A8331939 /* Headers */,
+				CD2F2EB00D29211C2B25CD5461E0D862 /* Sources */,
+				C8C73D95701C4DCF4284CEB2D37F5111 /* Frameworks */,
+				69CAD49C37F3C1DEB65BE3C3986CD399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473974BA9B562B575BC03496D7EF4C5F /* PBXTargetDependency */,
+				021D50A6A4FEF05C5CAEBE99D4BF06E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests";
+			productName = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests";
+			productReference = 5EFC248056B5CDF064DE471E309585C6 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		730C2EAE8039509835339ED8EEC7BE7B /* Pods-ZappAnalyticsPluginsSDKTvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5891BF2FAE5528BE2938AAB78A1578F /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDKTvOS" */;
@@ -2128,25 +2157,6 @@
 			name = "Pods-ZappAnalyticsPluginsSDKTvOS";
 			productName = "Pods-ZappAnalyticsPluginsSDKTvOS";
 			productReference = D1B106510B33197F2A25AAD2D236227A /* Pods_ZappAnalyticsPluginsSDKTvOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8A05F0989C482A2375319B42A7032873 /* Pods-ZappAnalyticsPluginsSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B1278040F926F219F5D93ED7EEB1BBF /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDKTests" */;
-			buildPhases = (
-				C4E92E23B7601999A69FBBCC64BF58C6 /* Headers */,
-				E64C4237F3A5BE44129F23AE2474D798 /* Sources */,
-				BE84CEC70B0E8C440DF77345279F54E4 /* Frameworks */,
-				0F8271E624EDC775A3A93EA5316DCC1E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B2953F85F2EE51A23309C293B5046DA /* PBXTargetDependency */,
-			);
-			name = "Pods-ZappAnalyticsPluginsSDKTests";
-			productName = "Pods-ZappAnalyticsPluginsSDKTests";
-			productReference = 4B2372515E7BBA759F9F04402DFC134F /* Pods_ZappAnalyticsPluginsSDKTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */ = {
@@ -2202,12 +2212,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 131C796F5DF1F1B4DC4BE2B110C65CCF /* Products */;
+			productRefGroup = 9F786C3DCA01C9BA5073F874F935E4C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3FD1DDA5926CD3BD80568CADA6B6522F /* Pods-ZappAnalyticsPluginsSDK */,
-				8A05F0989C482A2375319B42A7032873 /* Pods-ZappAnalyticsPluginsSDKTests */,
+				654C1AB92619A8A44B1945282E8A4C60 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests */,
 				730C2EAE8039509835339ED8EEC7BE7B /* Pods-ZappAnalyticsPluginsSDKTvOS */,
 				B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */,
 				4AB79DA270A117A1422C62733164F001 /* ZappPlugins-iOS */,
@@ -2217,7 +2227,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F8271E624EDC775A3A93EA5316DCC1E /* Resources */ = {
+		69CAD49C37F3C1DEB65BE3C3986CD399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2508,19 +2518,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD2F2EB00D29211C2B25CD5461E0D862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B5A33BF516CC9E392C21AF43BA871 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4BFBB44D212E74A1A9E7CCF65D85B41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A98F699D590A3929327926966FE37DC8 /* Pods-ZappAnalyticsPluginsSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E64C4237F3A5BE44129F23AE2474D798 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A24483C7759ADEB476A727412897765E /* Pods-ZappAnalyticsPluginsSDKTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2539,11 +2549,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B2953F85F2EE51A23309C293B5046DA /* PBXTargetDependency */ = {
+		021D50A6A4FEF05C5CAEBE99D4BF06E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ZappAnalyticsPluginsSDK";
-			target = 3FD1DDA5926CD3BD80568CADA6B6522F /* Pods-ZappAnalyticsPluginsSDK */;
-			targetProxy = 768731644259A28F906BA202FF3288C6 /* PBXContainerItemProxy */;
+			name = "ZappPlugins-iOS";
+			target = 4AB79DA270A117A1422C62733164F001 /* ZappPlugins-iOS */;
+			targetProxy = 7B73C173870877D85BFAF52764B7FC8B /* PBXContainerItemProxy */;
+		};
+		473974BA9B562B575BC03496D7EF4C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */;
+			targetProxy = 5A6E5EFC5CF9CAED2ACAE1A172CD5122 /* PBXContainerItemProxy */;
 		};
 		85F31D04BB200A9D55F0940F13C75B4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2566,48 +2582,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10D9A92C00492801073F71B4D18457E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C4B4E08F03132E2D7963AA827A0516A /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1F93624DAE53687CE29B2A4C3B92FEEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B36981A30511BB92B045B2523383991 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */;
+			baseConfigurationReference = D1BCD5CF694E7CA0924E83A7E0DA9532 /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2710,6 +2687,45 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		647B4DAF5FA810330A8B4C102112B27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE38BA39255712A050641AD088F5A1B /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2879,7 +2895,7 @@
 		};
 		AC5C3F722749FCCAEDA8DF5E6125220B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D0F5DF402B10E8F62991ADAA2D276ED /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */;
+			baseConfigurationReference = CAA787F549479B84757E35E653C8C400 /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2953,6 +2969,46 @@
 			};
 			name = Release;
 		};
+		D579F6D609153875593DC787037A79B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4B0D110DD2DDCDA1A0C627799114A8 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DC64094D5C94D8A1724928B3579A56DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 977AB6382123EFE49965DCDB90BBCF44 /* ZappPlugins-iOS.xcconfig */;
@@ -2992,7 +3048,7 @@
 		};
 		DCCF0C2B4987554188FF419AAD47D9C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5316E09D8ABCC0EE6DACAA2627682B4 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */;
+			baseConfigurationReference = 35AB91554BCFA0956A97705258054085 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3066,7 +3122,7 @@
 		};
 		E5AE92331126BDAE69CC387BEF6AE071 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AD03FDDB8AAF6792EABF5159E3DC0CF /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */;
+			baseConfigurationReference = 132110F52A911B0516F0EA5C0BC9E3B8 /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -3102,54 +3158,14 @@
 			};
 			name = Debug;
 		};
-		EC0A392FA196A211053C2D6F114A73F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E47A1E25E4927E99EFCC25D8C68C46C2 /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B1278040F926F219F5D93ED7EEB1BBF /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDKTests" */ = {
+		33E52FD75D44AF6E29832D6B8AFB8C61 /* Build configuration list for PBXNativeTarget "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10D9A92C00492801073F71B4D18457E2 /* Debug */,
-				EC0A392FA196A211053C2D6F114A73F5 /* Release */,
+				647B4DAF5FA810330A8B4C102112B27C /* Debug */,
+				D579F6D609153875593DC787037A79B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
