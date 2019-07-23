@@ -1,23 +1,27 @@
 PODS:
-  - Toaster (2.2.0.0)
-  - ZappPlugins (7.3.2)
+  - Toaster (2.2.0)
+  - ZappPlugins (9.0.0)
 
 DEPENDENCIES:
-  - Toaster
-  - ZappPlugins (from `Submodules/ZappPlugins/ZappPlugins-Dev.podspec`)
-
-SPEC REPOS:
-  "git@github.com:applicaster/CocoaPods.git":
-    - Toaster
+  - Toaster (from `https://github.com/devxoul/Toaster.git`, tag `2.2.0`)
+  - ZappPlugins (from `Submodules/ZappPlugins/ZappPlugins.podspec`)
 
 EXTERNAL SOURCES:
+  Toaster:
+    :git: https://github.com/devxoul/Toaster.git
+    :tag: 2.2.0
   ZappPlugins:
-    :path: Submodules/ZappPlugins/ZappPlugins-Dev.podspec
+    :path: Submodules/ZappPlugins/ZappPlugins.podspec
+
+CHECKOUT OPTIONS:
+  Toaster:
+    :git: https://github.com/devxoul/Toaster.git
+    :tag: 2.2.0
 
 SPEC CHECKSUMS:
-  Toaster: 7464b87db5bd9453043bd3cf0fc79219cc9803f1
-  ZappPlugins: b9feec05fa78722dbd2f611b5e5a01889f99489b
+  Toaster: b1119690d23997570628fdd182db130f7bf49ec5
+  ZappPlugins: 25cb9b4605fe3984eaec8c3258c07b8caf0d9a2d
 
-PODFILE CHECKSUM: e33ba34cde0360bad1885289f67c2d9494cbb512
+PODFILE CHECKSUM: ea3e83961d58e8df8beebd35f7dbb901af6bc29d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
