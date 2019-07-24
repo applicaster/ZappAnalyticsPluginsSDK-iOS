@@ -22,7 +22,7 @@ target 'ZappAnalyticsPluginsSDKTvOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   platform :tvos, '10.0'
 
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'dev12'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
 
 end
 
