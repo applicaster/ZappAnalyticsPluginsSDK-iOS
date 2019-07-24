@@ -9,7 +9,7 @@ target 'ZappAnalyticsPluginsSDK' do
   platform :ios, '10.0'
 
   # Pods for ZappAnalyticsPluginsSDK
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'dev12'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
   pod 'Toaster', :git => 'https://github.com/devxoul/Toaster.git', :tag => '2.2.0'
 
   target 'ZappAnalyticsPluginsSDKTests' do
