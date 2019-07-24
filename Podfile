@@ -9,11 +9,10 @@ target 'ZappAnalyticsPluginsSDK' do
   platform :ios, '10.0'
 
   # Pods for ZappAnalyticsPluginsSDK
-  pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
-  pod 'Toaster'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
+  pod 'Toaster', :git => 'https://github.com/devxoul/Toaster.git', :tag => '2.2.0'
 
   target 'ZappAnalyticsPluginsSDKTests' do
-    inherit! :search_paths
     # Pods for testing
   end
 
@@ -23,14 +22,14 @@ target 'ZappAnalyticsPluginsSDKTvOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   platform :tvos, '10.0'
 
-  pod 'ZappPlugins', :path => 'Submodules/ZappPlugins/ZappPlugins-Dev.podspec'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
 
 end
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-            config.build_settings['SWIFT_VERSION'] = '4.2'
+            config.build_settings['SWIFT_VERSION'] = '5.0'
         end
     end
 end

@@ -88,11 +88,6 @@ extern NSString *const APPlayerControllerAddToFavorites;
 extern NSString *const APPlayerControllerRemoveFromFavorites;
 
 /**
- Post this notification if you want to toggle Facebook Comments.
- */
-extern NSString *const APPlayerControllerToggleFacebookCommentsNotification;
-
-/**
  Notifications - Playback state (Legacy)
  */
 extern NSString *const APApplicasterPlayerDidStartNotification;	/**< Called when player starts */
