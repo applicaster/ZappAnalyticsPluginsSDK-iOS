@@ -1,6 +1,6 @@
 {
   "name": "ZappPlugins",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "platforms": {
     "ios": "10.0",
     "tvos": "10.0"
@@ -12,7 +12,7 @@
   "authors": "Applicaster LTD.",
   "source": {
     "git": "git@github.com:applicaster/ZappPlugins-iOS.git",
-    "tag": "9.0.0"
+    "tag": "9.0.1"
   },
   "frameworks": "AVFoundation",
   "ios": {
