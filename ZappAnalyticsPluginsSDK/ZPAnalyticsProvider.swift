@@ -7,9 +7,6 @@
 //
 
 import UIKit
-#if os(iOS)
-import Toaster
-#endif
 import ZappPlugins
 
 //Providers Json Parameters
@@ -172,42 +169,42 @@ let kNotApplicableKey  =  "N/A"
     }
 
     open func presentToastForLoggedEvent(_ eventDescription: String?) {
-        #if os(iOS)
-
-        guard let desc = eventDescription, !desc.isEmpty else {
-            return
-        }
-
-        let toast = Toast(text: desc,
-                          delay: 0,
-                          duration: self.eventsToastsDuration)
-        toast.view.backgroundColor = self.eventsToastsBackgroundColor
-        toast.view.textColor = self.eventsToastsTextColor
-        toast.show()
-
-        ZPAnalyticsProvider.presentToastForLoggedEvent(eventDescription,
-                                                       eventsToastsDuration: self.eventsToastsDuration,
-                                                       eventsToastsBackgroundColor: self.eventsToastsBackgroundColor,
-                                                       eventsToastsTextColor: self.eventsToastsTextColor)
-        #endif
+//        #if os(iOS)
+//
+//        guard let desc = eventDescription, !desc.isEmpty else {
+//            return
+//        }
+//
+//        let toast = Toast(text: desc,
+//                          delay: 0,
+//                          duration: self.eventsToastsDuration)
+//        toast.view.backgroundColor = self.eventsToastsBackgroundColor
+//        toast.view.textColor = self.eventsToastsTextColor
+//        toast.show()
+//
+//        ZPAnalyticsProvider.presentToastForLoggedEvent(eventDescription,
+//                                                       eventsToastsDuration: self.eventsToastsDuration,
+//                                                       eventsToastsBackgroundColor: self.eventsToastsBackgroundColor,
+//                                                       eventsToastsTextColor: self.eventsToastsTextColor)
+//        #endif
     }
 
     @objc static public func presentToastForLoggedEvent(_ eventDescription: String?,
                                                       eventsToastsDuration:TimeInterval,
                                                       eventsToastsBackgroundColor:UIColor,
                                                       eventsToastsTextColor:UIColor) {
-        #if os(iOS)
-        guard let desc = eventDescription, !desc.isEmpty else {
-            return
-        }
-
-        let toast = Toast(text: desc,
-                          delay: 0,
-                          duration: eventsToastsDuration)
-        toast.view.backgroundColor = eventsToastsBackgroundColor
-        toast.view.textColor = eventsToastsTextColor
-        toast.show()
-        #endif
+//        #if os(iOS)
+//        guard let desc = eventDescription, !desc.isEmpty else {
+//            return
+//        }
+//
+//        let toast = Toast(text: desc,
+//                          delay: 0,
+//                          duration: eventsToastsDuration)
+//        toast.view.backgroundColor = eventsToastsBackgroundColor
+//        toast.view.textColor = eventsToastsTextColor
+//        toast.show()
+//        #endif
     }
 
     @objc static public func parseParameters(fromEventName evenName:String?) -> [String:String] {
