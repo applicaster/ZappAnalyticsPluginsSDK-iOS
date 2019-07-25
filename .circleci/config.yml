@@ -30,11 +30,11 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v2-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappAnalyticsPluginsSDK-v2-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappAnalyticsPluginsSDK-v2-{{ .Branch }}-
-            - Zapp-ZappAnalyticsPluginsSDK-v2-
+            - Zapp-ZappAnalyticsPluginsSDK-v3-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappAnalyticsPluginsSDK-v3-{{ .Branch }}-
+            - Zapp-ZappAnalyticsPluginsSDK-v3-
 
       - checkout
 
@@ -66,7 +66,7 @@ jobs:
       # Prepare Bundler
       - restore_cache:
           name: Bundler - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v2-{{ checksum "Gemfile.lock" }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v3-{{ checksum "Gemfile.lock" }}
 
       - run:
           name: Bundler - update dependencies
@@ -74,14 +74,14 @@ jobs:
 
       - save_cache:
           name: Bundler - save cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v2-{{ checksum "Gemfile.lock" }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v3-{{ checksum "Gemfile.lock" }}
           paths:
             - /Users/distiller/.rubies/ruby-2.4.2/lib/ruby/gems/2.4.0/gems
 
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-5
+          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-6
 
       - run:
           name: CocoaPods - version
@@ -103,7 +103,7 @@ jobs:
       # Cache CocoaPods
       - save_cache:
           name: CocoaPods - save cache
-          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-5
+          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-6
           paths:
             - "~/.cocoapods"
             - "Pods"
