@@ -69,8 +69,8 @@ jobs:
           key: Zapp-ZappAnalyticsPluginsSDK-v3-{{ checksum "Gemfile.lock" }}
 
       - run:
-          name: Bundler - update dependencies
-          command: bundle update
+          name: Bundler - install dependencies
+          command: bundle install
 
       - save_cache:
           name: Bundler - save cache
