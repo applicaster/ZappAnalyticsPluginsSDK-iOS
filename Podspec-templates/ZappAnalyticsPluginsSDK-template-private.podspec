@@ -1,9 +1,8 @@
 Pod::Spec.new do |s|
   s.name  = "__framework_name__"
   s.version = '__version__'
-  s.platform  = :ios, :tvos
+  s.platform  = :ios
   s.ios.deployment_target = "__ios_platform_version__"
-  s.tvos.deployment_target = "__tvos_platform_version__"
   s.summary = "__framework_name__"
   s.description = "__framework_name__ container."
   s.homepage  = "https://github.com/applicaster/__framework_name__-iOS"
