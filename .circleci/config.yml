@@ -15,7 +15,7 @@ jobs:
       - SCRIPTS_LOCAL_FOLDER: "~/.scripts-iOS"
       - SCRIPTS_REPO_PATH: "git@github.com:applicaster/Scripts-iOS.git"
       - DEPLOY_VERSION: "0.7.1"
-      - DEPLOY_COMMAND: "~/.scripts-iOS/circleCi/deploySinglePluginMultiPlatform.sh"
+      - DEPLOY_COMMAND: "~/.scripts-iOS/circleCi/deploySinglePlugin.sh"
     working_directory: ~/ZappAnalyticsPluginsSDK-iOS
 
     steps:
