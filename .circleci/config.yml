@@ -81,7 +81,7 @@ jobs:
       # Restore Cocoapods cache, save cache on lower level, after pod update
       - restore_cache:
           name: CocoaPods - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-6
+          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-7
 
       - run:
           name: CocoaPods - version
@@ -97,15 +97,14 @@ jobs:
 
       # Pod update
       - run:
-          name: CocoaPods - update dependencies
-          command: bundle exec pod update
+          name: CocoaPods - install dependencies
+          command: bundle exec pod install
 
       # Cache CocoaPods
       - save_cache:
           name: CocoaPods - save cache
-          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-6
+          key: Zapp-ZappAnalyticsPluginsSDK-CocoaPods-7
           paths:
-            - "~/.cocoapods"
             - "Pods"
             - "Podfile.lock"
 
