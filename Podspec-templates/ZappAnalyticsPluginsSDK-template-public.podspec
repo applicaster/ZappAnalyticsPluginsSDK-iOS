@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
                 'OTHER_CFLAGS'  => '-fembed-bitcode'
               }
 
-  s.dependency 'ZappPlugins', '~> 9.0.0'
+  s.dependency 'ZappPlugins', '~> 9.1.3'
 
 end
