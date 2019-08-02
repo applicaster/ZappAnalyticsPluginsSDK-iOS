@@ -1,5 +1,4 @@
 # Uncomment the next line to define a global platform for your project
-source 'git@github.com:CocoaPods/Specs.git'
 source 'git@github.com:applicaster/CocoaPods.git'
 source 'git@github.com:applicaster/CocoaPods-Private.git'
 use_frameworks!
