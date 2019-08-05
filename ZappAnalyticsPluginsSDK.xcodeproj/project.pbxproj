@@ -386,20 +386,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZappPlugins-iOS/ZappPlugins.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1E5500F9BB12834A166FB51D /* [CP] Check Pods Manifest.lock */ = {
