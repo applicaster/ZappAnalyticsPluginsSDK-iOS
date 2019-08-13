@@ -14,7 +14,7 @@ extern NSString *const APPlayableItemWillStartPlaying;                  /**< Cal
 extern NSString *const APPlayerControllerReachedEndNotification;        /**< Called when player controller reaches end */
 extern NSString *const APPlayerControllerFailedNotification;            /**< Called when playback fails and nothing left to play */
 extern NSString *const APPlayerControllerLoadStateChanged;              /**< Called when the player changes state Loading <==> Not loading */
-extern NSString *const APPlayerControllerPhaseChangedNotification;      /**< Called when the player controller phase changes */
+extern NSString *const ZPPlayerPhaseChangedNotification;      /**< Called when the player controller phase changes */
 extern NSString *const APPlayerControllerOverlayVisibleNotification;    /**< Called when the overlay is added to the view heirarchy */
 
 // Basic Player Notifications (all those notifications sends userInfo with the playing item data):
@@ -92,13 +92,3 @@ extern NSString *const APPlayerControllerRemoveFromFavorites;
  */
 extern NSString *const APApplicasterPlayerDidStartNotification;	/**< Called when player starts */
 extern NSString *const APApplicasterPlayerDidStopNotification;		/**< Called when player pauses / stops */
-
-// PlayerControllerPhaseChanged States
-extern NSString *const kPlayerStateInitial;
-extern NSString *const kPlayerStateLoading;
-extern NSString *const kPlayerStatePurchasing;
-extern NSString *const kPlayerStatePlayingPrerollSplash;
-extern NSString *const kPlayerStatePlayingPrerollVideo;
-extern NSString *const kPlayerStatePlayingContentVideo;
-extern NSString *const kPlayerStateEnd;
-extern NSString *const kPlayerStateFailure;

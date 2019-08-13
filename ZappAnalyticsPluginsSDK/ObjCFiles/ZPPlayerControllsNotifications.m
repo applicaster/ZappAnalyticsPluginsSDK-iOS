@@ -13,7 +13,7 @@ NSString *const APPlayableItemWillStartPlaying = @"kAPPlayableItemWillStartPlayi
 NSString *const APPlayerControllerFailedNotification = @"APPlayerControllerFailedNotification";
 NSString *const APPlayerControllerReachedEndNotification = @"APPlayerControllerReachedEndNotification";
 NSString *const APPlayerControllerLoadStateChanged = @"APPlayerControllerLoadStateChanged";
-NSString *const APPlayerControllerPhaseChangedNotification = @"APPlayerControllerPhaseChangedNotification";
+NSString *const ZPPlayerPhaseChangedNotification = @"ZPPlayerPhaseChangedNotification";
 NSString *const APPlayerControllerOverlayVisibleNotification = @"APPlayerControllerOverlayVisibleNotification";
 NSString *const APPlayerControllerMarkCurrentItemForDownloadNotification = @"APPlayerControllerMarkCurrentItemForDownloadNotification";
 
@@ -58,14 +58,3 @@ NSString *const APPlayerControllerControlsPlayButtonTappedNotification = @"APPla
 NSString *const APPlayerControllerControlsPauseButtonTappedNotification = @"APPlayerControllerPauseNotification";
 
 NSString *const APPlayerControllerCurrentItemKey = @"APPlayerControllerCurrentItemKey";
-
-//States
-NSString *const kPlayerStateInitial = @"kPlayerStateInitial";
-NSString *const kPlayerStateLoading = @"kPlayerStateLoading";
-NSString *const kPlayerStatePurchasing = @"kPlayerStatePurchasing";
-NSString *const kPlayerStatePlayingPrerollSplash = @"kPlayerStatePlayingPrerollSplash";
-NSString *const kPlayerStatePlayingPrerollVideo = @"kPlayerStatePlayingPrerollVideo";
-NSString *const kPlayerStatePlayingContentVideo = @"kPlayerStatePlayingContentVideo";
-NSString *const kPlayerStateEnd = @"kPlayerStateEnd";
-NSString *const kPlayerStateFailure = @"kPlayerStateFailure";
-
