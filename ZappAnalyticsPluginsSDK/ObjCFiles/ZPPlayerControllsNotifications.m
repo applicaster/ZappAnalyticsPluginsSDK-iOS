@@ -15,10 +15,8 @@ NSString *const APPlayerControllerReachedEndNotification = @"APPlayerControllerR
 NSString *const APPlayerControllerLoadStateChanged = @"APPlayerControllerLoadStateChanged";
 NSString *const APPlayerControllerPhaseChangedNotification = @"APPlayerControllerPhaseChangedNotification";
 NSString *const APPlayerControllerOverlayVisibleNotification = @"APPlayerControllerOverlayVisibleNotification";
-NSString *const APPlayerControllerMarkCurrentItemForDownloadNotification = @"APPlayerControllerMarkCurrentItemForDownloadNotification";
 
 NSString *const APPlayerControllerDeleteCurrentItemFromCacheNotification = @"APPlayerControllerDeleteCurrentItemFromCacheNotification";
-NSString *const APPlayerControllerCancelCurrentItemFromDownloadNotification = @"APPlayerControllerCancelCurrentItemFromDownloadNotification";
 
 NSString *const APPlayerControllerAddToFavorites = @"APPlayerControllerAddToFavorites";
 NSString *const APPlayerControllerRemoveFromFavorites = @"APPlayerControllerRemoveFromFavorites";
@@ -36,8 +34,8 @@ NSString *const kAPPlayerControllerPlayingItemCurrentPosition = @"kAPPlayerContr
 NSString *const kAPPlayerControllerPlayingItemContentUrl = @"kAPPlayerControllerPlayingItemContentUrl";
 NSString *const kAPPlayerControllerPlayingItemShowName = @"kAPPlayerControllerPlayingItemShowName";
 NSString *const kAPPlayerControllerPlayingItemIsFavorite = @"kAPPlayerControllerPlayingItemIsFavorite";
-NSString *const kAPPlayerControllerPlayingItemIsDownloading = @"kAPPlayerControllerPlayingItemIsDownloading";
-NSString *const kAPPlayerControllerPlayingItemIsDownloaded = @"kAPPlayerControllerPlayingItemIsDownloaded";
+NSString *const kAPPlayerControllerPlayingItemHqmeInProgress = @"kAPPlayerControllerPlayingItemHqmeInProgress";
+NSString *const kAPPlayerControllerPlayingItemHqmeCompleted = @"kAPPlayerControllerPlayingItemHqmeCompleted";
 NSString *const kAPPlayerControllerPlayingItemIsDeletable = @"kAPPlayerControllerPlayingItemIsDeletable";
 
 //Notifications - Playback state (Legacy)
