@@ -31,8 +31,8 @@ extern NSString *const kAPPlayerControllerPlayingItemCurrentPosition;       // C
 extern NSString *const kAPPlayerControllerPlayingItemContentUrl;            // Contains the current item's content url property.
 extern NSString *const kAPPlayerControllerPlayingItemShowName;              // Contains the current item's show name property.
 extern NSString *const kAPPlayerControllerPlayingItemIsFavorite;            // The current item's isFavorite status
-extern NSString *const kAPPlayerControllerPlayingItemIsDownloading;         // The current item's  isDownloading status
-extern NSString *const kAPPlayerControllerPlayingItemIsDownloaded;          // Contains the current item's isDownloaded status
+extern NSString *const kAPPlayerControllerPlayingItemHqmeInProgress;         // The current item's  isDownloading status
+extern NSString *const kAPPlayerControllerPlayingItemHqmeCompleted;          // Contains the current item's isDownloaded status
 extern NSString *const kAPPlayerControllerPlayingItemIsDeletable;           // Contains the current item's isDeletable status
 /**
  The following notifications can be used to implement controls for video player.
@@ -61,16 +61,6 @@ extern NSString *const APPlayerControllerControlsStopButtonTappedNotification; /
  APPlayerControllerControlsPauseButtonTappedNotification
  */
 extern NSString *const APPlayerControllerCurrentItemKey;
-
-/**
- Post this notification if you want to mark the current playing item for download.
- */
-extern NSString *const APPlayerControllerMarkCurrentItemForDownloadNotification;
-
-/**
- Post this notification if you want to cancel the current playing item from download queue.
- */
-extern NSString *const APPlayerControllerCancelCurrentItemFromDownloadNotification;
 
 /**
  Post this notification if you want to delete the current playing item from downloads.
