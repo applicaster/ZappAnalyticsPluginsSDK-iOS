@@ -8,13 +8,13 @@ jobs:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "10.2.1"
+      xcode: "11.1.0"
     shell: /bin/bash --login -eo pipefail
     environment:
       - PROJECT_NAME: "ZappAnalyticsPluginsSDK"
       - SCRIPTS_LOCAL_FOLDER: "ZappAnalyticsPluginsSDK/.scripts-iOS"
       - SCRIPTS_REPO_PATH: "git@github.com:applicaster/Scripts-iOS.git"
-      - DEPLOY_VERSION: "0.8.8"
+      - DEPLOY_VERSION: "0.9.0"
       - DEPLOY_COMMAND: "ZappAnalyticsPluginsSDK/.scripts-iOS/circleCi/deploySinglePluginMultiPlatform.sh"
     working_directory: ~/ZappAnalyticsPluginsSDK-iOS
 
