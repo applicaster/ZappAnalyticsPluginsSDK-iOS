@@ -9,7 +9,7 @@ target 'ZappAnalyticsPluginsSDK' do
 
   # Pods for ZappAnalyticsPluginsSDK
   # pod 'ZappPlugins', '~> 9.1.8'
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '10.0.2'
 
   target 'ZappAnalyticsPluginsSDKTests' do
     # Pods for testing
@@ -22,7 +22,7 @@ target 'ZappAnalyticsPluginsSDKTvOS' do
   platform :tvos, '10.0'
 
   # pod 'ZappPlugins', '~> 9.1.8'
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :branch => 'master'
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '10.0.2'
 
 end
 
