@@ -6,6 +6,8 @@
 //  Copyright © 2018 Applicaster Ltd. All rights reserved.
 //
 
+import ZappCore
+
 @objc extension ZPAnalyticsProvider: ZPAnalyticsProviderTimedEventsSupportProtocol {
     public func registerTimedEvent(_ eventName: String, parameters: [String : NSObject]?) {
         if let currentEvent = self.timedEventsDictionary[eventName] {

@@ -8,18 +8,6 @@
 
 import UIKit
 
-@objc open class APTimedEvent:NSObject {
-    var eventName:String
-    var parameters:[String:NSObject]?
-    var startTime: Date
-    
-    init(eventName: String, parameters:[String:NSObject]?, startTime:Date) {
-        self.eventName = eventName
-        self.parameters = parameters
-        self.startTime = startTime
-    }
-}
-
 @objc public protocol ZPAnalyticsProviderTimedEventsSupportProtocol {
     /*
      * Start handling timed event.
