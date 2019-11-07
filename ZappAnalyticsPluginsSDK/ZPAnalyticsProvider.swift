@@ -8,6 +8,7 @@
 
 import UIKit
 import ZappPlugins
+import ZappCore
 
 //Providers Json Parameters
 let kSettingsAnalyticsKey   = "settings"

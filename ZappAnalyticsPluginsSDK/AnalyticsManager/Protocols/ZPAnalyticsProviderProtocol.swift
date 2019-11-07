@@ -8,6 +8,7 @@
 
 import Foundation
 import ZappPlugins
+import ZappCore
 
 @objc public protocol ZPAnalyticsProviderProtocol: ZPAdapterProtocol {
     

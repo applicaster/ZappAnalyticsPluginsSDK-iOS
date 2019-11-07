@@ -1,6 +1,6 @@
 PODS:
   - ZappCore (0.1.4)
-  - ZappPlugins (10.0.1):
+  - ZappPlugins (10.0.2):
     - ZappCore (= 0.1.4)
 
 DEPENDENCIES:
@@ -17,12 +17,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ZappPlugins:
-    :commit: 34a178773225abc64283c5fb99a58b8a51e156c5
+    :commit: 842739e59208848480e456b80953576854f2e421
     :git: "git@github.com:applicaster/ZappPlugins-iOS.git"
 
 SPEC CHECKSUMS:
   ZappCore: 4f7c6c61c2724ceccc43facd78d97024d03041f3
-  ZappPlugins: b13b97907a0b0fb9e2dc877e47b747cac41f39aa
+  ZappPlugins: fba8fcfd6ab3756d942dd24ff6ab08fc9461265c
 
 PODFILE CHECKSUM: 0ddae8a3cd831c4475b0b150a53c532387e5047d
 
