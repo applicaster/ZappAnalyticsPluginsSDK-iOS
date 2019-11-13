@@ -28,7 +28,11 @@ public typealias ProviderSendAnalyticsCompletion = (_ provider:ZPAnalyticsProvid
     
     public func createAnalyticsProviders(currentProvider:(_ provider:ZPAnalyticsProviderProtocol) -> ZPAnalyticsProviderProtocol?,
                                          completion:(AnalyticManagerPreparationCompletion)) {
-        let pluggableProviders = ZPAnalyticsManager.sharedInstance.getProviders()
+        guard let pluggableProviders = ZAAppConnector.sharedInstance().pluginsDelegate?.analyticsPluginsManager?.getProviders() else {
+            completion()
+            return
+        }
+        
         for provider in pluggableProviders {
             if let updatedProvider = currentProvider(provider),
                 updatedProvider.createAnalyticsProvider([:]) {
