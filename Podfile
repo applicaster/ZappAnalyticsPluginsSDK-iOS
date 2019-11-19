@@ -3,12 +3,16 @@ source 'git@github.com:applicaster/CocoaPods.git'
 source 'git@github.com:applicaster/CocoaPods-Private.git'
 use_frameworks!
 
+def shared
+  pod 'ZappPlugins', '11.0.1'
+end
+
 target 'ZappAnalyticsPluginsSDK' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   platform :ios, '10.0'
 
+  shared
   # Pods for ZappAnalyticsPluginsSDK
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '11.0.0'
 
   target 'ZappAnalyticsPluginsSDKTests' do
     # Pods for testing
@@ -20,14 +24,5 @@ target 'ZappAnalyticsPluginsSDKTvOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   platform :tvos, '10.0'
 
-  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins-iOS.git', :tag => '11.0.0'
-
-end
-
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['SWIFT_VERSION'] = '5.1'
-        end
-    end
+  shared
 end
