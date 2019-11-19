@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA7474C620FE59AE006DF6BB"
-               BuildableName = "ZappAnalyticsPluginsSDKTests.xctest"
-               BlueprintName = "ZappAnalyticsPluginsSDKTests"
-               ReferencedContainer = "container:ZappAnalyticsPluginsSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

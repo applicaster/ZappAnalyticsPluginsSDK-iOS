@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0655C0A592C472DB157AB2F0 /* Pods_ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4313FBF8D151BBF2BCEBF17D /* Pods_ZappAnalyticsPluginsSDK.framework */; };
+		1D9DE1BE238432CB009C5FC1 /* ZPAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474D820FE5E4A006DF6BB /* ZPAnalyticsProvider.swift */; };
 		38317ED8CFA2DFBFA66A464A /* Pods_ZappAnalyticsPluginsSDKTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2416EF3B55DE65092E7B66B9 /* Pods_ZappAnalyticsPluginsSDKTvOS.framework */; };
 		402009A521E2DB36006E00CB /* ZappAnalyticsPluginsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 402009A321E2DB36006E00CB /* ZappAnalyticsPluginsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		402009A921E2DBC9006E00CB /* APAnalyticsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7474E020FE5E4B006DF6BB /* APAnalyticsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +17,6 @@
 		402009B121E2DBE7006E00CB /* APAnalyticsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7474DE20FE5E4B006DF6BB /* APAnalyticsProvider.m */; };
 		402009B221E2DBE7006E00CB /* ZPAnalyticsProvider+TimedEventsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474DA20FE5E4B006DF6BB /* ZPAnalyticsProvider+TimedEventsSupport.swift */; };
 		402009B321E2DBE7006E00CB /* ZPAnalyticsProviderTimedEventsSupportProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474DB20FE5E4B006DF6BB /* ZPAnalyticsProviderTimedEventsSupportProtocol.swift */; };
-		402009B421E2DBE7006E00CB /* ZPAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474D820FE5E4A006DF6BB /* ZPAnalyticsProvider.swift */; };
 		9A0816E0436F4B1A4DDB980D /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423D6F1BE684EDAED39A9FCE /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */; };
 		FA7474C820FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7474BE20FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework */; };
 		FA7474CD20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474CC20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift */; };
@@ -436,9 +436,9 @@
 			files = (
 				402009B021E2DBE7006E00CB /* ZPPlayerControllsNotifications.m in Sources */,
 				402009B121E2DBE7006E00CB /* APAnalyticsProvider.m in Sources */,
+				1D9DE1BE238432CB009C5FC1 /* ZPAnalyticsProvider.swift in Sources */,
 				402009B221E2DBE7006E00CB /* ZPAnalyticsProvider+TimedEventsSupport.swift in Sources */,
 				402009B321E2DBE7006E00CB /* ZPAnalyticsProviderTimedEventsSupportProtocol.swift in Sources */,
-				402009B421E2DBE7006E00CB /* ZPAnalyticsProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

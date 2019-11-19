@@ -7,6 +7,7 @@
 //
 
 import ZappCore
+import ZappPlugins
 
 @objc extension ZPAnalyticsProvider: ZPAnalyticsProviderTimedEventsSupportProtocol {
     public func registerTimedEvent(_ eventName: String, parameters: [String : NSObject]?) {
