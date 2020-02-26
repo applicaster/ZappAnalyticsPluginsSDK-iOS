@@ -1,10 +1,10 @@
 PODS:
-  - ZappCore (0.1.5)
-  - ZappPlugins (11.0.1):
+  - ZappCore (0.8.3)
+  - ZappPlugins (11.6.0):
     - ZappCore
 
 DEPENDENCIES:
-  - ZappPlugins (~> 11.0.1)
+  - ZappPlugins (~> 11.6.0)
 
 SPEC REPOS:
   "git@github.com:applicaster/CocoaPods.git":
@@ -12,9 +12,9 @@ SPEC REPOS:
     - ZappPlugins
 
 SPEC CHECKSUMS:
-  ZappCore: 25908b99a27d3daace5d5b134ff1f911c4ed1782
-  ZappPlugins: ad8f40a78d89481cf5dc69041fad340b7b62d88d
+  ZappCore: 628a56faa834d6fb48c8f38a43e31c96420d9f9c
+  ZappPlugins: c31b785a68534fcaaea2c5c60982ffb4313b03b6
 
-PODFILE CHECKSUM: d1b8945c4dd132addf5706b22aef94b65bbf7568
+PODFILE CHECKSUM: 82c86bed2d3a8655cbbf35d4b6c04f6fe882a42c
 
 COCOAPODS: 1.7.5
