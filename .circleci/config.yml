@@ -5,7 +5,6 @@
 version: 2
 jobs:
   build:
-
     # Specify the Xcode version to use
     macos:
       xcode: "11.2.1"
@@ -14,33 +13,33 @@ jobs:
       - PROJECT_NAME: "ZappAnalyticsPluginsSDK"
       - SCRIPTS_LOCAL_FOLDER: "ZappAnalyticsPluginsSDK/.scripts-iOS"
       - SCRIPTS_REPO_PATH: "git@github.com:applicaster/Scripts-iOS.git"
-      - DEPLOY_VERSION: "0.10.0"
-      - DEPLOY_COMMAND: "ZappAnalyticsPluginsSDK/.scripts-iOS/circleCi/deploySinglePluginMultiPlatform.sh"
+      - DEPLOY_VERSION: "0.12.0"
+      - DEPLOY_COMMAND: "ZappAnalyticsPluginsSDK/.scripts-iOS/circleCi/deploySingleFrameworkPublic.sh"
     working_directory: ~/ZappAnalyticsPluginsSDK-iOS
 
     steps:
       - run:
           name: Ruby - set version
-          command:  echo "ruby-2.5" > ~/.ruby-version
+          command: echo "ruby-2.5" > ~/.ruby-version
 
       - run:
           name: Ruby - version
-          command:  ruby -v
+          command: ruby -v
 
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-
-            - Zapp-ZappAnalyticsPluginsSDK-v4-
+            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-
+            - Zapp-ZappAnalyticsPluginsSDK-v5-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-AnalyticsPlugins-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-AnalyticsPlugins-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
