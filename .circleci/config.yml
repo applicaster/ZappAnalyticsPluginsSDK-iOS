@@ -29,17 +29,17 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappAnalyticsPluginsSDK-v4-{{ .Branch }}-
-            - Zapp-ZappAnalyticsPluginsSDK-v4-
+            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-
+            - Zapp-ZappAnalyticsPluginsSDK-v5-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-AnalyticsPlugins-v3-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-AnalyticsPlugins-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
