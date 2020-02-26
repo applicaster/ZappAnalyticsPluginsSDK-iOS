@@ -5,10 +5,10 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ZappAnalyticsPluginsSDK' do
+
   pod 'ZappPlugins', '~> 11.6.0'
-
-
+  target 'ZappAnalyticsPluginsSDKTests' do
+    # Pods for testing
+  end  
 end
 
-target 'ZappAnalyticsPluginsSDKTests' do
-end
