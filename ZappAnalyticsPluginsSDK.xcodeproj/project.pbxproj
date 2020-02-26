@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0655C0A592C472DB157AB2F0 /* Pods_ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4313FBF8D151BBF2BCEBF17D /* Pods_ZappAnalyticsPluginsSDK.framework */; };
 		40B6E7AC2405A80F006C857B /* ZPAnalyticsProvider+AnalyticsProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6E7AB2405A80F006C857B /* ZPAnalyticsProvider+AnalyticsProviderProtocol.swift */; };
-		9A0816E0436F4B1A4DDB980D /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423D6F1BE684EDAED39A9FCE /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */; };
+		479E682ECF3B7A78BCA45A4B /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682E06DE58E360F6ED2E3BE8 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */; };
 		FA7474C820FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7474BE20FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework */; };
 		FA7474CD20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7474CC20FE59AE006DF6BB /* ZappAnalyticsPluginsSDKTests.swift */; };
 		FA7474CF20FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7474C120FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,10 +37,12 @@
 		19A81BBDFDBE9C382B05FF47 /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTvOS/Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3B57E0B86CE7C60F52F87546 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		40B6E7AB2405A80F006C857B /* ZPAnalyticsProvider+AnalyticsProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZPAnalyticsProvider+AnalyticsProviderProtocol.swift"; sourceTree = "<group>"; };
-		423D6F1BE684EDAED39A9FCE /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4313FBF8D151BBF2BCEBF17D /* Pods_ZappAnalyticsPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappAnalyticsPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2588364698E8024766514E /* Pods-ZappAnalyticsPluginsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK/Pods-ZappAnalyticsPluginsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		682E06DE58E360F6ED2E3BE8 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99634125105F5A89F6496FE /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D337CDE01525E324A9FAA47C /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7CA20133FCD0B20245879E5 /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDKTests/Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC711F6984703DA404AA2572 /* Pods-ZappAnalyticsPluginsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZappAnalyticsPluginsSDK/Pods-ZappAnalyticsPluginsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7474BE20FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZappAnalyticsPluginsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7474C120FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZappAnalyticsPluginsSDK.h; sourceTree = "<group>"; };
@@ -71,7 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7474C820FE59AE006DF6BB /* ZappAnalyticsPluginsSDK.framework in Frameworks */,
-				9A0816E0436F4B1A4DDB980D /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework in Frameworks */,
+				479E682ECF3B7A78BCA45A4B /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4313FBF8D151BBF2BCEBF17D /* Pods_ZappAnalyticsPluginsSDK.framework */,
-				423D6F1BE684EDAED39A9FCE /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */,
+				682E06DE58E360F6ED2E3BE8 /* Pods_ZappAnalyticsPluginsSDK_ZappAnalyticsPluginsSDKTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +98,8 @@
 				3B57E0B86CE7C60F52F87546 /* Pods-ZappAnalyticsPluginsSDK-ZappAnalyticsPluginsSDKTests.release.xcconfig */,
 				19A81BBDFDBE9C382B05FF47 /* Pods-ZappAnalyticsPluginsSDKTvOS.debug.xcconfig */,
 				13544E26FD288B0E9AE42E5B /* Pods-ZappAnalyticsPluginsSDKTvOS.release.xcconfig */,
+				D7CA20133FCD0B20245879E5 /* Pods-ZappAnalyticsPluginsSDKTests.debug.xcconfig */,
+				D337CDE01525E324A9FAA47C /* Pods-ZappAnalyticsPluginsSDKTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
