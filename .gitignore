@@ -1,111 +1,55 @@
-#Rename this file to ".gitignore"
-*.DS_Store
-*.swp
-*~.nib
-
-Pods/
+# Xcode
+#
 build/
-applicaster.a
-Podfile.lock
-
 *.pbxuser
-*.perspective
-*.perspectivev3
-*.xcbkptlist
-
+!default.pbxuser
 *.mode1v3
+!default.mode1v3
 *.mode2v3
-
-# Mac OS X Finder and whatnot
-.DS_Store
-
-# XCode (and ancestors) per-user config (very noisy, and not relevant)
-*.mode1
-*.mode1v3
-*.mode2v3
-*.perspective
+!default.mode2v3
 *.perspectivev3
-*.pbxuser
-VersionX-revision.h
-ApplicasterSDK.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-*.xcuserdatad
+!default.perspectivev3
 xcuserdata
-*xcuserdata*
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+*.DS_Store
+default.profraw
 
-# build products
-build/
-#Removed - *.[oa] this contains .a and .o
 
-# Other source repository archive directories (protects when importing)
-.hg
-.svn
-CVS
+# Modular
+#
+Modular-App/Modular-App/Resources
+Zapp-App/Resources/
+Zapp-App/Images.xcassets/
+Zapp-App/Customization/ApplicasterSettings.plist
+Zapp-App/Customization/GAFeaturesCustomization.plist
+Zapp-App/Customization/GASecretCredentials.m
+Zapp-App/Customization/GAUICustomization.plist
+Zapp-App/Customization/GAZappStyles.json
+Zapp-App/Zapp-App-Info.plist
+Zapp-App/CachedFiles/
 
+# ZappConfiguration
+#
+.zapp_env
+quick_brick/*
 
-# automatic backup files
-*~.nib
-*.swp
-*~
-*(Autosaved).rtfd/
-Backup[ ]of[ ]*.pages/
-Backup[ ]of[ ]*.key/
-Backup[ ]of[ ]*.numbers/
-
-# documentation
-
-doc/docset-installed.txt
-ApplicasterResources
-
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
-
-# Used by dotenv library to load environment variables.
-# .env
-
-# Ignore Byebug command history file.
-.byebug_history
-
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
-
-## Specific to RubyMotion (use of CocoaPods):
+# CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
-# vendor/Pods/
+Pods/**
 
-## Documentation cache and generated files:
-/.yardoc/
-/_yardoc/
-/doc/
-/rdoc/
+# Ruby versions
+.bundle/
+.ruby-version
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
-
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-# Gemfile.lock
-# .ruby-version
-# .ruby-gemset
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+#Node
+node_modules

@@ -6,7 +6,11 @@ platform :ios, '10.0'
 
 target 'ZappAnalyticsPluginsSDK' do
 
-  pod 'ZappPlugins', '~> 11.6.0'
+  # Pods for ZappPushPluginsSDK
+  pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins.2.0-iOS.git', :branch => 'master'
+  pod 'ZappCore', :path => './node_modules/@applicaster/zapp-core/apple/ZappCore.podspec'
+
+
   target 'ZappAnalyticsPluginsSDKTests' do
     # Pods for testing
   end  

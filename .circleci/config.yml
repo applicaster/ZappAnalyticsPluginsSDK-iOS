@@ -7,14 +7,14 @@ jobs:
   build:
     # Specify the Xcode version to use
     macos:
-      xcode: "11.2.1"
+      xcode: "12.0.0"
     shell: /bin/bash --login -eo pipefail
     environment:
       - PROJECT_NAME: "ZappAnalyticsPluginsSDK"
-      - SCRIPTS_LOCAL_FOLDER: "ZappAnalyticsPluginsSDK/.scripts-iOS"
+      - SCRIPTS_LOCAL_FOLDER: "~/.scripts-iOS"
       - SCRIPTS_REPO_PATH: "git@github.com:applicaster/Scripts-iOS.git"
-      - DEPLOY_VERSION: "0.12.0"
-      - DEPLOY_COMMAND: "ZappAnalyticsPluginsSDK/.scripts-iOS/circleCi/deploySingleFrameworkPublic.sh"
+      - DEPLOY_VERSION: "0.17.5"
+      - DEPLOY_COMMAND: "~/.scripts-iOS/circleCi/deploySingleXCFramework.sh"
     working_directory: ~/ZappAnalyticsPluginsSDK-iOS
 
     steps:
@@ -29,17 +29,17 @@ jobs:
       # Prepere Git and Submodules
       - restore_cache:
           name: Git - restore cache
-          key: Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-ZappAnalyticsPluginsSDK-v6-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           keys:
-            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-{{ .Revision }}
-            - Zapp-ZappAnalyticsPluginsSDK-v5-{{ .Branch }}-
-            - Zapp-ZappAnalyticsPluginsSDK-v5-
+            - Zapp-ZappAnalyticsPluginsSDK-v6-{{ .Branch }}-{{ .Revision }}
+            - Zapp-ZappAnalyticsPluginsSDK-v6-{{ .Branch }}-
+            - Zapp-ZappAnalyticsPluginsSDK-v6-
 
       - checkout
 
       - save_cache:
           name: Git - save cache
-          key: Zapp-AnalyticsPlugins-v5-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
+          key: Zapp-AnalyticsPlugins-v6-{{ .Branch }}-{{ .Revision }}-{{ .Environment.version_id }}
           paths:
             - ".git"
 
@@ -56,11 +56,6 @@ jobs:
               git -C $SCRIPTS_LOCAL_FOLDER pull origin master
             fi
             git -C $SCRIPTS_LOCAL_FOLDER checkout $DEPLOY_VERSION
-
-      # Add know host relevant for Prosieben only
-      - run:
-          name: Add known hosts
-          command: $SCRIPTS_LOCAL_FOLDER/circleCi/addKnownHosts.sh
 
       # Prepare Bundler
       - restore_cache:
@@ -85,14 +80,6 @@ jobs:
       - run:
           name: CocoaPods - version
           command: bundle exec pod --version
-
-      - run:
-          name: Git - submodules update
-          command: |
-            git fetch
-            git checkout .
-            git submodule sync --recursive
-            git submodule update --init --recursive
 
       # Pod update
       - run:
