@@ -57,6 +57,23 @@ jobs:
             fi
             git -C $SCRIPTS_LOCAL_FOLDER checkout $DEPLOY_VERSION
 
+     # Prepare Node
+      - restore_cache:
+          name: Yarn - restore cache
+          key: Zapp-ZappAnalyticsPluginsSDK-v1-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: Yarn - install dependencies
+          command: yarn
+
+      - save_cache:
+          name: Yarn - save cache
+          key: Zapp-ZappAnalyticsPluginsSDK-v1-{{ checksum "yarn.lock" }}
+          paths:
+            - "node_modules"
+
+
+
       # Prepare Bundler
       - restore_cache:
           name: Bundler - restore cache
