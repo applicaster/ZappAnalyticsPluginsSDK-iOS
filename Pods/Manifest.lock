@@ -1,28 +1,32 @@
 PODS:
-  - ZappCore (0.13.9)
+  - ZappCore (0.9.18)
   - ZappPlugins (11.8.0):
     - ZappCore
 
 DEPENDENCIES:
-  - "ZappCore (from `./node_modules/@applicaster/zapp-core/apple/ZappCore.podspec`)"
+  - "ZappCore (from `git@github.com:applicaster/AppleApplicasterFrameworks.git`, branch `master`)"
   - "ZappPlugins (from `git@github.com:applicaster/ZappPlugins.2.0-iOS.git`, branch `master`)"
 
 EXTERNAL SOURCES:
   ZappCore:
-    :path: "./node_modules/@applicaster/zapp-core/apple/ZappCore.podspec"
+    :branch: master
+    :git: "git@github.com:applicaster/AppleApplicasterFrameworks.git"
   ZappPlugins:
     :branch: master
     :git: "git@github.com:applicaster/ZappPlugins.2.0-iOS.git"
 
 CHECKOUT OPTIONS:
+  ZappCore:
+    :commit: bd6c6acaaa0bb4069c7420ddfa71ea6debe63aa6
+    :git: "git@github.com:applicaster/AppleApplicasterFrameworks.git"
   ZappPlugins:
     :commit: c15220e3535191114ef0d7e8b26643aedb1c4296
     :git: "git@github.com:applicaster/ZappPlugins.2.0-iOS.git"
 
 SPEC CHECKSUMS:
-  ZappCore: ff45c96fd3ed199bcd639c2b8c01b027b1652fab
+  ZappCore: bebabc81e96c88164042fe4454e271667019dd87
   ZappPlugins: a25f99fe082b7f95fc593e30ff31690b77550428
 
-PODFILE CHECKSUM: bc81d4cb6e3392aab291a812f59c409b5a4e58e2
+PODFILE CHECKSUM: 53dda190571ce4e4966e90e0dcdc14cfa71510cf
 
 COCOAPODS: 1.9.3

@@ -8,7 +8,7 @@ target 'ZappAnalyticsPluginsSDK' do
 
   # Pods for ZappPushPluginsSDK
   pod 'ZappPlugins', :git => 'git@github.com:applicaster/ZappPlugins.2.0-iOS.git', :branch => 'master'
-  pod 'ZappCore', :path => './node_modules/@applicaster/zapp-core/apple/ZappCore.podspec'
+  pod 'ZappCore', :git => 'git@github.com:applicaster/AppleApplicasterFrameworks.git', :branch => 'master'
 
 
   target 'ZappAnalyticsPluginsSDKTests' do
